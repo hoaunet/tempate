@@ -990,7 +990,7 @@ a.button:hover {
 .jtv-header-v2 {
 	position: relative;
 	z-index: 20;
-	background:url(../images/slider/slide-img2.jpg);
+	background:url(../images/slide-img2.jpg);
 	background-repeat:no-repeat; background-position:top center;
 }
 .jtv-header-v2 .nav-inner {
