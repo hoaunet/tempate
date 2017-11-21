@@ -1,0 +1,301 @@
+/*========================================================
+                   Bootstrap Reset
+=========================================================*/
+.bootstrap-datetimepicker-widget td.day:hover,
+.bootstrap-datetimepicker-widget td.minute:hover,
+.bootstrap-datetimepicker-widget td.hour:hover,
+.bootstrap-datetimepicker-widget td.second:hover,
+.bootstrap-datetimepicker-widget thead tr:first-child th:hover,
+.bootstrap-datetimepicker-widget td span:hover {
+  color: #2754eb;
+}
+.bootstrap-datetimepicker-widget a[data-action]:hover,
+.bootstrap-datetimepicker-widget .timepicker td > span:hover {
+  color: #2754eb;
+}
+
+.bootstrap-datetimepicker-widget td.day:hover,
+.bootstrap-datetimepicker-widget td.minute:hover,
+.bootstrap-datetimepicker-widget td.hour:hover,
+.bootstrap-datetimepicker-widget td.second:hover,
+.bootstrap-datetimepicker-widget thead tr:first-child th:hover,
+.bootstrap-datetimepicker-widget td span:hover {
+  color: #2754eb;
+}
+
+.pagination > li.active > a, .pagination > li.active > a:hover, .pagination > li.active > a:focus, .pagination > li.active > span, .pagination > li.active > span:hover, .pagination > li.active > span:focus {
+  background: #2754eb;
+}
+
+.copyright {
+  background: #2754eb;
+}
+
+a:hover {
+  color: #2754eb;
+}
+
+/*========================================================
+                        Blog
+=========================================================*/
+.article-date,
+.article-title a:hover {
+  color: #2754eb;
+}
+
+.article-sub-title span:before {
+  color: #2754eb;
+}
+
+.article-description ul li, .article-description ol li {
+  color: #2754eb;
+}
+
+/*========================================================
+								Buttons
+=========================================================*/
+.btn:visited, .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn {
+  background: #2754eb;
+}
+
+#button-cart {
+  background: #2754eb;
+}
+#button-cart:hover {
+  background: #777;
+}
+
+/*========================================================
+                        Product
+=========================================================*/
+.discount {
+  background-color: #2754eb;
+}
+
+.fa-stack i.star {
+  color: #2754eb;
+}
+
+.rat {
+  color: #2754eb;
+}
+
+/* ================   Tooltip  ================= */
+.tooltip-inner {
+  background: #2754eb;
+}
+
+[class][class].tooltip-arrow {
+  border-top-color: #2754eb;
+}
+
+.product-gallery .image-thumb .bx-wrapper .bx-prev, .product-gallery .image-thumb .bx-wrapper .bx-next {
+  background: rgba(39, 84, 235, 0.5);
+}
+
+/*========================================================
+                        Other styles
+=========================================================*/
+h1 i,
+p a,
+p a:visited,
+p a:focus,
+.box.account ul a:hover,
+.box.affilate ul a:hover,
+.manufacturer-content div a:hover,
+#content ul.list-unstyled a:hover,
+.manufacturer-content div a:before,
+#content ul.list-unstyled a:before,
+input[type="checkbox"] + label:after,
+.article-sub-title span:before,
+.article-description ul li, .article-description ol li,
+.related-article h4,
+.article-comment .reply-message,
+.article-comment .comment-date:before,
+.reply-cancel,
+aside .blog-categories ul > li > i:hover,
+aside #blog-search a:hover,
+.breadcrumb i,
+.review-form-title h3:hover,
+.general_info a,
+#list-view.active,
+#grid-view.active,
+.product-filter .compare-total,
+.checkout-cart #content .table a,
+.account-account h3 i,
+.account-wishlist #content .table a,
+.product-compare #content .table a,
+.checkout-cart #content .table-custom tr:last-child .price,
+.account-wishlist #content .table-custom tr:last-child .price,
+.product-compare #content .table-custom tr:last-child .price,
+.checkout-checkout #content .table-responsive .table tfoot tr:last-child td:last-child,
+.cart-remove-btn,
+.cart-remove-btn:visited,
+.link,
+.link:focus,
+.link:visited,
+.information-information #content h4,
+.information-information #content h5,
+.information-information #content h5,
+.count-box strong,
+.testimonials blockquote:before,
+.delivery_page h4,
+.delivery_page .table tbody td:first-child,
+.site-map-page h5,
+.site-map-page #content ul li a:hover,
+.contact_page .icon:before,
+.well .heading i,
+.terms_conditions_page h4::before,
+.datepicker .prev:hover,
+.datepicker .prev.active,
+.datepicker .next:hover,
+.datepicker .next.active,
+.datepicker .day:hover,
+.datepicker .day.active,
+.datepicker .year:hover,
+.datepicker .year.active,
+.datepicker .month:hover,
+.datepicker .month.active,
+.datepicker .picker-switch:hover,
+.datepicker .picker-switch.active {
+  color: #2754eb;
+}
+
+.bootstrap-datetimepicker-widget td.day.active,
+.bootstrap-datetimepicker-widget td.day.active:hover,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:focus,
+.toggle_cont > li > a:hover,
+.toggle_cont > li > button:hover,
+#livesearch_search_results li:hover,
+#livesearch_search_results li.highlighted,
+input[type="radio"]:checked + label:after,
+.rd-mobilemenu_ul a:hover,
+.common-home .blog_articles .blog-cnt .article-title:after,
+.newsletter .dropdown-btn,
+.product-gallery .image-thumb .bx-wrapper .bx-prev:hover,
+.product-gallery .image-thumb .bx-wrapper .bx-next:hover,
+.terms_conditions_page h4:before,
+.privacy_page ol li h4:before,
+.site-map-page #content ul.category-list:before,
+.site-map-page #content ul.category-list > li:before,
+.site-map-page #content ul.category-list > li:after,
+#habla_panel_div, .copyright, .ui-to-top {
+  background: #2754eb;
+}
+
+#habla_window_div #habla_topbar_div {
+  background: #3e66ed !important;
+}
+
+#habla_window_div.olrk-fixed-bottom .habla_panel_border,
+#habla_window_div.olrk-fixed-bottom #habla_topbar_div {
+  border-radius: 0 !important;
+}
+
+.product_tabs,
+.delivery_page .table,
+.contact_page .panel,
+.contact_page .map,
+.contact_page .icon:before,
+.well {
+  border-top: 2px solid #2754eb;
+}
+
+.icon-box i {
+  border: 2px solid #2754eb;
+  color: #2754eb;
+}
+
+.contact_page .icon::before {
+  border: 2px solid #2754eb;
+}
+
+.account-account h3 {
+  border-bottom: 1px solid #2754eb;
+}
+
+.ui-to-top {
+  background: #2754eb;
+}
+
+.terms_conditions_page h4::before {
+  background: none;
+}
+
+/* appending styles */
+.rd-mobilepanel,
+.rd-mobilemenu_ul a:hover,
+.counter:hover, .counter:focus:hover,
+.product_tabs .nav-tabs > li > a:before,
+.swiper-pagination-bullet-active,
+.new-pr,
+.module_tab .nav-tab > li > a:before,
+.newsletter .box-content #tm-newsletter-form .dropdown-btn,
+.btn-group .currency-select:after,
+.btn-group .language-select:after,
+.btn-group .currency-select.selected:after,
+.btn-group .language-select.selected:after,
+.search button,
+.sf-menu > li > a:after,
+.product-thumb .cart-button li a:hover,
+.product-thumb .cart-button li button:hover,
+.social-list li i:hover,
+header .top-line {
+  background: #2754eb;
+}
+
+header .nav > .toggle_cont > li > a:hover,
+header .nav > .toggle_cont > li > a.current,
+.nav-links > li:hover i {
+  color: #7a99ff;
+}
+
+.nav-links > li:hover i.fa-times {
+  color: inherit;
+}
+
+.product-btn-add {
+  background: #2754eb;
+}
+.product-btn-add:hover {
+  background: #777;
+}
+
+.swiper-button-prev:hover:after,
+.swiper-button-next:hover:after,
+footer ul li a,
+footer ul li a:visited,
+.top-rated .product-thumb .cart-button button,
+.fa-stack i,
+.sf-menu .simple_menu li a,
+.sf-menu .sf-mega li ul li a,
+.sf-menu .sf-mega .submenu_title:hover a,
+.price,
+.price-new {
+  color: #2754eb;
+}
+
+.rd-mobilepanel_toggle:hover span:after,
+.rd-mobilepanel_toggle:hover span:before,
+.rd-mobilepanel_toggle:hover span {
+  background: #7a99ff;
+}
+
+@media (max-width: 767px) {
+  #style_switcher .toggler {
+    background: #2754eb;
+  }
+
+  #style_switcher .toggler:hover:before {
+    color: #7a99ff;
+  }
+
+  .cart > button:hover, .nav > .toggle:hover {
+    color: #7a99ff;
+  }
+}
