@@ -203,148 +203,177 @@
     <div class="clear"></div>
   </div>
 </div>
-  <div class="main-container col2-left-layout">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="main">
-            <div class="row">
-              <div class="col-main col-xs-12 col-sm-9">
-                <div class="padding-s">
-                  <div class="my-account"><div class="page-title title-buttons">
-                    <h1>Address Book</h1>
-                    <button type="button" title="Add New Address" class="button" onclick="window.location='address_book.html';"><span><span>Add New Address</span></span></button>
+ <div class="main-container col2-left-layout">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="main">
+          <div class="row">
+            <div class="col-main col-xs-12 col-sm-9">
+              <div class="padding-s">
+                <div class="my-account"><div class="page-title title-buttons">
+                  <h1>Order #100000011 - Pending</h1>
+                  <div class="order-buttons">
+                      <a href="#" class="link-reorder">Reorder</a>
+                      <span class="separator">|</span>
+                        <a href="#" class="link-print" onclick="this.target='_blank';">Print Order</a>
                   </div>
-                  <div class="col2-set addresses-list">
-                      <div class="col-1 addresses-primary">
-                          <h2>Default Addresses</h2>
-                          <ol>
-                                      <li class="item">
-                                  <h3>Default Billing Address</h3>
-                                  <address>
-                                      Le Hoa<br/>
-
-                  erewrew<br />
-
-
-
-                  rewrew,  Alaska, 080<br/>
-                  United States<br/>
-                  T: 0903652145
-
-                                  </address>
-                                  <p><a href="address_book.html">Change Billing Address</a></p>
-                             </li>
-                          
-                                      <li class="item">
-                                  <h3>Default Shipping Address</h3>
-                                  <address>
-                                      Le Hoa<br/>
-
-                  erewrew<br />
-
-
-
-                  rewrew,  Alaska, 080<br/>
-                  United States<br/>
-                  T: 0903652145
-
-                                  </address>
-                                  <p><a href="address_book.html">Change Shipping Address</a></p>
-                              </li>
-                                  </ol>
-                      </div>
-                      <div class="col-2 addresses-additional">
-                          <h2>Additional Address Entries</h2>
-                          <ol>
-                                      <li class="item empty">
-                                  <p>You have no additional address entries in your address book.</p>
-                              </li>
-                                  </ol>
-                      </div>
-                  </div>
-                  <div class="buttons-set">
-                      <p class="back-link"><a href="account_information.html"><small>&laquo; </small>Back</a></p>
-                  </div></div>                                    </div>
-                  </div>
-                  <div class="col-left sidebar col-xs-12 col-sm-3"><div class="block block-account">
-                    <div class="block-title">
-                        <strong><span>My Account</span></strong>
-                    </div>
-                    <div class="block-content">
-                        <ul>
-                          <li><a href="dashboard.html">Account Dashboard</a></li>
-                          <li class="current"><strong>Account Information</strong></li>
-                          <li class="current"><strong>Address Book</strong></li>
-                          <li><a href="history_page.html">My Orders</a></li>
-                          <li><a href="#">Billing Agreements</a></li>
-                          <li><a href="#">Recurring Profiles</a></li>
-                          <li><a href="#">My Product Reviews</a></li>
-                          <li><a href="#">My Tags</a></li>
-                          <li><a href="#">My Wishlist</a></li>
-                          <li><a href="#">My Applications</a></li>
-                          <li><a href="#">Newsletter Subscriptions</a></li>
-                          <li class="last"><a href="#">My Downloadable Products</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="block block-cart">
-                            <div class="block-title">
-                            <strong><span>My Cart</span></strong>
-                        </div>
-                        <div class="block-content">
-                                            <p class="empty">You have no items in your shopping cart.</p>
-                            </div>
-                    </div>
-                    <div class="block block-list block-compare">
-                        <div class="block-title"><strong><span>Compare Products<small>(2)</small></span></strong></div>
-                    <div class="block-content">
-                      <ol id="compare-items">
-                        <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file.png" alt="" /></a>
-                          <input type="hidden" class="compare-item-id" value="1" />
-                          <a href="product_detail.html,,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                          <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
-                        </li>
-                        <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file_5.png" alt="" /></a>
-                          <input type="hidden" class="compare-item-id" value="6" />
-                          <a href="product_detail.html,,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                          <p class="product-name"><a href="product_detail.html">Sage Leaf Rubbed</a></p>
-                        </li>
-                      </ol>
-                        <div class="actions">
-                            <button type="button" title="Compare" class="button" onclick="popWin('product_detail.html,,/','compare','top:0,left:0,width=820,height=600,resizable=yes,scrollbars=yes')"><span><span>Compare</span></span></button>
-                            <a href="product_detail.html,,/" onclick="return confirm('Are you sure you would like to remove all products from your comparison?');">Clear All</a>
-                        </div>
-                        </div>
                 </div>
-                <div class="block block-reorder">
-                    <div class="block-title">
-                        <strong><span>My Orders</span></strong>
+                <dl class="order-info">
+                  <dt>About This Order:</dt>
+                  <dd><ul id="order-info-tabs"><li class="current">Order Information</li></ul></dd>
+                </dl>
+                <p class="order-date">Order Date: November 20, 2017</p>
+                <div class="col2-set order-info-box">
+                  <div class="col-1">
+                    <div class="box">
+                      <div class="box-title"><h2>Shipping Address</h2></div>
+                        <div class="box-content"><address>Le Hoa<br/>eewrew<br />
+                          rewrew,  Alaska, 080<br/>United States<br/>T: 0903652145</address>
+                        </div>
+                      </div>
                     </div>
-                    <form method="post" action="#" id="reorder-validate-detail">
-                     <input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
-                      <div class="block-content">
-                        <p class="block-subtitle">Last Ordered Items</p>
-                        <ol id="cart-sidebar-reorder">
-                          <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
-                            <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
-                          </li>
-                        </ol>
-                            <div id="cart-sidebar-reorder-advice-container"></div>
-                            <div class="actions"><button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                                                <a href="account_information.html">View All</a>
+                  <div class="col-2">
+                    <div class="box">
+                      <div class="box-title"><h2>Shipping Method</h2></div>
+                        <div class="box-content">Flat Rate - Fixed</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col2-set order-info-box">
+                    <div class="col-1">
+                      <div class="box">
+                        <div class="box-title">
+                            <h2>Billing Address</h2>
+                        </div>
+                        <div class="box-content">
+                            <address>Le Hoa<br/>erewrew<br />rewrew,  Alaska, 080<br/>United States<br/>T: 0903652145</address>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="box box-payment">
+                            <div class="box-title">
+                                <h2>Payment Method</h2>
+                            </div>
+                            <div class="box-content">
+                                <p>Check / Money order</p>
                             </div>
                         </div>
-                    </form>
-                </div>
-                </div>
+                    </div>
                   </div>
+                  <div class="order-items order-details">
+                    <h2 class="table-caption">Items Ordered</h2>
+                    <table class="data-table" id="my-orders-table" summary="Items Ordered">
+                      <col />
+                      <col width="1" />
+                      <col width="1" />
+                      <col width="1" />
+                      <col width="1" />
+                      <thead>
+                          <tr>
+                              <th>Product Name</th>
+                              <th>SKU</th>
+                              <th class="a-right">Price</th>
+                              <th class="a-center">Qty</th>
+                              <th class="a-right">Subtotal</th>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                      <tr class="subtotal">
+                        <td colspan="4" class="a-right">Subtotal</td>
+                        <td class="last a-right"><span class="price">$49.98</span></td>
+                      </tr>
+                      <tr class="shipping">
+                        <td colspan="4" class="a-right">Shipping &amp; Handling</td>
+                        <td class="last a-right"><span class="price">$10.00</span></td>
+                    </tr>
+                    <tr class="grand_total">
+                      <td colspan="4" class="a-right"><strong>Grand Total</strong></td>
+                      <td class="last a-right"><strong><span class="price">$59.98</span></strong></td>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    <tr class="border" id="order-item-row-17">
+                      <td class="order-product-name"><h3 class="product-name">Burdock Root C-s Organic</h3>
+                        <dl class="item-options"><dt>Packaging Container</dt><dd>Cloth bag</dd><dt>Weight</dt><dd>15 Pounds</dd></dl>
+                      </td>
+                      <td class="order-sku">Burdock-Root-Certified-Organic</td>
+                      <td class="order-price"><span class="price-excl-tax"><span class="cart-price"><span class="price">$24.99</span></span></span><br /></td>
+                      <td class="order-qty"><span class="nobr">Ordered: <strong>2</strong><br /></span></td>
+                      <td class="order-subtotal"><span class="price-excl-tax"><span class="cart-price"><span class="price">$49.98</span></span></span><br /></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                <div class="buttons-set"><p class="back-link"><a href="history_page.html"><small>&laquo; </small>Back to My Orders</a></p></div>
               </div>
+            </div>
           </div>
-      </div>
+        </div>
+      <div class="col-left sidebar col-xs-12 col-sm-3"><div class="block block-account">
+        <div class="block-title">
+            <strong><span>My Account</span></strong>
+        </div>
+        <div class="block-content">
+          <ul>
+            <li><a href="dashboard.html">Account Dashboard</a></li>
+            <li><a href="account_information.html">Account Information</a></li>
+            <li><a href="address_book.html">Address Book</a></li>
+            <li class="current"><strong>My Orders</strong></li>
+            <li><a href="#">Billing Agreements</a></li>
+                <li><a href="#">Recurring Profiles</a></li>
+                <li><a href="#">My Product Reviews</a></li>
+                <li><a href="#">My Tags</a></li>
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">My Applications</a></li>
+                <li><a href="#">Newsletter Subscriptions</a></li>
+                <li class="last"><a href="#">My Downloadable Products</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="block block-cart">
+            <div class="block-title">
+            <strong><span>My Cart</span></strong>
+        </div>
+        <div class="block-content"><p class="empty">You have no items in your shopping cart.</p></div>
+    </div>
+    <div class="block block-list block-compare">
+        <div class="block-title">
+            <strong><span>Compare Products</span></strong>
+        </div>
+        <div class="block-content">
+                <p class="empty">You have no items to compare.</p>
+            </div>
+    </div>
+    <div class="block block-reorder">
+        <div class="block-title">
+            <strong><span>My Orders</span></strong>
+        </div>
+        <form method="post" action="#" id="reorder-validate-detail">
+            <input name="form_key" type="hidden" value="t2Wgk9g4JiBzi2vs" />
+            <div class="block-content">
+                <p class="block-subtitle">Last Ordered Items</p>
+                <ol id="cart-sidebar-reorder">
+                  <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                    <p class="product-name"><a href="product_page.html">Burdock Root C-s Organic</a></p>
+                  </li>
+                </ol>
+                <div id="cart-sidebar-reorder-advice-container"></div>
+                <div class="actions">
+                  <button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                  <a href="dashboard.html">View All</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+   </div>
   </div>
+ </div>
 </div>
-<div class="footer-container">
+</div>
+</div>
+  <div class="footer-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -451,6 +480,8 @@ Mage.Cookies.path     = '/luatsutunhan';
 Mage.Cookies.domain   = 'luatsutunhan.com';
 //]]>
 </script>
+
+        <script type="text/javascript">decorateList('cart-sidebar', 'none-recursive')</script>
 <script type="text/javascript">//<![CDATA[
         var Translator = new Translate([]);
         //]]></script>

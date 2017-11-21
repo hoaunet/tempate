@@ -203,34 +203,271 @@
     <div class="clear"></div>
   </div>
 </div>
-	<div class="main-container col1-layout">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="main">
-						<div class="col-main">
-							<div class="padding-s">
-								<div class="page-title"><h1>Popular Search Terms</h1></div>
-                  <ul class="tags-list">
-                      <li><a href="#" style="font-size:75%;">Candied</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">cloves</a></li>
-                      <li><a href="#" style="font-size:75%;">Fancy</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">Garlic</a></li>
-                      <li><a href="#" style="font-size:145%;">Granules</a></li>
-                      <li><a href="#" style="font-size:75%;">herb</a></li>
-                      <li><a href="#" style="font-size:75%;">Kelp</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">Nectarines</a></li>
-                      <li><a href="#" style="font-size:75%;">organic</a></li>
-                      <li><a href="#" style="font-size:75%;">pine</a></li>
-                      <li><a href="#" style="font-size:75%;">salt</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">spice</a></li>
-                      <li><a href="#" style="font-size:145%;">ss</a></li>
-                  </ul>
+	<div class="main-container col2-right-layout">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="main">
+            <div class="row">
+              <div class="col-main col-xs-12 col-sm-9">
+                <div class="padding-s"><div class="send-friend"><div class="page-title"><h1>Email to a Friend</h1></div>
+                    <form action="#" method="post" id="product_sendtofriend_form">
+                        <div class="fieldset">
+                            <input name="form_key" type="hidden" value="UaV69alXLzLHSKD3" />
+                            <h2 class="legend">Sender:</h2>
+                            <ul class="form-list" id="sender_options">
+                                <li class="fields">
+                                    <div class="field">
+                                        <label for="sender_name" class="required"><em>*</em>Name:</label>
+                                        <div class="input-box">
+                                            <input name="sender[name]" value="Le Hoa" title="Name" id="sender_name" type="text" class="input-text required-entry" />
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                       <label for="sender_email" class="required"><em>*</em>Email:</label>
+                                       <div class="input-box">
+                                           <input name="sender[email]" value="hoa.ltt@chiroro.com.vn" title="Email Address" id="sender_email" type="text" class="input-text required-entry validate-email" />
+                                       </div>
+                                    </div>
+                                </li>
+                                <li class="wide">
+                                    <label for="sender_message" class="required"><em>*</em>Message:</label>
+                                    <div class="input-box">
+                                        <textarea name="sender[message]" class="input-text required-entry" id="sender_message" cols="3" rows="3"></textarea>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fieldset">
+                            <h2 class="legend">Recipient:</h2>
+                            <ul class="form-list" id="recipients_options">
+                                <li class="fields">
+                                    <div class="field">
+                                        <label for="recipients_name" class="required"><em>*</em>Name:</label>
+                                        <div class="input-box">
+                                            <input name="recipients[name][]" type="text" class="input-text required-entry" id="recipients_name" />
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label for="recipients_email" class="required"><em>*</em>Email Address:</label>
+                                        <div class="input-box">
+                                            <input name="recipients[email][]" value="" title="Email Address" id="recipients_email" type="text" class="input-text required-entry validate-email" />
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="buttons-set">
+                            <p class="back-link"><a href="#" onclick="history.back(); return false;"><small>&laquo; </small>Back</a></p>
+                            <button type="submit" class="button"><span><span>Send Email</span></span></button>
+                            <div id="max_recipient_message" style="display:none;">
+                                                  <p class="limit">Maximum 5 email addresses allowed.</p>
+                                            </div>
+                                            <p id="add_recipient_button">
+                                    <button type="button" onclick="add_recipient();" class="button"><span><span>Add Recipient</span></span></button>
+                                </p>
+                                    </div>
+                    </form>
+                  </div>
+                 </div>
               </div>
-							</div>
-						</div>
-					</div>
-				</div>
+        <div class="col-right sidebar col-xs-12 col-sm-3"><div class="block block-cart">
+        <div class="block-title"><strong><span>My Cart</span></strong></div>
+        <div class="block-content">
+        <div class="summary">
+          <p class="amount">There are <a href="#">2 items</a> in your cart.</p>
+          <p class="subtotal"><span class="label">Cart Subtotal:</span> <span class="price">$49.98</span></p>
+        </div>
+        <div class="actions"><button type="button" title="Checkout" class="button" onclick="setLocation('#')"><span><span>Checkout</span></span></button></div>
+                    <p class="block-subtitle">Recently added item(s)</p>
+        <ol id="cart-sidebar" class="mini-products-list">
+          <li class="item">
+            <div class="product-control-buttons">
+                <a href="#" title="Remove This Item" onclick="return confirm('Are you sure you would like to remove this item from the shopping cart?');" class="btn-remove">Remove This Item</a>
+                <a href="#" title="Edit item" class="btn-edit">Edit item</a>
+            </div>
+            <a href="#" title="Burdock Root C-s Organic" class="product-image"><img src="images/file.png" alt="Burdock Root C-s Organic" /></a>
+                <p class="product-name"><a href="#">Burdock Root C-s Organic</a></p>
+            <div class="product-details"><strong>2</strong> x<span class="price">$24.99</span>             
+              <div class="truncated"><span class="details">Details</span>
+                <div class="truncated_full_value">
+                  <dl class="item-options">
+                  <dt>Packaging Container</dt>
+                  <dd>
+                                              Cloth bag                                    </dd>
+                                      <dt>Weight</dt>
+                      <dd>
+                                              15 Pounds                                    </dd>
+                                  </dl>
+                </div>
+              </div>
+            </div>
+          </li>
+         </ol>
+        </div>
+</div>
+<div class="block block-list block-compare">
+  <div class="block-title"><strong><span>Compare Products<small>(2)</small></span></strong></div>
+  <div class="block-content">
+    <ol id="compare-items">
+      <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file.png" alt="" /></a>
+         <input type="hidden" class="compare-item-id" value="1" />
+          <a href="product_detail.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
+          <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
+      </li>
+      <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file_5.png" alt="" /></a>
+                <input type="hidden" class="compare-item-id" value="6" />
+                <a href="product_detail.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
+                <p class="product-name"><a href="product_detail.html">Sage Leaf Rubbed</a></p>
+      </li>
+    </ol>
+    <div class="actions"><button type="button" title="Compare" class="button" onclick="popWin('product_detail.html','compare','top:0,left:0,width=820,height=600,resizable=yes,scrollbars=yes')"><span><span>Compare</span></span></button>
+      <a href="product_detail.html" onclick="return confirm('Are you sure you would like to remove all products from your comparison?');">Clear All</a>
+    </div>
+  </div>
+</div>
+<div class="block block-list block-viewed">
+    <div class="block-title">
+        <strong><span>Recently Viewed Products</span></strong>
+    </div>
+    <div class="block-content">
+        <ol id="recently-viewed-items">
+          <li class="item"><p class="product-name"><a href="product_detail.html">Sage Leaf Rubbed</a></p></li>
+          <li class="item"><p class="product-name"><a href="product_detail.html">Cinnamon Powder, Chinese</a></p></li>
+          <li class="item"><p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p></li>
+        </ol>
+    </div>
+</div>
+<div class="block block-wishlist">
+    <div class="block-title">
+        <strong><span>My Wishlist <small>(1)</small></span></strong>
+    </div>
+    <div class="block-content">
+    <p class="block-subtitle">Last Added Items</p>
+      <ol class="mini-products-list" id="wishlist-sidebar">
+        <li class="item">
+          <div class="product-control-buttons">
+            <a href="#" title="Remove This Item" onclick="return confirm('Are you sure you would like to remove this item from the wishlist?');" class="btn-remove">Remove This Item</a>
+          </div>
+          <a href="product_detail.html" title="Burdock Root C-s Organic" class="product-image"><img src="images/file.png" alt="Burdock Root C-s Organic" /></a>
+          <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
+          <div class="product-details">
+            <div class="price-box"><span class="regular-price" id="product-price-1-wishlist"><span class="price">$24.99</span></span></div>
+            <a href="shopping_cart.html" class="link-cart">Add to Cart</a>
+          </div>
+        </li>
+        </ol>
+        <div class="actions">
+            <a href="wishlist.html">Go to Wishlist</a>
+        </div>
+        </div>
+      </div>
+      <div class="block block-reorder">
+        <div class="block-title"><strong><span>My Orders</span></strong></div>
+        <form method="post" action="#" id="reorder-validate-detail">
+          <input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
+          <div class="block-content">
+            <p class="block-subtitle">Last Ordered Items</p>
+            <ol id="cart-sidebar-reorder">
+              <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p></li>
+             </ol>
+            <div id="cart-sidebar-reorder-advice-container"></div>
+            <div class="actions"><button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                                <a href="account_information.html">View All</a>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="block block-reorder">
+    <div class="block-title">
+        <strong><span>My Orders</span></strong>
+    </div>
+    <form method="post" action="#" id="reorder-validate-detail">
+        <input name="form_key" type="hidden" value="UaV69alXLzLHSKD3" />
+        <div class="block-content">
+            <p class="block-subtitle">Last Ordered Items</p>
+            <ol id="cart-sidebar-reorder">
+              <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                <p class="product-name"><a href="#">Burdock Root C-s Organic</a></p>
+              </li>
+            </ol>
+            <div id="cart-sidebar-reorder-advice-container"></div>
+            <div class="actions"><button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                                <a href="#">View All</a>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="block block-tags">
+    <div class="block-title">
+        <strong><span>Popular Tags</span></strong>
+    </div>
+    <div class="block-content">
+        <ul class="tags-list">
+          <li><a href="tag_product.html" style="font-size:75%;">Brown</a></li>
+          <li><a href="tag_product.html" style="font-size:145%;">Burdock</a></li>
+          <li><a href="tag_product.html" style="font-size:75%;">Certified</a></li>
+          <li><a href="tag_product.html" style="font-size:145%;">Leaf</a></li>
+          <li><a href="tag_product.html" style="font-size:145%;">Mustard</a></li>
+          <li><a href="tag_product.html" style="font-size:145%;">Oregano</a></li>
+          <li><a href="tag_product.html" style="font-size:75%;">Organic</a></li>
+          <li><a href="tag_product.html" style="font-size:75%;">Root</a></li>
+          <li><a href="tag_product.html" style="font-size:75%;">Seed</a></li>
+        </ul>
+        <div class="actions">
+            <a href="tag_list.html">View All Tags</a>
+        </div>
+    </div>
+</div>
+<div class="block block-poll">
+    <div class="block-title">
+        <strong><span>Community Poll</span></strong>
+    </div>
+    <form id="pollForm" action="#" method="post" onsubmit="return validatePollAnswerIsSelected();">
+        <div class="block-content">
+            <p class="block-subtitle">What is the main reason for you to purchase products online?</p>
+                        <ul id="poll-answers">
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_1" value="1" />
+                    <span class="label"><label for="vote_1">More convenient shipping and delivery</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_2" value="2" />
+                    <span class="label"><label for="vote_2">Lower price</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_3" value="3" />
+                    <span class="label"><label for="vote_3">Bigger choice</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_4" value="4" />
+                    <span class="label"><label for="vote_4">Centralized product search procedure (without having to leave your home)</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_5" value="5" />
+                    <span class="label"><label for="vote_5">Payments security</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_6" value="6" />
+                    <span class="label"><label for="vote_6">30-day Money Back Guarantee</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_7" value="7" />
+                    <span class="label"><label for="vote_7">Other.</label></span>
+                </li>
+                            </ul>
+                        <div class="actions">
+                <button type="submit" title="Vote" class="button"><span><span>Vote</span></span></button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
             </div>
         </div>
 <div class="footer-container">

@@ -203,148 +203,162 @@
     <div class="clear"></div>
   </div>
 </div>
-  <div class="main-container col2-left-layout">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="main">
-            <div class="row">
-              <div class="col-main col-xs-12 col-sm-9">
-                <div class="padding-s">
-                  <div class="my-account"><div class="page-title title-buttons">
-                    <h1>Address Book</h1>
-                    <button type="button" title="Add New Address" class="button" onclick="window.location='address_book.html';"><span><span>Add New Address</span></span></button>
-                  </div>
-                  <div class="col2-set addresses-list">
-                      <div class="col-1 addresses-primary">
-                          <h2>Default Addresses</h2>
-                          <ol>
-                                      <li class="item">
-                                  <h3>Default Billing Address</h3>
-                                  <address>
-                                      Le Hoa<br/>
-
-                  erewrew<br />
-
-
-
-                  rewrew,  Alaska, 080<br/>
-                  United States<br/>
-                  T: 0903652145
-
-                                  </address>
-                                  <p><a href="address_book.html">Change Billing Address</a></p>
-                             </li>
-                          
-                                      <li class="item">
-                                  <h3>Default Shipping Address</h3>
-                                  <address>
-                                      Le Hoa<br/>
-
-                  erewrew<br />
-
-
-
-                  rewrew,  Alaska, 080<br/>
-                  United States<br/>
-                  T: 0903652145
-
-                                  </address>
-                                  <p><a href="address_book.html">Change Shipping Address</a></p>
-                              </li>
-                                  </ol>
-                      </div>
-                      <div class="col-2 addresses-additional">
-                          <h2>Additional Address Entries</h2>
-                          <ol>
-                                      <li class="item empty">
-                                  <p>You have no additional address entries in your address book.</p>
-                              </li>
-                                  </ol>
-                      </div>
-                  </div>
-                  <div class="buttons-set">
-                      <p class="back-link"><a href="account_information.html"><small>&laquo; </small>Back</a></p>
-                  </div></div>                                    </div>
-                  </div>
-                  <div class="col-left sidebar col-xs-12 col-sm-3"><div class="block block-account">
-                    <div class="block-title">
-                        <strong><span>My Account</span></strong>
-                    </div>
-                    <div class="block-content">
-                        <ul>
-                          <li><a href="dashboard.html">Account Dashboard</a></li>
-                          <li class="current"><strong>Account Information</strong></li>
-                          <li class="current"><strong>Address Book</strong></li>
-                          <li><a href="history_page.html">My Orders</a></li>
-                          <li><a href="#">Billing Agreements</a></li>
-                          <li><a href="#">Recurring Profiles</a></li>
-                          <li><a href="#">My Product Reviews</a></li>
-                          <li><a href="#">My Tags</a></li>
-                          <li><a href="#">My Wishlist</a></li>
-                          <li><a href="#">My Applications</a></li>
-                          <li><a href="#">Newsletter Subscriptions</a></li>
-                          <li class="last"><a href="#">My Downloadable Products</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="block block-cart">
-                            <div class="block-title">
-                            <strong><span>My Cart</span></strong>
-                        </div>
-                        <div class="block-content">
-                                            <p class="empty">You have no items in your shopping cart.</p>
-                            </div>
-                    </div>
-                    <div class="block block-list block-compare">
-                        <div class="block-title"><strong><span>Compare Products<small>(2)</small></span></strong></div>
-                    <div class="block-content">
-                      <ol id="compare-items">
-                        <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file.png" alt="" /></a>
-                          <input type="hidden" class="compare-item-id" value="1" />
-                          <a href="product_detail.html,,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                          <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
-                        </li>
-                        <li class="item"><a class="product-image" href="product_detail.html"><img src="images/file_5.png" alt="" /></a>
-                          <input type="hidden" class="compare-item-id" value="6" />
-                          <a href="product_detail.html,,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                          <p class="product-name"><a href="product_detail.html">Sage Leaf Rubbed</a></p>
-                        </li>
-                      </ol>
-                        <div class="actions">
-                            <button type="button" title="Compare" class="button" onclick="popWin('product_detail.html,,/','compare','top:0,left:0,width=820,height=600,resizable=yes,scrollbars=yes')"><span><span>Compare</span></span></button>
-                            <a href="product_detail.html,,/" onclick="return confirm('Are you sure you would like to remove all products from your comparison?');">Clear All</a>
-                        </div>
-                        </div>
-                </div>
-                <div class="block block-reorder">
-                    <div class="block-title">
-                        <strong><span>My Orders</span></strong>
-                    </div>
-                    <form method="post" action="#" id="reorder-validate-detail">
-                     <input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
-                      <div class="block-content">
-                        <p class="block-subtitle">Last Ordered Items</p>
-                        <ol id="cart-sidebar-reorder">
-                          <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
-                            <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
-                          </li>
-                        </ol>
-                            <div id="cart-sidebar-reorder-advice-container"></div>
-                            <div class="actions"><button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                                                <a href="account_information.html">View All</a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+ <div class="main-container col2-left-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="main">
+                                                        <div class="row">
+                                <div class="col-main col-xs-12 col-sm-9">
+                                    <div class="padding-s">
+                                                                                <div class="my-account"><div class="page-title">
+    <h1>My Orders</h1>
 </div>
-<div class="footer-container">
+
+        <div class="pager">
+    
+        <p class="amount">
+                    <strong>1 Item(s)</strong>
+            </p>
+    
+        <div class="limiter">
+        <label>Show</label>
+        <select onchange="setLocation(this.value)">
+                    <option value="10" selected="selected">
+                10            </option>
+                    <option value="20">
+                20            </option>
+                    <option value="50">
+                50            </option>
+                </select> per page    </div>
+    
+    
+        </div>
+    
+<table class="data-table" id="my-orders-table">
+    <col width="1" />
+    <col width="1" />
+    <col />
+    <col width="1" />
+    <col width="1" />
+    <col width="1" />
+    <thead>
+        <tr>
+            <th>Order # </th>
+            <th>Date</th>
+            <th>Ship To</th>
+            <th><span class="nobr">Order Total</span></th>
+            <th><span class="nobr">Order Status</span></th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+                        <tr>
+            <td class="order-id">100000011</td>
+            <td class="order-date"><span class="nobr">11/20/2017</span></td>
+            <td class="order-ship">Le Hoa</td>
+            <td class="order-total"><span class="price">$59.98</span></td>
+            <td class="order-status"><em>Pending</em></td>
+            <td>
+                <span class="nobr"><a href="order_detail.html">View Order</a>
+                <span class="separator">|</span> <a href="order_detail.html" class="link-reorder">Reorder</a>
+                                </span>
+            </td>
+        </tr>
+            </tbody>
+</table>
+
+        <div class="pager">
+    
+        <p class="amount">
+                    <strong>1 Item(s)</strong>
+            </p>
+    
+        <div class="limiter">
+        <label>Show</label>
+        <select onchange="setLocation(this.value)">
+                    <option value="10" selected="selected">
+                10            </option>
+                    <option value="20">
+                20            </option>
+                    <option value="50">
+                50            </option>
+                </select> per page    </div>
+    
+    
+        </div>
+    
+<div class="buttons-set">
+    <p class="back-link"><a href="account_information.html"><small>&laquo; </small>Back</a></p>
+</div></div>                                    </div>
+                                </div>
+                                <div class="col-left sidebar col-xs-12 col-sm-3"><div class="block block-account">
+    <div class="block-title">
+        <strong><span>My Account</span></strong>
+    </div>
+    <div class="block-content">
+        <ul>
+           <li><a href="dashboard.html">Account Dashboard</a></li>
+            <li class="current"><strong>Account Information</strong></li>
+            <li><a href="address_book.html">Address Book</a></li>
+            <li class="current"><strong>My Orders</strong></li>
+            <li><a href="#">Billing Agreements</a></li>
+            <li><a href="#">Recurring Profiles</a></li>
+            <li><a href="#">My Product Reviews</a></li>
+            <li><a href="#">My Tags</a></li>
+            <li><a href="#">My Wishlist</a></li>
+            <li><a href="#">My Applications</a></li>
+            <li><a href="#">Newsletter Subscriptions</a></li>
+            <li class="last"><a href="#">My Downloadable Products</a></li>
+        </ul>
+    </div>
+</div>
+<div class="block block-cart">
+        <div class="block-title">
+        <strong><span>My Cart</span></strong>
+    </div>
+    <div class="block-content">
+                        <p class="empty">You have no items in your shopping cart.</p>
+        </div>
+</div>
+<div class="block block-list block-compare">
+    <div class="block-title">
+        <strong><span>Compare Products                    </span></strong>
+    </div>
+    <div class="block-content">
+            <p class="empty">You have no items to compare.</p>
+        </div>
+</div>
+<div class="block block-reorder">
+    <div class="block-title">
+        <strong><span>My Orders</span></strong>
+    </div>
+    <form method="post" action="product_detail.html" id="reorder-validate-detail">
+        <input name="form_key" type="hidden" value="t2Wgk9g4JiBzi2vs" />
+        <div class="block-content">
+            <p class="block-subtitle">Last Ordered Items</p>
+            <ol id="cart-sidebar-reorder">
+                                        <li class="item">
+                                                                    <input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                                        <p class="product-name"><a href="product_detail.html">Burdock Root C-s Organic</a></p>
+                </li>
+                        </ol>
+            <div id="cart-sidebar-reorder-advice-container"></div>
+            <div class="actions">
+                                    <button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                                <a href="account_information.html">View All</a>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <div class="footer-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -451,6 +465,8 @@ Mage.Cookies.path     = '/luatsutunhan';
 Mage.Cookies.domain   = 'luatsutunhan.com';
 //]]>
 </script>
+
+        <script type="text/javascript">decorateList('cart-sidebar', 'none-recursive')</script>
 <script type="text/javascript">//<![CDATA[
         var Translator = new Translate([]);
         //]]></script>

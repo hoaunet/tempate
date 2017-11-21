@@ -203,36 +203,157 @@
     <div class="clear"></div>
   </div>
 </div>
-	<div class="main-container col1-layout">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="main">
-						<div class="col-main">
-							<div class="padding-s">
-								<div class="page-title"><h1>Popular Search Terms</h1></div>
-                  <ul class="tags-list">
-                      <li><a href="#" style="font-size:75%;">Candied</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">cloves</a></li>
-                      <li><a href="#" style="font-size:75%;">Fancy</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">Garlic</a></li>
-                      <li><a href="#" style="font-size:145%;">Granules</a></li>
-                      <li><a href="#" style="font-size:75%;">herb</a></li>
-                      <li><a href="#" style="font-size:75%;">Kelp</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">Nectarines</a></li>
-                      <li><a href="#" style="font-size:75%;">organic</a></li>
-                      <li><a href="#" style="font-size:75%;">pine</a></li>
-                      <li><a href="#" style="font-size:75%;">salt</a></li>
-                      <li><a href="#" style="font-size:98.333333333333%;">spice</a></li>
-                      <li><a href="#" style="font-size:145%;">ss</a></li>
-                  </ul>
+	<div class="main-container col2-left-layout">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main">
+              <div class="row">
+                <div class="col-main col-xs-12 col-sm-9">
+                  <div class="padding-s">
+                    <div id="map-popup" class="map-popup" style="display:none;">
+                      <a href="#" class="map-popup-close" id="map-popup-close">x</a>
+                      <div class="map-popup-arrow"></div>
+                      <div class="map-popup-heading"><h2 id="map-popup-heading"></h2></div>
+                      <div class="map-popup-content" id="map-popup-content">
+                        <div class="map-popup-msrp" id="map-popup-msrp-box"><strong>Price:</strong> <span style="text-decoration:line-through;" id="map-popup-msrp"></span></div>
+                        <div class="map-popup-price" id="map-popup-price-box"><strong>Actual Price:</strong> <span id="map-popup-price"></span></div>
+                        <div class="map-popup-checkout">
+                            <form action="" method="POST" id="product_addtocart_form_from_popup">
+                                <input type="hidden" name="product" class="product_id" value="" id="map-popup-product-id" />
+                                <div class="additional-addtocart-box">
+                                                    </div>
+                                <button type="button" title="Add to Cart" class="button btn-cart" id="map-popup-button"><span><span>Add to Cart</span></span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="map-popup-text" id="map-popup-text">Our price is lower than the manufacturer's &quot;minimum advertised price.&quot;  As a result, we cannot show you the price in catalog or the product page. <br /><br /> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</div>
+                    <div class="map-popup-text" id="map-popup-text-what-this">Our price is lower than the manufacturer's &quot;minimum advertised price.&quot;  As a result, we cannot show you the price in catalog or the product page. <br /><br /> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</div>
+                </div>
+                <div class="my-account"><div class="my-wishlist">
+                  <div class="page-title title-buttons"><h1>My Wishlist</h1></div>
+                    <form id="wishlist-view-form" action="#" method="post">
+                      <fieldset><input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
+                        <table class="data-table" id="wishlist-table">
+                        <thead>
+                          <tr><th></th>
+                            <th>Product Details and Comment</th>
+                            <th>Add to Cart</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <tr id="item_4">
+                          <td><a class="product-image" href="product_page.html" title="Burdock Root C-s Organic">
+                              <img src="images/file.png" width="200" height="200" alt="Burdock Root C-s Organic" /></a>
+                          </td>
+                          <td><h3 class="product-name"><a href="product_page.html" title="Burdock Root C-s Organic">Burdock Root C-s Organic</a></h3>
+                              <div class="description std"><div class="inner">Welcome to the world of the unbelievable smell and perfect taste. From ancient times spices were very rare and expensive. Only very rich people could afford buying spices. Nowadays spices have become a casual part of all the types of cuisine. We can’t imagine our life without pepper or cinnamon. </div></div>
+                              <textarea name="description[4]" rows="3" cols="5" onfocus="focusComment(this)" onblur="focusComment(this)" title="Comment">rtretretre</textarea>
+                          </td>
+                          <td><div class="cart-cell">
+                              <div class="price-box"><span class="regular-price" id="product-price-1"><span class="price">$24.99</span></span></div>
+                              <div class="add-to-cart-alt">
+                                  <input type="text" class="input-text qty validate-not-negative-number" name="qty[4]" value="1" />
+                                  <button type="button" title="Add to Cart" onclick="addWItemToCart(4);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                              </div>
+                              <p><a class="link-edit" href="product_page.html">Edit</a></p>
+                            </div>
+                          </td>
+                          <td><a href="product_page.html" onclick="return confirmRemoveWishlistItem();" title="Remove Item" class="btn-remove btn-remove2">Remove item</a></td>
+                        </tr>
+                        </tbody>
+                      </table>
+                      <div class="buttons-set buttons-set2">
+                        <button type="submit" name="save_and_share" title="Share Wishlist" class="button btn-share"><span><span>Share Wishlist</span></span></button>
+                        <button type="button" title="Add All to Cart" onclick="addAllWItemsToCart()" class="button btn-add"><span><span>Add All to Cart</span></span></button>
+                        <button type="submit" name="do" title="Update Wishlist" class="button btn-update"><span><span>Update Wishlist</span></span></button>
+                      </div>
+                    </fieldset>
+                  </form>
+                <form id="wishlist-allcart-form" action="#" method="post">
+                    <input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
+                    <div class="no-display">
+                        <input type="hidden" name="wishlist_id" id="wishlist_id" value="4" />
+                        <input type="hidden" name="qty" id="qty" value="" />
+                    </div>
+                </form>
               </div>
-							</div>
-						</div>
-					</div>
-				</div>
+              <div class="buttons-set"><p class="back-link"><a href="account_information.html"><small>&laquo; </small>Back</a></p></div>
             </div>
+          </div>
         </div>
+      <div class="col-left sidebar col-xs-12 col-sm-3"><div class="block block-account">
+        <div class="block-title">
+            <strong><span>My Account</span></strong>
+        </div>
+        <div class="block-content">
+            <ul>
+              <<li><a href="dashboard.html">Account Dashboard</a></li>
+                <li class="current"><strong>Account Information</strong></li>
+                <li><a href="address_book.html">Address Book</a></li>
+                <li><a href="history_page.html">My Orders</a></li>
+                <li><a href="#">Billing Agreements</a></li>
+                <li><a href="#">Recurring Profiles</a></li>
+                <li><a href="#">My Product Reviews</a></li>
+                <li><a href="#">My Tags</a></li>
+              <li class="current"><strong>My Wishlist</strong></li>
+              <li><a href="#">My Applications</a></li>
+                <li><a href="#">Newsletter Subscriptions</a></li>
+                <li class="last"><a href="#">My Downloadable Products</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="block block-cart">
+          <div class="block-title"><strong><span>My Cart</span></strong></div>
+          <div class="block-content"><p class="empty">You have no items in your shopping cart.</p></div>
+        </div>
+        <div class="block block-list block-compare">
+          <div class="block-title"><strong><span>Compare Products<small>(2)</small></span></strong></div>
+          <div class="block-content">
+            <ol id="compare-items">
+              <li class="item"><a class="product-image" href="product_page.html"><img src="images/file.png" alt="" /></a>
+                <input type="hidden" class="compare-item-id" value="1" />
+                <a href="product_page.html,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
+                <p class="product-name"><a href="product_page.html">Burdock Root C-s Organic</a></p>
+              </li>
+              <li class="item"><a class="product-image" href="product_page.html"><img src="images/file_5.png" alt="" /></a>
+                <input type="hidden" class="compare-item-id" value="6" />
+                <a href="product_page.html,/" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
+                <p class="product-name"><a href="product_page.html">Sage Leaf Rubbed</a></p>
+              </li>
+            </ol>
+            <div class="actions">
+            <button type="button" title="Compare" class="button" onclick="popWin('product_page.html,/','compare','top:0,left:0,width=820,height=600,resizable=yes,scrollbars=yes')"><span><span>Compare</span></span></button>
+              <a href="product_page.html,/" onclick="return confirm('Are you sure you would like to remove all products from your comparison?');">Clear All</a>
+            </div>
+          </div>
+        </div>
+        <div class="block block-reorder">
+          <div class="block-title">
+              <strong><span>My Orders</span></strong>
+          </div>
+          <form method="post" action="product_page.html" id="reorder-validate-detail">
+              <input name="form_key" type="hidden" value="CPSWBCb329BJbxix" />
+              <div class="block-content">
+                  <p class="block-subtitle">Last Ordered Items</p>
+                  <ol id="cart-sidebar-reorder">
+                    <li class="item"><input type="checkbox" name="order_items[]" id="reorder-item-17" value="17" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                      <p class="product-name"><a href="product_page.html">Burdock Root C-s Organic</a></p>
+                    </li>
+                  </ol>
+                  <div id="cart-sidebar-reorder-advice-container"></div>
+                  <div class="actions"><button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                                      <a href="account_information.html">View All</a>
+                  </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 <div class="footer-container">
     <div class="container">
       <div class="row">
