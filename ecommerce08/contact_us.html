@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="en" class="">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sports Shoes</title>
+  <base href="" />
+    <meta name="description" content="Sports Shoes" />
+        <!-- Fonts -->
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&amp;subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <!-- END Fonts -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />  
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/material-design.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/photoswipe.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">  
+  <link id="color_scheme" href="css/color_scheme_1.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/tmgooglemap.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="favicon.ico" rel="icon" />
+  <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/bootstrap-tabcollapse.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.cookies.js" type="text/javascript"></script>
+    <script src="js/style_switcher_demo.js" type="text/javascript"></script>
+    <script src="js/swiper.min.js" type="text/javascript"></script>
+    <script src="//maps.googleapis.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    <script src="js/jquery.rd-google-map.js" type="text/javascript"></script>
+    <script src="js/instafeed.min.js" type="text/javascript"></script>
+    <script src="js/superfish.min.js" type="text/javascript"></script>
+    <script src="js/jquery.rd-navbar.min.js" type="text/javascript"></script>
+    </head>
+<body class="common-home">  
+  <div id="page">    
+    <header>
+      <div class="top-line">
+      <div class="container">
+      <div class="cont">
+        <nav id="top-links" class="nav toggle-wrap">
+          <a class="toggle material-design-settings49" href='#'></a>
+          <ul class="toggle_cont">
+            <li class="first"><a href="index.html" title="Home"><span>Home</span></a></li>
+            <li><a href="sitemap_page.html" title="Sitemap"><span>Sitemap</span></a></li>           
+            <li><a href="simple_blog.html" title="Blog"><span>Blog</span></a></li>           
+            <li><a href="contact_us.html" title="Contact"><span>Contact</span></a></li>
+          </ul>
+        </nav>
+        <ul class="nav-links">
+          <li><a href="product_compare.html" id="compare-total2" title="0"><i class="fa fa-random"></i><span>0</span></a></li>
+          <li><a href="wishlist.html" id="wishlist-total" title="0"><i class="fa fa-heart"></i><span> 0</span></a></li>         
+            <li class="search-toggle-wrap">
+            <div class="search-toggle">
+              <i class="fa fa-search"></i>
+            </div>
+            <div class="toggle-cont-search">
+              <div id="search" class="search">
+              <input type="text" name="search" value="" placeholder="Search"  />
+              <button type="button" class="button-search"><b class="fa fa-search"></b></button>
+            </div>            </div>
+          </li>
+            <li>            
+              <div class="cur-lang-wrap">
+              <div class="cur-lang-toggle">
+                <i class="fa fa-cog"></i>
+              </div>
+              <div class="toggle-cur-lang">
+                <div class="box-language">
+              <form action="#" method="post" enctype="multipart/form-data" id="form-language">
+                <div class="btn-group">
+                  <button class="language-select selected" type="button" name="en-gb">                      English       </button>
+                  <button class="language-select" type="button" name="de-DE">                      Deutsch     </button>
+                  <button class="language-select" type="button" name="ru-ru">                      Русский     </button>
+                </div>
+                <input type="hidden" name="code" value="" />                
+              </form>
+            </div>
+                <div class="box-currency">
+                <form action="#" method="post" enctype="multipart/form-data" id="form-currency">
+                  <div class="btn-group">
+                    <button class="currency-select" type="button" name="EUR">                        EUR       </button>
+                    <button class="currency-select" type="button" name="GBP">                        GBP       </button>
+                    <button class="currency-select selected" type="button" name="USD">                        USD       </button>
+                  </div>
+                  <input type="hidden" name="code" value="" />                  
+                </form>
+              </div>
+              </div>
+            </div>
+          </li>
+            <li><div class="box-cart">
+              <div id="cart" class="cart toggle-wrap">
+                <button type="button" data-loading-text="Loading..." class="toggle">
+                  <i class="fa fa-shopping-cart"></i> 
+                        <span id="cart-total2" class="cart-total2">0</span>
+                      </button>
+                <ul class="pull-right toggle_cont">
+                        <li>
+                    <p class="text-center">Your shopping cart is empty!</p>
+                  </li>
+                      </ul>
+              </div>
+            </div></li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      <div id="stuck" class="stuck-menu">
+        <div class="container">
+          <h1 id="logo" class="logo">
+            <a href="index.html"><img src="images/logo.png" title="Sports Shoes" alt="Sports Shoes" class="img-responsive"></a>
+          </h1>
+        </div>
+        <div class="navigation">
+          <div class="megamenu">
+            <ul class="sf-menu">
+              <li ><a href="product_page.html">Athletic</a>
+                <ul class="simple_menu">
+                  <li><a href="product_page.html" class="parent">Fitness &amp; Cross-Training</a><ul class="simple_menu">
+                  <li><a href="product_page.html">Hydration</a></li>
+                </ul>
+              </li>
+              <li><a href="product_page.html">Tennis</a></li>
+              <li><a href="product_page.html">Basketball</a></li>
+              <li><a href="product_page.html">Badminton</a></li>
+              <li><a href="product_page.html">Cycling</a></li>
+            </ul>
+          </li>
+        <li class="sf-with-mega"><a href="product_page.html">Women’s</a>
+          <ul class="sf-mega" >
+            <li class="sf-mega_row">
+              <div class="sf-mega_section" style="width: 25%">
+                <div class="submenu_title"><a href="product_page.html">   Sport             </a>      </div>
+                  <ul>
+                    <li><a href="product_page.html">Outdoors</a></li>
+                    <li><a href="product_page.html">Trail / Fell</a></li>
+                    <li><a href="product_page.html">Gym</a></li>
+                    <li><a href="product_page.html">Running</a></li>
+                  </ul>
+                </div>
+                <div class="sf-mega_section" style="width: 25%">
+                  <div class="submenu_title"><a href="product_page.html">             Types             </a></div>
+                    <ul>
+                      <li><a href="product_page.html">Road</a></li>
+                      <li><a href="product_page.html">Track &amp; Field</a></li>
+                      <li><a href="product_page.html">Walking</a></li>
+                      <li><a href="product_page.html">Shoe Care</a></li>
+                    </ul>
+                  </div>
+                  <div class="sf-mega_section" style="width: 25%">
+                    <div class="submenu_title"><a href="product_page.html">     Brands              </a></div>
+                      <ul>
+                        <li><a href="product_page.html">Adidas</a></li>
+                        <li><a href="product_page.html">Asics</a></li>
+                        <li><a href="product_page.html">Mizuno</a></li>
+                        <li><a href="product_page.html">Nike</a></li>
+                      </ul>
+                    </div>
+                    <div class="sf-mega_section" style="width: 25%">
+                      <div class="submenu_title"><a href="product_page.html">             Accessories             </a></div>
+                        <ul>
+                          <li><a href="product_page.html">Socks</a></li>
+                          <li><a href="product_page.html">Hats</a></li>
+                          <li><a href="product_page.html">Injury Accessories</a></li>
+                          <li><a href="product_page.html">GPS &amp; Watches</a></li>
+                        </ul>
+                      </div>
+                  </ul>
+                </li>
+                  <li ><a href="product_page.html">Men’s</a></li>
+                  <li ><a href="product_page.html">Fashion Sneakers</a></li>
+                  <li ><a href="product_page.html">Limited Editions</a></li>
+                  <li ><a href="product_page.html">Girls`</a></li>
+                  <li ><a href="product_page.html">Boys`</a></li>
+                </ul>
+          </div>
+        <script>
+          ;(function ($) {
+            $(window).load(function () {
+              var o = $('.sf-menu');
+              o.superfish();
+              o.find('li a').each(function () {
+                if ($(location).attr('href').indexOf($(this).attr('href')) >= 0){
+                  $(this).addClass('active');
+                  return;
+                }
+              })
+              if (o.parents('aside').length){
+                var width = $('.container').outerWidth() - $('aside').outerWidth();
+                o.find('.sf-mega').each(function () {
+                  $(this).width(width);
+                })
+              }
+            });
+          })(jQuery);
+        </script>
+</div>
+</div>
+</header>
+<div class="container">
+  <ul class="breadcrumb">
+        <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+        <li><span>Contact Us</span></li>
+      </ul>
+  <div class="row">
+    <div id="content" class="col-sm-12 contact_page">
+      <h1 class="no-line">Contact Us</h1>
+      <div class="map">
+    <div id="google-map" class="map_model" data-zoom="13" data-y="40.6700" data-x=" -73.9400" data-disable-ui="false" data-scrollwheel="false" data-draggable="true" style="height: 446px; width: 100%; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 469px; top: 141px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 213px; top: 141px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 469px; top: -115px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 469px; top: 397px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 725px; top: 141px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 213px; top: 397px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 213px; top: -115px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 725px; top: -115px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 725px; top: 397px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 981px; top: 141px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -43px; top: 141px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -43px; top: -115px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 981px; top: -115px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -43px; top: 397px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 981px; top: 397px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 469px; top: 141px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 213px; top: 141px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 469px; top: -115px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 469px; top: 397px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 725px; top: 141px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 213px; top: 397px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 213px; top: -115px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 725px; top: -115px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 725px; top: 397px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 981px; top: 141px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -43px; top: 141px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -43px; top: -115px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 981px; top: -115px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -43px; top: 397px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 981px; top: 397px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 469px; top: 141px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2413!3i3081!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=116791" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 213px; top: 141px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2412!3i3081!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=37879" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 469px; top: -115px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2413!3i3080!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=113926" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 469px; top: 397px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2413!3i3082!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=119656" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 725px; top: 141px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2414!3i3081!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=64632" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 213px; top: 397px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2412!3i3082!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=40744" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 213px; top: -115px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2412!3i3080!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=35014" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 725px; top: -115px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2414!3i3080!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=61767" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 725px; top: 397px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2414!3i3082!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=67497" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 981px; top: 141px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2415!3i3081!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=12473" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -43px; top: 141px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2411!3i3081!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=90038" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -43px; top: -115px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2411!3i3080!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=87173" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 981px; top: -115px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2415!3i3080!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=9608" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -43px; top: 397px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2411!3i3082!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=92903" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 981px; top: 397px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2415!3i3082!4i256!2m3!1e0!2sm!3i401097513!3m14!2svi-VN!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5oOiNGRkJCMDB8cC5zOjQzLjQwMDAwMDAwMDAwMDAwNnxwLmw6MzcuNTk5OTk5OTk5OTk5OTk0fHAuZzoxLHMudDo0OXxwLmg6I0ZGQzIwMHxwLnM6LTYxLjh8cC5sOjQ1LjU5OTk5OTk5OTk5OTk5NHxwLmc6MSxzLnQ6NTB8cC5oOiNGRjAzMDB8cC5zOi0xMDB8cC5sOjUxLjE5OTk5OTk5OTk5OTk5fHAuZzoxLHMudDo1MXxwLmg6I0ZGMDMwMHxwLnM6LTEwMHxwLmw6NTJ8cC5nOjEscy50OjZ8cC5oOiMwMDc4RkZ8cC5zOi0xMy4yMDAwMDAwMDAwMDAwMDN8cC5sOjIuNDAwMDAwMDAwMDAwMDA1N3xwLmc6MSxzLnQ6MnxwLmg6IzAwRkY2QXxwLnM6LTEuMDk4OTAxMDk4OTAxMTIzNHxwLmw6MTEuMjAwMDAwMDAwMDAwMDE3fHAuZzox!4e0&amp;token=15338" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div></div><div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=40.67,-73.94&amp;z=13&amp;t=m&amp;hl=vi-VN&amp;gl=US&amp;mapclient=apiv3" title="Nhấp để xem khu vực này trên Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 435px; top: 133px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Dữ liệu Bản đồ</div><div style="font-size: 13px;">Dữ liệu bản đồ ©2017 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 215px; bottom: 0px; width: 143px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Dữ liệu Bản đồ</a><span>Dữ liệu bản đồ ©2017 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Dữ liệu bản đồ ©2017 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 115px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/vi-VN_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Điều khoản sử dụng</a></div></div><button draggable="false" title="Chuyển đổi chế độ xem toàn màn hình" aria-label="Chuyển đổi chế độ xem toàn màn hình" type="button" style="background: none; border: 0px; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Báo cáo lỗi trong bản đồ đường hoặc hình ảnh đến Google" href="https://www.google.com/maps/@40.67,-73.94,13z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Báo cáo một lỗi bản đồ</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button draggable="false" title="Phóng to" aria-label="Phóng to" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Thu nhỏ" aria-label="Thu nhỏ" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button></div></div><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Xoay bản đồ 90 độ" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; display: none;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; top: 0px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Hiển thị bản đồ phố" aria-label="Hiển thị bản đồ phố" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 35px; font-weight: 500;">Bản đồ</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Hiển thị bản đồ phố với địa hình" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img alt="" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Địa hình</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Hiển thị hình ảnh qua vệ tinh" aria-label="Hiển thị hình ảnh qua vệ tinh" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 34px; border-left: 0px;">Vệ tinh</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Hiển thị hình ảnh có tên phố" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Nhãn</label></div></div></div></div></div></div></div>
+  <ul class="map_locations">
+    <li data-x=" -73.9400" data-y="40.6700">
+      <p> My Company Glasgow D04 89GR</p>
+    </li>
+      </ul>
+</div>
+
+
+<script>
+  var tmp =1;
+  var marker_path = 'images/marker_map-40x40.png';
+  var marker_active_path = 'images/marker_map_active-40x40.png';
+  var styles = [{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}];
+  var type;
+  switch (tmp) {
+    case 1:
+    type = google.maps.MapTypeId.ROADMAP;
+    break;
+    case 2:
+    type = google.maps.MapTypeId.TERRAIN;
+    break;
+    case 3:
+    type = google.maps.MapTypeId.HYBRID;
+    break;
+    case 4:
+    type = google.maps.MapTypeId.SATELLITE;
+    break;
+    default:
+    type = google.maps.MapTypeId.ROADMAP;
+  }
+  jQuery(document).ready(function ($) {
+    var o = $('#google-map');
+    o.googleMap({
+      marker: {
+        basic: marker_path,
+        active: marker_active_path
+      },
+      type: type,
+      styles: styles
+    });
+  });
+</script>
+<div class="col-sm-4">
+  <div class="box twitter soc_info text-center">
+    <div class="box-heading">
+      <h3>Twitter Timeline</h3>
+    </div>
+    <div id="twitterRefresher" class="box-content">
+      <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 290px; height: 410px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="517285297164267522" title="Twitter Timeline"></iframe>
+    </div>
+  </div>
+</div>
+<script>
+  window.twttr = (function (d, s, id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = {
+      _e: [], ready: function (f) {
+        t._e.push(f)
+      }
+    });
+  }(document, "script", "twitter-wjs"));
+
+    // Twitter refresher "class"
+    var TwitterRefresh = function (options) {
+      this.id = options.id;
+      this.code = options.code;
+    }
+
+    TwitterRefresh.prototype.doRefresh = function () {
+      document.getElementById(this.id).innerHTML = this.code;
+      if (document.getElementById('twitter-wjs') != null) {
+        document.getElementById('twitter-wjs').remove();
+      }
+      window.twttr = (function (d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {
+          _e: [], ready: function (f) {
+            t._e.push(f)
+          }
+        });
+      }(document, "script", "twitter-wjs"));
+
+    }
+
+    // Create new instance
+    var twtrefresher = new TwitterRefresh({
+      id: 'twitterRefresher',
+      code: '<a class="twitter-timeline" width="290" height="410" data-theme="dark" href="TemplateMonster" data-tweet-limit="" data-widget-id="517285297164267522"></a>'
+    });
+
+    ;
+    (function ($) {
+      $(window).on('resize', function () {
+
+      })
+    })(jQuery)
+
+
+ </script><div class="col-sm-4">
+  <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="#" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+  <div class="box facebook info text-center">
+    <div class="box-heading">
+      <h3>Facebook Box</h3>
+    </div>
+    <div class="box-content">
+      <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/TemplateMonster" data-width="370" data-height="356" data-hide-cover="true" data-show-facepile="true" data-show-posts="true" style="display: block;" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=360&amp;height=356&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FTemplateMonster&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;width=370"><span style="vertical-align: bottom; width: 360px; height: 356px;"><iframe name="f20883d9fe4b238" width="370px" height="356px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="#" style="border: none; visibility: visible; width: 360px; height: 356px; transform: none;" class=""></iframe></span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.fbAsyncInit = function () {
+    var id = '';
+    if (id == '') {
+      id = false;
+    }
+    FB.init({
+      appId: id,
+      xfbml: true,
+      version: 'v2.3'
+    });
+  };
+
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+      return;
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+
+  ;
+  (function ($) {
+    var o = $('.fb-page');
+
+    $(window).load(function () {
+      o.css({'display': 'block'})
+      .find('span').css({
+        'width': '100%',
+        'display': 'block',
+        'text-align': 'inherit'
+      })
+      .find('iframe').css({
+        'display': 'inline-block',
+        'position': 'static'
+      });
+    });
+
+    $(window).on('load resize', function () {
+      if (o.parent().width() < o.find('iframe').width()) {
+        o.find('iframe').css({
+          'transform': 'scale(' + (o.width() / o.find('iframe').width()) + ')',
+          'transform-origin': '0% 0%'
+        })
+        .parent().css({
+          'height': (o.find('iframe').height() * (o.width() / o.find('iframe').width())) + 'px'
+        });
+      } else {
+        o
+        .find('span').css({
+          'height': o.find('iframe').height() + 'px'
+        })
+        .find('iframe').css({
+          'transform': 'none'
+        });
+      }
+    });
+  })(jQuery);
+</script><div class="col-sm-4">
+<div class="box pinterest soc_info text-center">
+    <div class="box-heading">
+      <h3>Pinterest Profile Widget</h3>
+    </div>
+    <div class="box-content">
+      <span class="PIN_1511322885842_embed_grid PIN_1511322885842_c2" data-pin-log="embed_grid" data-pin-href="https://www.pinterest.com" style="width: 310px;"><span class="PIN_1511322885842_hd" data-pin-href="https://www.pinterest.com/templatemonster/" data-pin-log="embed_grid"><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/templatemonster/" data-pin-log="embed_grid" data-pin-src="https://s-media-cache-ak0.pinimg.com/avatars/templatemonster_1464876241_60.jpg" style="background-image: url(&quot;https://s-media-cache-ak0.pinimg.com/avatars/templatemonster_1464876241_60.jpg&quot;);"></span><span class="PIN_1511322885842_pinner" data-pin-href="https://www.pinterest.com/templatemonster/" data-pin-log="embed_grid">Template Monster</span></span><span class="PIN_1511322885842_bd" data-pin-href="https://www.pinterest.com" data-pin-log="embed_grid" style="height: 300px;"><span class="PIN_1511322885842_ct" data-pin-href="https://www.pinterest.com" data-pin-log="embed_grid"><span class="PIN_1511322885842_col" data-pin-href="https://www.pinterest.com" data-pin-log="embed_grid"><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515398938" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/67/5f/36/675f3683d610cc58d460cc315eb8128f.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/67/5f/36/675f3683d610cc58d460cc315eb8128f.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515398938" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702792036" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/aa/9e/25/aa9e2500237099ba1c17a00cf33551f7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/aa/9e/25/aa9e2500237099ba1c17a00cf33551f7.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702792036" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/190136415501148285" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/190136415501148285" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/247557310751632949" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/67/5f/36/675f3683d610cc58d460cc315eb8128f.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/67/5f/36/675f3683d610cc58d460cc315eb8128f.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/247557310751632949" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/698972804639701374" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/698972804639701374" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515390881" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/16/9b/b5/169bb52d6d27689922dacedb28fa876e.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/16/9b/b5/169bb52d6d27689922dacedb28fa876e.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515390881" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/393572454928545026" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/393572454928545026" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515388655" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515388655" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/393572454928543861" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/393572454928543861" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/190136415501144758" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/190136415501144758" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/698972804639695496" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/698972804639695496" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515385777" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515385777" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515384684" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515384684" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/360780620142174464" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/360780620142174464" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516105240" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516105240" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702776355" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702776355" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515378310" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515378310" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516101250" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516101250" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/688276755524381244" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/6d/83/6d/6d836d1023d69c6b610047027ed0ddc0.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/6d/83/6d/6d836d1023d69c6b610047027ed0ddc0.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/688276755524381244" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515374659" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/db/48/74/db487432ba1a828452a5c43d63c50225.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/db/48/74/db487432ba1a828452a5c43d63c50225.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515374659" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515373659" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/37/2a/3b/372a3b8ca49d11b240aa95bd3ab5255c.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/37/2a/3b/372a3b8ca49d11b240aa95bd3ab5255c.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515373659" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515372774" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/f4/24/69/f42469ca00d193c22a22d4e967a32be3.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/f4/24/69/f42469ca00d193c22a22d4e967a32be3.jpg&quot;); background-color: rgb(223, 217, 210); padding-bottom: 149.789%;"></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702770180" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/bc/eb/fc/bcebfcca5b9076b97efc1605b849e78d.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/bc/eb/fc/bcebfcca5b9076b97efc1605b849e78d.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702770180" data-pin-log="embed_grid"></span></span></span><span class="PIN_1511322885842_col" data-pin-href="https://www.pinterest.com" data-pin-log="embed_grid"><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515398771" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515398771" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702792434" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/e9/7b/3d/e97b3d82b507af65c35a45386514a696.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/e9/7b/3d/e97b3d82b507af65c35a45386514a696.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702792434" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702791707" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702791707" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516120028" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516120028" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/393572454928548874" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/53/9c/28/539c287a34e8698a2286dfabe14dd000.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/53/9c/28/539c287a34e8698a2286dfabe14dd000.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/393572454928548874" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/342766221632210729" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/70/86/ad/7086adf5c599936dfd87c431ff2db36b.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/70/86/ad/7086adf5c599936dfd87c431ff2db36b.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/342766221632210729" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515391207" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/04/6e/34/046e34ee6e9011969b34ab8f8d6185ee.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/04/6e/34/046e34ee6e9011969b34ab8f8d6185ee.jpg&quot;); background-color: rgb(57, 56, 57); padding-bottom: 121.941%;"></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515390070" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515390070" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515388984" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/6d/83/6d/6d836d1023d69c6b610047027ed0ddc0.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/6d/83/6d/6d836d1023d69c6b610047027ed0ddc0.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515388984" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515388306" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515388306" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/72057662772232966" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/db/48/74/db487432ba1a828452a5c43d63c50225.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/db/48/74/db487432ba1a828452a5c43d63c50225.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/72057662772232966" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/218776494382707072" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/218776494382707072" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/329818372702783534" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/f4/24/69/f42469ca00d193c22a22d4e967a32be3.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/f4/24/69/f42469ca00d193c22a22d4e967a32be3.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/329818372702783534" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515386355" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/bd/df/32/bddf3280b485677223c2d1e41505c71a.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/bd/df/32/bddf3280b485677223c2d1e41505c71a.jpg&quot;); background-color: rgb(235, 215, 216); padding-bottom: 149.789%;"></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/360780620142176423" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/a8/33/5a/a8335a33b422db500b5a1a9f2f179c28.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/360780620142176423" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/72057662772230189" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/86/6a/a6/866aa6df8df80a80cd6ef8ecba44c1f4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/86/6a/a6/866aa6df8df80a80cd6ef8ecba44c1f4.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/72057662772230189" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516106125" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/bd/ea/23/bdea232337b0513e79417dcfb9a6652c.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/bd/ea/23/bdea232337b0513e79417dcfb9a6652c.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516106125" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515380948" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/fc/00/a3/fc00a3799b17cfba645924b750a39588.jpg&quot;); padding-bottom: 149.367%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515380948" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/688276755524383258" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/da/a6/15/daa6151ce8a7f496c7abd003779f5ba4.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/688276755524383258" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515376692" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/50/dc/10/50dc10155bfccff7468cb5c413cea1b4.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/50/dc/10/50dc10155bfccff7468cb5c413cea1b4.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515376692" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/342766221632194581" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/c9/2f/1f/c92f1fc6cefe28739bc3b9433e5ff5c7.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/342766221632194581" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/72057662772227262" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/37/2a/3b/372a3b8ca49d11b240aa95bd3ab5255c.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/37/2a/3b/372a3b8ca49d11b240aa95bd3ab5255c.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/72057662772227262" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516100166" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/cb/92/ac/cb92acdf562ba88c79306071a163320d.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/cb/92/ac/cb92acdf562ba88c79306071a163320d.jpg&quot;); padding-bottom: 121.941%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516100166" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515374314" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/aa/9e/25/aa9e2500237099ba1c17a00cf33551f7.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/aa/9e/25/aa9e2500237099ba1c17a00cf33551f7.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515374314" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515373279" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/70/86/ad/7086adf5c599936dfd87c431ff2db36b.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/70/86/ad/7086adf5c599936dfd87c431ff2db36b.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515373279" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/353251164515372679" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/bd/df/32/bddf3280b485677223c2d1e41505c71a.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/bd/df/32/bddf3280b485677223c2d1e41505c71a.jpg&quot;); padding-bottom: 149.789%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/353251164515372679" data-pin-log="embed_grid"></span></span><span class="PIN_1511322885842_img" data-pin-href="https://www.pinterest.com/pin/338121884516095818" data-pin-log="embed_grid" data-pin-src="https://i.pinimg.com/237x/f7/e7/de/f7e7deaed53e79e622105554f143026a.jpg" style="background-image: url(&quot;https://i.pinimg.com/237x/f7/e7/de/f7e7deaed53e79e622105554f143026a.jpg&quot;); padding-bottom: 59.4937%;"><span class="PIN_1511322885842_backgroundColor" data-pin-href="https://www.pinterest.com/pin/338121884516095818" data-pin-log="embed_grid"></span></span></span></span></span><span class="PIN_1511322885842_ft" data-pin-href="https://www.pinterest.com/templatemonster/pins/follow/?guid=a4RDimcY0gW3" data-pin-log="embed_user_ft"><span class="PIN_1511322885842_button" data-pin-href="https://www.pinterest.com/templatemonster/pins/follow/?guid=a4RDimcY0gW3" data-pin-log="embed_user_ft"><span class="PIN_1511322885842_label PIN_1511322885842_bottom" data-pin-href="https://www.pinterest.com/templatemonster/pins/follow/?guid=a4RDimcY0gW3" data-pin-log="embed_user_ft"><span class="PIN_1511322885842_string" data-pin-href="https://www.pinterest.com/templatemonster/pins/follow?guid=a4RDimcY0gW3" data-pin-log="embed_user_ft">Theo dõi trên </span><span class="PIN_1511322885842_logo" data-pin-href="https://www.pinterest.com/templatemonster/pins/follow?guid=a4RDimcY0gW3" data-pin-log="embed_user_ft"></span></span></span></span></span>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = '//assets.pinterest.com/js/pinit.js';
+    f.parentNode.insertBefore(p, f);
+  }(document));
+</script>
+      <div class="clear"></div>
+      <h3>Our Location</h3>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row">
+                        <div class="col-sm-4">
+              <a href="./">
+                <img src="image/cache/catalog/logo-268x50.png" alt="Sports Shoes" title="Sports Shoes" class="img-thumbnail">
+              </a>
+            </div>
+                        <div class="col-sm-4">
+              <div class="icon material-design-phone370">
+                <strong>Telephone</strong><br>
+                <a href="callto:800-2345-6789">800-2345-6789</a>
+              </div>
+            </div>
+                        <div class="col-sm-4">
+              <div class="icon fa-key">
+                <strong>Opening Hours</strong><br>
+                7 days a week from 8:00 am to 5:00 pm             </div>
+            </div>
+                        <div class="col-sm-4">
+              <strong>Sports Shoes</strong><br>
+              <address>
+                                <a href="//maps.google.com/maps?q=40.6700%2C+-73.9400&amp;hl=en-gb&amp;t=m&amp;z=15" target="_blank">
+                  My Company Glasgow D04 89GR               </a>
+                              </address>
+            </div>
+                        <div class="col-sm-4">
+              <div class="icon fa-fax">
+                <strong>Fax</strong><br>
+                <a href="callto:800-2345-6790">800-2345-6790</a>
+              </div>
+            </div>
+                                    <div class="col-sm-4">
+              <div class="icon fa-comments-o">
+                <strong>Comments</strong><br>
+                We are glad to hear from you              </div>
+            </div>
+                      </div>
+        </div>
+      </div>
+            <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-name">Your Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="name" value="" id="input-name" class="form-control">
+                          </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-email">E-Mail Address</label>
+            <div class="col-sm-10">
+              <input type="text" name="email" value="" id="input-email" class="form-control">
+                          </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-enquiry">Enquiry</label>
+            <div class="col-sm-10">
+              <textarea name="enquiry" rows="10" id="input-enquiry" class=""></textarea>
+                          </div>
+          </div>
+                  </fieldset>
+        <div class="buttons">
+          <div class="pull-right">
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+        </div>
+      </form>
+          </div>
+      </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <h5>Information</h5>
+        <ul class="list-unstyled">
+          <li><a href="about_us.html">About</a></li>
+          <li><a href="delivery_information.html">Delivery Information</a></li>
+          <li><a href="privacy_policy.html">Privacy Policy</a></li>
+          <li><a href="term_page.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <h5>Customer Service</h5>
+        <ul class="list-unstyled">
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="return_add.html">Returns</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+          <li><a href="simple_blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-2">
+        <h5>Extras</h5>
+        <ul class="list-unstyled">
+          <li><a href="manufacturer.html">Brands</a></li>
+          <li><a href="voucher.html">Gift Certificates</a></li>
+          <li><a href="affiliate.html">Affiliates</a></li>
+          <li><a href="special.html">Specials</a></li>
+          <li><a href="account_page.html">My Account</a></li>
+          <li><a href="history_page.html">Order History</a></li>
+          <li><a href="wishlist.html">Wish List</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4">
+     <div class="footer_box">
+    <div class="footer_modules"><!-- begin olark code -->
+
+<!-- end olark code --><div id="tm-newsletter" class="box newsletter">
+  <div class="box-heading"><h3>Newsletter</h3></div>
+  <div class="box-content">
+    <p class="newsletter-description">Enter your email address to receive all news, updates 
+on new arrivals, special offers and other discount 
+information.</p>    <form method="post" enctype="multipart/form-data" id="tm-newsletter-form">
+      <div class="tm-login-form">
+        <input type="text" name="tm_newsletter_email" value="" placeholder="Email"
+        id="input-tm-newsletter-email" class="form-control"/>
+      </div>
+      <button type="submit" id="tm-newsletter-button" class="dropdown-btn">
+        Subscribe     </button>
+      <span id="tm-newsletter_error" class="newsletter-error"></span>
+      <span id="tm-newsletter_success" class="newsletter-success"></span>
+      <label class="control-label" for="input-tm-newsletter-email"></label>
+    </form>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $('#tm-newsletter').submit(function (e) {
+      e.preventDefault();
+      var email = $("#input-tm-newsletter-email").val();
+      var emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/igm;
+      if (emailRegex.test(email)) {
+        var dataString = 'tm_newsletter_email=' + email;
+        $.ajax({
+          type: "POST",
+          url: "#",
+          data: dataString,
+          cache: false,
+          success: function (result) {
+            if (!result){
+              $('#tm-newsletter_error').html('');
+              $('#tm-newsletter_success').stop(true, true).html('You have successfully subscribed').fadeIn(300).delay(4000).fadeOut(300);
+            }else{
+              $('#tm-newsletter_success').html('');
+              $('#tm-newsletter_error').stop(true, true).html(result).fadeIn(300).delay(4000).fadeOut(300);
+            }
+          }
+        });
+      } else {
+        $('#tm-newsletter_success').html('');
+        $('#tm-newsletter_error').stop(true, true).html('Please enter a valid e-mail!').fadeIn(300).delay(4000).fadeOut(300);
+      }
+    });
+  });
+</script>
+<div class="box-heading"><h3>Follow Us</h3></div>
+<ul class="social-list list-unstyled">
+  <li><a href="#" title="" data-toggle="tooltip"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#" title="" data-toggle="tooltip"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="#" title="" data-toggle="tooltip"><i class="fa fa-google-plus"></i></a></li>
+</ul>
+</div>
+ </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      Powered By <a href="https://www.luatsutunhan.com">luatsutunhan.com</a><br /> Sports Shoes &copy; 2017<!-- [[%FOOTER_LINK]] -->
+    </div>
+  </div>
+</footer>
+<div class="ajax-overlay"></div>
+</div>
+<script src="js/jquery.matchHeight.js" type="text/javascript"></script>
+<script src="js/device.min.js" type="text/javascript"></script>
+<script src="js/livesearch.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</body></html>
