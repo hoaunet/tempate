@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en-US">
+<head >
+    <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
+    <script>
+    var require = {
+        "baseUrl": "https://ld-magento.template-help.com/magento_62091/pub/static/frontend/TemplateMonster/theme075/en_US"
+    };
+</script>
+        <meta charset="utf-8"/>
+<meta name="description" content="Evolveris"/>
+<meta name="keywords" content="Evolveris"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ecommerce10</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://ld-magento.template-help.com/magento_62091/pub/static/_cache/merged/bb7c102b8d9762066ca3ae6098d7a9a7.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Sarina" />
+<link  rel="stylesheet" type="text/css"  media="print" href="css/print.min.css" />
+<script  type="text/javascript"  src="https://ld-magento.template-help.com/magento_62091/pub/static/_cache/merged/cd284691a81f7787c5f9654176a7adb3.min.js"></script>
+<link  rel="stylesheet" type="text/css" media="all" href="https://ld-magento.template-help.com/magento_62091/newsletter_popup/css/index/" />
+<link  rel="stylesheet" type="text/css" media="all" href="https://ld-magento.template-help.com/magento_62091/theme_options/css/index/" />
+<link  rel="icon" type="image/x-icon" href="favicon.ico" />
+<link  rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "images/loader-2.gif"}}' class="cms-home cms-index-index page-layout-1column">
+    <script> var compareProductAddAjax = 1;</script>
+<script type="text/x-magento-init">
+{"*": {"comparePopup": []}}
+</script>
+<div id="productComparePopup" style="display: none;"></div>
+<style>
+
+    #page-preloader{
+        background-color: #ffffff;
+            }  
+
+    #page-preloader .spinner:before{
+        background-color: #30a0dd;
+    }
+    #page-preloader .spinner:after{
+        background-color: #3bb141;
+    }
+
+</style>
+<div class="page-wrapper">
+    <header class="page-header">
+        <div class="rd-navbar">
+            <div class="header-content">
+                <div class="panel page-header__panel">
+                    <div class="container">
+                        <div class="page-header__panel-right">
+                            <div class="add_header_info">
+                                <div class="wrap-text">
+                                    <span class="icon fl-outicons-phone14"></span>
+                                    <a href="tel:+3(800)2345-6789">+3(800) 2345-6789</a>
+                                    <p class="box-offer-desc">Round-the-clock free hotline (24/7)</p>
+                                </div>
+                                <div class="wrap-text">
+                                    <span class="icon fl-outicons-clock169"></span>
+                                    <p class="box-offer-desc">Hours: 7 days a week from 9:00 am to 7:00 pm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-header__panel-left">
+                            <div class="sm-header_customer-menu-container"><button class="sm-header_customer-menu-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+                                <div class="sm-header_customer-menu">
+                                    <ul class="header links">
+                                        <li><a href="account_page.html" >My Account</a></li>
+                                        <li class="link wishlist" data-bind="scope: 'wishlist'"><a href="wishlist.html">My Wish List
+                                            <span data-bind="text: parseInt(wishlist().counter) || 0" class="counter qty"></span></a>
+                                        </li>
+        <script type="text/x-magento-init">
+            {
+                "*": {
+                    "Magento_Ui/js/core/app": {
+                        "components": {
+                            "wishlist": {
+                                "component": "Magento_Wishlist/js/view/wishlist"
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+                                        <li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+                                            <a class="action compare" title="Compare Products"
+                                               data-bind="attr: {'href': compareProducts().listUrl}"
+                                            >
+                                                Compare        <span class="counter qty" data-bind="text: num = isNaN(parseInt(compareProducts().countCaption)) ? 0 : parseInt(compareProducts().countCaption)"></span>
+                                            </a>
+                                        </li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+                                        <li><a href="register_page.html" >Create an Account</a></li><li class="authorization-link" data-label="or">
+                                            <a href="login.html">  Sign In    </a>
+                                        </li>
+                                    </ul>        
+                                    <div class="greet welcome" data-bind="scope: 'customer'">
+                                        <!-- ko if: customer().fullname  -->
+                                        <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+                                        </span>
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: customer().fullname  -->
+                                        <span data-bind="html:'Welcome to our online store!'"></span>
+                                        <!-- /ko -->
+                                    </div>
+                                    <script type="text/x-magento-init">
+                                    {
+                                        "*": {
+                                            "Magento_Ui/js/core/app": {
+                                                "components": {
+                                                    "customer": {
+                                                        "component": "Magento_Customer/js/view/customer"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    </script>
+        
+                                </div>
+                            </div>
+                            <div class="header-switchers"></div>
+                        </div>
+                    </div>
+                </div>
+            <div class="page-header__content">
+                <div class="container">
+                    <div class="top-container">
+                        <div class="page-header__content-left"><strong class="logo"><img src="images/logo.png" alt="logo" width="372" height="53"/></strong>
+</div><div class="page-header__content-logo"><div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="#" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://ld-magento.template-help.com/magento_62091/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Search entire store here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <div class="nested">
+    <a class="action advanced" href="https://ld-magento.template-help.com/magento_62091/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Search"
+                        class="action search">
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</div><div class="page-header__content-right">        <div class="greet welcome" data-bind="scope: 'customer'">
+            <!-- ko if: customer().fullname  -->
+            <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+            </span>
+            <!-- /ko -->
+            <!-- ko ifnot: customer().fullname  -->
+            <span data-bind="html:'Welcome to our online store!'"></span>
+            <!-- /ko -->
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+        
+    <div data-block="minicart" class="minicart-wrapper">
+        <a class="action showcart" href="https://ld-magento.template-help.com/magento_62091/checkout/cart/"
+                                          data-bind="scope: 'minicart_content'">
+                <span class="text"></span>
+            <span class="counter qty empty"
+                  data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+                <span class="counter-number">
+                    <!-- ko if: !getCartParam('summary_count') -->
+                        <!-- ko text: 0 --><!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko if: getCartParam('summary_count') -->
+                            <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                    <!-- /ko -->
+                </span>
+                <span class="counter-label">
+                    <!-- ko if: getCartParam('summary_count') == 1 -->
+                        <!-- ko i18n: 'item' --><!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko if: getCartParam('summary_count') > 1 -->
+                        <!-- ko i18n: 'items' --><!-- /ko -->
+                    <!-- /ko -->
+                </span>
+            </span>
+            <span class="showcart-label">My Cart</span>
+        </a>
+                    <div class="block block-minicart empty"
+                 data-role="dropdownDialog"
+                 data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnClickOutside": true,
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+                <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                    <!-- ko template: getTemplate() --><!-- /ko -->
+                </div>
+                            </div>
+                <script>
+            window.checkout = {"shoppingCartUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/checkout\/cart\/","checkoutUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/checkout\/","updateItemQtyUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/","minicartMaxItemsVisible":5,"websiteId":"1","customerLoginUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/captcha\/refresh\/","isRequired":false}}};
+        </script>
+        <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://ld-magento.template-help.com/magento_62091/pub/static/frontend/TemplateMonster/theme075/en_US/images/loader-1.gif"
+        }
+    }
+
+        </script>
+    </div>
+
+
+</div></div><div class="page-header__content-menu"><div class="sm-header-panel-canvas"></div>
+
+<div class="sm-header-nav-wrap">
+                            <!-- RD Navbar Toggle -->
+        <button class="sm-header-nav-toggle"><span></span></button>
+        <!-- END RD Navbar Toggle -->
+        <!-- Top Nav -->
+        <nav class="navigation  tm-top-navigation" role="navigation" >
+            <ul data-mage-init='{"megamenu":{"menus": "li > ul:not(.mm-submenu), .megamenu-wrapper", "position":{"my":"left top","at":"left bottom"}, "differentPositionMenus":".megamenu-wrapper", "differentPosition":{"my":"left top","at":"left bottom","of":".navigation"}}}'>
+                <li  class="level0 nav-1 first level-top  parent"><a href="https://ld-magento.template-help.com/magento_62091/vegetables.html"  class="level-top " ><span>Vegetables  </span></a>
+<!-- For sidebar menu: add class "in-sidebar" to "tm-megamenu" div -->
+
+<div class="tm-megamenu megamenu-wrapper submenu ">
+    <div class="container">
+        <div class="row">
+    <div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-01.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/tomato-seeds-plants.html">
+                        Tomato Seeds & Plants        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-02.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/cucumber-seeds.html">
+                        Cucumber Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-03.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/carrot-seeds.html">
+                        Carrot Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-04.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/cabbage-seeds.html">
+                        Cabbage Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-05_1.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/broccoli-seeds.html">
+                        Broccoli Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-06.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/pepper-seeds.html">
+                        Pepper Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-07.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/bean-seeds.html">
+                        Bean Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-08.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/hot-pepper-seeds.html">
+                        Hot Pepper Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-09.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/garlic-seeds.html">
+                        Garlic Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-10.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/swiss-chard-seeds.html">
+                        Swiss Chard Seeds         </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-11.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/corn-seeds.html">
+                        Corn Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-2 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                    <span class="mm-image"><img src="https://ld-magento.template-help.com/magento_62091/pub/media/catalog/category/mm-12.jpg" alt=""></span>
+                <a href="https://ld-magento.template-help.com/magento_62091/vegetables/potato-seeds.html">
+                        Potato Seeds        </a>
+        <ul class="mm-submenu level2">
+                    </ul>
+    </li>
+</ul></div></div>    </div>
+</div></li><li  class="level0 nav-2 level-top  parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers.html"  class="level-top " ><span>Flowers  </span></a><ul class="level0 submenu rd-navbar-dropdown"><li  class="level1 nav-2-1 first parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers/vegetables.html" ><span>Vegetables</span></a><ul class="level1 submenu rd-navbar-dropdown"><li  class="level2 nav-2-1-1 first"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/vegetables/vegetables.html" ><span>Vegetables </span></a></li><li  class="level2 nav-2-1-2"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/vegetables/herbs.html" ><span>Herbs</span></a></li><li  class="level2 nav-2-1-3"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/vegetables/flowers.html" ><span>Flowers</span></a></li><li  class="level2 nav-2-1-4"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/vegetables/organics.html" ><span>Organics</span></a></li><li  class="level2 nav-2-1-5 last"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/vegetables/fruits.html" ><span>Fruits</span></a></li></ul></li><li  class="level1 nav-2-2 parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers/organics.html" ><span>Organics</span></a><ul class="level1 submenu rd-navbar-dropdown"><li  class="level2 nav-2-2-1 first"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/organics/organics.html" ><span>Organics</span></a></li><li  class="level2 nav-2-2-2"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/organics/flowers.html" ><span>Flowers</span></a></li><li  class="level2 nav-2-2-3"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/organics/herbs.html" ><span>Herbs</span></a></li><li  class="level2 nav-2-2-4"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/organics/vegetables.html" ><span>Vegetables </span></a></li><li  class="level2 nav-2-2-5 last"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/organics/fruits.html" ><span>Fruits</span></a></li></ul></li><li  class="level1 nav-2-3 parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers/fruits.html" ><span>Fruits</span></a><ul class="level1 submenu rd-navbar-dropdown"><li  class="level2 nav-2-3-1 first"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/fruits/fruits.html" ><span>Fruits</span></a></li><li  class="level2 nav-2-3-2"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/fruits/vegetables.html" ><span>Vegetables </span></a></li><li  class="level2 nav-2-3-3"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/fruits/herbs.html" ><span>Herbs</span></a></li><li  class="level2 nav-2-3-4"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/fruits/flowers.html" ><span>Flowers</span></a></li><li  class="level2 nav-2-3-5 last"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/fruits/organics.html" ><span>Organics</span></a></li></ul></li><li  class="level1 nav-2-4 parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers/herbs.html" ><span>Herbs  </span></a><ul class="level1 submenu rd-navbar-dropdown"><li  class="level2 nav-2-4-1 first"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/herbs/flowers.html" ><span>Flowers </span></a></li><li  class="level2 nav-2-4-2"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/herbs/herbs.html" ><span>Herbs  </span></a></li><li  class="level2 nav-2-4-3"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/herbs/fruits.html" ><span>Fruits</span></a></li><li  class="level2 nav-2-4-4"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/herbs/organics.html" ><span>Organics</span></a></li><li  class="level2 nav-2-4-5 last"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/herbs/vegetables.html" ><span>Vegetables</span></a></li></ul></li><li  class="level1 nav-2-5 last parent"><a href="https://ld-magento.template-help.com/magento_62091/flowers/flowers.html" ><span>Flowers </span></a><ul class="level1 submenu rd-navbar-dropdown"><li  class="level2 nav-2-5-1 first"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/flowers/flowers.html" ><span>Flowers </span></a></li><li  class="level2 nav-2-5-2"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/flowers/herbs.html" ><span>Herbs  </span></a></li><li  class="level2 nav-2-5-3"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/flowers/fruits.html" ><span>Fruits</span></a></li><li  class="level2 nav-2-5-4"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/flowers/organics.html" ><span>Organics</span></a></li><li  class="level2 nav-2-5-5 last"><a href="https://ld-magento.template-help.com/magento_62091/vegetables/flowers/vegetables.html" ><span>Vegetables</span></a></li></ul></li></ul></li><li  class="level0 nav-3 level-top "><a href="https://ld-magento.template-help.com/magento_62091/herbs.html"  class="level-top " ><span>Herbs  </span></a></li><li  class="level0 nav-4 level-top "><a href="https://ld-magento.template-help.com/magento_62091/fruits.html"  class="level-top " ><span>Fruits</span></a></li><li  class="level0 nav-5 level-top  parent"><a href="https://ld-magento.template-help.com/magento_62091/organics.html"  class="level-top " ><span>Organics</span></a><ul class="level0 submenu rd-navbar-dropdown"><li  class="level1 nav-5-1 first"><a href="https://ld-magento.template-help.com/magento_62091/organics/new-for-2017.html" ><span>new for 2017</span></a></li><li  class="level1 nav-5-2"><a href="https://ld-magento.template-help.com/magento_62091/organics/vegetables.html" ><span>Vegetables</span></a></li><li  class="level1 nav-5-3"><a href="https://ld-magento.template-help.com/magento_62091/organics/herbs.html" ><span>Herbs</span></a></li><li  class="level1 nav-5-4 last"><a href="https://ld-magento.template-help.com/magento_62091/organics/flowers.html" ><span>Flowers</span></a></li></ul></li><li  class="level0 nav-6 last level-top  parent"><a href="https://ld-magento.template-help.com/magento_62091/product-types.html"  class="level-top " ><span>Product types</span></a><ul class="level0 submenu rd-navbar-dropdown"><li  class="level1 nav-6-1 first"><a href="https://ld-magento.template-help.com/magento_62091/product-types/configurable-products.html" ><span>Configurable products</span></a></li><li  class="level1 nav-6-2"><a href="https://ld-magento.template-help.com/magento_62091/product-types/simple-products.html" ><span>Simple products</span></a></li><li  class="level1 nav-6-3 last"><a href="https://ld-magento.template-help.com/magento_62091/product-types/products-with-options.html" ><span>Products with options</span></a></li></ul></li>            </ul>
+        </nav>
+
+    </div>
+</div></div></div></div></div></header>
+<div class="breadcrumbs">
+    <div class="container">
+        <ul class="items">
+            <li class="item home"><a href="index.html" title="Go to Home Page">Home</a></li>
+            <li class="item search"><strong>Catalog Advanced Search</strong></li>
+        </ul>
+    </div>
+</div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page-title-wrapper">
+    <div class="container">
+        <h1 class="page-title">
+            <span class="base" data-ui-id="page-title-wrapper">Advanced Search</span>        </h1>
+            </div>
+</div>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <div data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages"></div>
+    <div data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages"></div>
+</div>
+
+</div><div class="columns container"><div class="column main"><input name="form_key" type="hidden" value="UBlqIlq7NbK0IMuF"><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"customerRegisterUrl":"register_page.html","customerForgotPasswordUrl":"forgotpassword.html","baseUrl":"account_page.html"};
+    </script>
+    <!-- ko template: getTemplate() -->
+<!-- /ko -->    
+</div>
+<script>
+require([
+    "jquery",
+    "jquery/ui"
+], function($){
+
+//<![CDATA[
+    $.extend(true, $, {
+        calendarConfig: {
+            dayNames: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            dayNamesMin: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+            monthNames: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+            monthNamesShort: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+            infoTitle: "About the calendar",
+            firstDay: 0,
+            closeText: "Close",
+            currentText: "Go Today",
+            prevText: "Previous",
+            nextText: "Next",
+            weekHeader: "WK",
+            timeText: "Time",
+            hourText: "Hour",
+            minuteText: "Minute",
+            dateFormat: $.datepicker.RFC_2822,
+            showOn: "button",
+            showAnim: "",
+            changeMonth: true,
+            changeYear: true,
+            buttonImageOnly: null,
+            buttonImage: null,
+            showButtonPanel: true,
+            showWeek: true,
+            timeFormat: '',
+            showTime: false,
+            showHour: false,
+            showMinute: false
+        }
+    });
+
+    enUS = {"m":{"wide":["January","February","March","April","May","June","July","August","September","October","November","December"],"abbr":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]}}; // en_US locale reference
+//]]>
+
+});
+</script>
+<form class="form search advanced" action="#" method="get" id="form-validate" novalidate="novalidate">
+<fieldset class="fieldset">
+    <legend class="legend"><span>Search Settings</span></legend><br>
+                <div class="field name">
+            <div class="control">
+                            <div class="field  custom-label">
+                    <label class="label">
+                        <span>Product Name</span>
+                    </label>
+                    <div class="control">
+                        <input type="text" name="name" id="name" value="" title="Product Name" class="input-text validate-length maximum-length-255" maxlength="128">
+                    </div>
+                </div>
+                        </div>
+        </div>
+                <div class="field sku">
+            <div class="control">
+                            <div class="field  custom-label">
+                    <label class="label">
+                        <span>SKU</span>
+                    </label>
+                    <div class="control">
+                        <input type="text" name="sku" id="sku" value="" title="SKU" class="input-text validate-length maximum-length-64" maxlength="128">
+                    </div>
+                </div>
+                        </div>
+        </div>
+                <div class="field description">
+            <div class="control">
+                            <div class="field  custom-label">
+                    <label class="label">
+                        <span>Description</span>
+                    </label>
+                    <div class="control">
+                        <input type="text" name="description" id="description" value="" title="Description" class="input-text " maxlength="128">
+                    </div>
+                </div>
+                        </div>
+        </div>
+                <div class="field short_description">
+            <div class="control">
+                            <div class="field  custom-label">
+                    <label class="label">
+                        <span>Short Description</span>
+                    </label>
+                    <div class="control">
+                        <input type="text" name="short_description" id="short_description" value="" title="Short Description" class="input-text " maxlength="128">
+                    </div>
+                </div>
+                        </div>
+        </div>
+                <div class="field price">
+            <div class="control">
+                            <div class="range price fields group group-2">
+                    <div class="field no-label custom-label">
+                        <label class="label" for="price">
+                            <span>Price From (USD)</span>
+                        </label>
+                        <div class="control">
+                            <input name="price[from]" value="" id="price" title="Price" class="input-text" type="text" maxlength="128" data-validate="{number:true, 'less-than-equals-to':'#price_to'}">
+                        </div>
+                    </div>
+                    <span class="separator">-</span>
+                    <div class="field with-addon no-label custom-label">
+                        <label class="label" for="price">
+                            <span>Price To (USD)</span>
+                        </label>
+                        <div class="control">
+                            <div class="addon">
+                                <input name="price[to]" value="" id="price_to" title="Price" class="input-text" type="text" maxlength="128" data-validate="{number:true, 'greater-than-equals-to':'#price'}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+                <div class="field brand_id">
+            <div class="control">
+                                <select name="brand_id[]" id="brand_id" class="multiselect" title="Brand" multiple="multiple" size="4"><option value="">-- Please Select --</option><option value="1">Botanical Interests</option><option value="2">Seed Savers</option><option value="3">Rare Seeds</option><option value="4">Clear Creek Seeds</option><option value="5">Southern Exposure Seed Exchange</option><option value="6">Fedco Seeds </option></select>                            </div>
+        </div>
+    </fieldset>
+<div class="actions-toolbar">
+  <div class="primary">
+    <button type="submit" class="action search primary" title="Search">
+        <span>Search</span>
+    </button>
+  </div>
+</div>
+</form>
+<script>
+require([
+    "jquery",
+    "mage/mage",
+    "mage/validation"
+], function($){
+    $('#form-validate').mage('validation', {
+            errorPlacement: function (error, element) {
+                var parent = element.parent();
+                if (parent.hasClass('range')) {
+                    parent.find(this.errorElement + '.' + this.errorClass).remove().end().append(error);
+                } else {
+                    error.insertAfter(element);
+                }
+            },
+            messages: {
+                'price[to]': {'greater-than-equals-to': 'Please enter a valid price range.'},
+                'price[from]': {'less-than-equals-to': 'Please enter a valid price range.'}
+            }
+        });
+});
+</script>
+</div></div></main>
+<footer class="page-footer">
+    <div class="container content footer">
+        <div class="subscribe-box">
+            <div class="block newsletter">
+                <div class="content">
+                    <div class="subscribe-text">
+                        <h4><strong>Newsletter</strong></h4>
+                        <label class="label" for="newsletter"><span>Get the latest news on new arrivals, gifts, special offers and other discount information.</span></label>
+                    </div>
+                    <form class="form subscribe" novalidate action="#" method="post" data-mage-init='{"validation": {"errorClass": "mage-error"}}'   id="newsletter-validate-detail">
+                        <div class="field newsletter">
+                            <div class="control">
+                                <input name="email" type="email" id="newsletter"   placeholder="Enter your email address"   data-validate="{required:true, 'validate-email':true}"/>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="action subscribe primary" title="Subscribe" type="submit">
+                                <span>Subscribe</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 order-md-5">
+                <div class="footer-col"><h4>About</h4>
+                    <div class="footer-col-content about-footer-text"><p>At Evolveris, we offer only non-GMO varieties that are very special for home gardeners, based on great flavor, easy culture and exceptional garden performance. This seed line is our great selection of new, exciting and unusual seed choices of time-tested heirlooms, certified organic seeds, the best international hybrids and fine open-pollinated varieties.</p></div><style>
+                        @media (min-width: 768px) {
+                            ul.social-links.position-footer {
+                                text-align: left;
+                            }
+                        }
+                    </style>
+                    <ul class="social-links position-footer type-font">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook" style="font-size: 15px; line-height: 40px;"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter" style="font-size: 15px; line-height: 40px;"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-google-plus" style="font-size: 15px; line-height: 40px;"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram" style="font-size: 15px; line-height: 40px;"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube" style="font-size: 15px; line-height: 40px;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="footer-col"><h4>Information</h4>
+                    <div class="footer-col-content">
+                        <ul><li><a href="https://ld-magento.template-help.com/magento_62091/about-us">About Us</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/customer-service">Customer Service</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/template-settings">Template Settings</a></li>
+                        </ul>
+                        <ul class="footer links"><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/search/term/popular/">Search Terms</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/contact/">Contact Us</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/sales/guest/form/">Orders and Returns</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/catalogsearch/advanced/" data-action="advanced-search">Advanced Search</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62091/newsletter/manage/index/" class="newsletter-popup-link">Newsletter Subscription</a></li></ul></div></div></div><div class="col-md-4 col-lg-2"><div class="footer-col"><div class="footer-col">
+                    <h4>Why buy from us</h4>
+                    <div class="footer-col-content">
+                        <ul>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/shipping-delivery">Shipping & Delivery</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/secure-payment">Secure payment</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/support">Support</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/guarantee">Guarantee</a></li>
+                            <li><a href="https://ld-magento.template-help.com/magento_62091/terms-conditions">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div></div></div><div class="col-md-4 col-lg-2"><div class="footer-col">
+    <h4>My account</h4>
+    <div class="footer-col-content">
+        <ul>
+            <li><a href="https://ld-magento.template-help.com/magento_62091/customer/account/login/">Sign In</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62091/checkout/cart/">View Cart</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62091/wishlist/">My Wishlist</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62091/faq">FAQ</a></li>
+        </ul>
+    </div>
+</div>
+</div><div class="col-md-6 col-lg-3 order-md-4"><script type="text/x-magento-init">
+{"*": {"facebookPagePlugin": {"pluginPageData":{"category":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"homepage":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"cms":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"product":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"url":"https:\/\/www.facebook.com\/TemplateMonster"}}}}
+</script></div></div></div><div class="footer-panel"><div class="container"><small class="copyright">
+    <span>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Magento Demo Store. All Rights Reserved.</span>
+</small>
+<div class="payment"><img src="images/payment.png" alt="banner-image"></div></div></div></footer><script type="text/x-magento-init">
+    {
+        "*": {
+            "theme": {}
+        }
+    }
+</script>    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                if (versionObj.version !== '285ced4100e3a63474362f419245eb1a49854093') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: '285ced4100e3a63474362f419245eb1a49854093'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "/magento_62091",
+                "domain": ".ld-magento.template-help.com",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "ajaxWishlist": {"isShowSpinner":true,"isShowSuccessMessage":true,"successMessageText":"Product {product.name} has been added to your wishlist.","customerLoginUrl":"https:\/\/ld-magento.template-help.com\/magento_62091\/customer\/account\/login\/"}        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        ".newsletter-popup": {
+            "newsletterPopup": {"customClass":"","timeout":0,"isShowOnStartup":true,"isShowOnFooter":false,"title":"Enter your e-mail address to","content":"<span class=\"size-1\">Get up to<\/span>\r\n<span class=\"size-2\"><span class=\"banner-label\">50<i>%<b>off<\/b><\/i><\/span><\/span>\r\n<span class=\"size-3\">Any new order<\/span>","submit":"get promo code","cancel":"No Thanks, I prefer to pay full price","socialLinks":[]}        }
+    }
+</script><div class="newsletter-popup" style="display:none;">
+    <div class="block newsletter">
+    <form class="form subscribe" novalidate  action="#"  method="post"  data-mage-init='{"validation": {"errorClass": "mage-error"}}'   id="newsletter-validate-detail">
+        <div class="field newsletter">
+            <div class="control">
+                <input name="email" type="email" id="newsletter-5a297b87a1bca"                        placeholder="Enter your email address"
+                            data-validate="{required:true, 'validate-email':true}"/>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+<script type="text/x-magento-init">
+{"*": {"googleMapOptions": {"pluginPageData":{"contacts":{"width":"100%","height":"300","show_on":null,"selector":null},"api":null}}}}
+</script>
+<script type="text/javascript">
+    require([
+        'jquery',
+        'googleMapPagePlugin'
+    ], function($){
+        $(window).on('load.map', function(){
+
+           if(isEnabled()){
+               loadScript();
+           }
+        })
+    });
+
+    function isEnabled()
+    {
+        var home = 0,
+            contacts = 1,
+            footer = 0,
+            showOnHome,
+            showOnContacts,
+            showInFooter,
+            body = document.getElementsByTagName('body')[0];
+
+        showOnHome = function(){
+            if(body.className.indexOf('cms-index-index') < 0){
+                return false;
+            }
+
+            return home;
+        };
+
+        showOnContacts = function(){
+            if(body.className.indexOf('contact-index-index') < 0){
+                return false;
+            }
+
+            return contacts;
+        };
+
+        showInFooter = function(){
+            return footer;
+        };
+
+        return (showOnHome() || showOnContacts() || showInFooter());
+    }
+
+
+    function loadScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "//maps.googleapis.com/maps/api/js?key=&callback=initMap";
+        document.body.appendChild(script);
+    }
+
+    function initMap() {
+        
+            var mapOptions = {
+                center: new google.maps.LatLng(40.5899796,-73.8820439),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                zoom: 8,
+                disableDefaultUI: 0,
+                scrollwheel: 1,
+                draggable: 1,
+                            };
+
+            var element = document.getElementById("map_canvas_contacts");
+            if (element) {
+                var map_contacts = new google.maps.Map(element, mapOptions);
+            }
+
+                        }
+</script>
+<div class="scrollToTop">To Top</div></div>    </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+</html>
