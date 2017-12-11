@@ -1,0 +1,1967 @@
+<!doctype html>
+<html lang="en-US">
+    <head >
+        
+        <meta charset="utf-8"/>
+<meta name="description" content="cosmetta"/>
+<meta name="keywords" content="cosmetta"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cosmetta</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="css/style_font.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/css/print.min.css" />
+<script  type="text/javascript"  src="https://ld-magento.template-help.com/magento_62093/pub/static/_cache/merged/47ac3b491d6412cff63dfbbd5595330a.min.js"></script>
+<link  rel="stylesheet" type="text/css" media="all" href="https://ld-magento.template-help.com/magento_62093/newsletter_popup/css/index/" />
+<link  rel="stylesheet" type="text/css" media="all" href="https://ld-magento.template-help.com/magento_62093/theme_options/css/index/" />
+<link  rel="icon" type="image/x-icon" href="https://ld-magento.template-help.com/magento_62093/pub/media/theme_options/default/logo_1.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://ld-magento.template-help.com/magento_62093/pub/media/theme_options/default/logo_1.png" />
+            </head>
+    <body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/loader-2.gif"}}' class="cms-home cms-index-index page-layout-1column">
+        <script>
+    var compareProductAddAjax = 1;</script>
+<script type="text/x-magento-init">
+{"*": {"comparePopup": []}}
+</script>
+<div id="productComparePopup" style="display: none;">
+</div>
+<style>
+
+    #page-preloader{
+        background-color: #ffffff;
+            }  
+
+    #page-preloader .spinner:before{
+        background-color: #30a0dd;
+    }
+    #page-preloader .spinner:after{
+        background-color: #3bb141;
+    }
+
+</style>
+<div class="page-wrapper"><style>
+    #page-preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+    }
+</style>
+
+<script type="text/javascript">
+    window.onload = function() {
+
+        function fadeOut(el){
+            el.style.opacity = 1;
+
+            var last;
+            var tick = function() {
+                el.style.opacity = +el.style.opacity - (new Date() - last) / 600;
+                last = +new Date();
+
+                if (+el.style.opacity > 0) {
+                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 100);
+                } else{
+                    el.style.display = "none";
+                }
+            };
+            tick();
+        }
+
+        var pagePreloaderId = document.getElementById("page-preloader");
+        setTimeout(
+            function () {
+                fadeOut(pagePreloaderId)
+            }, 1000);
+    };
+</script>
+
+<div id="page-preloader">
+    <div class="cssload-bell">
+        <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+        </div>
+        <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+        </div>
+        <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+        </div>
+        <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+        </div>
+        <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+        </div>
+    </div>
+</div><header class="page-header"><div class="rd-navbar"><div class="header-content"><div class="panel page-header__panel"><div class="container"><div class="page-header__panel-right">        <div class="greet welcome" data-bind="scope: 'customer'">
+            <!-- ko if: customer().fullname  -->
+            <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+            </span>
+            <!-- /ko -->
+            <!-- ko ifnot: customer().fullname  -->
+            <span data-bind="html:'&lt;i class=&quot;fl-outicons-clock169&quot;&gt;&lt;/i&gt; 7 days a week from 9:00 am to 7:00 pm'"></span>
+            <!-- /ko -->
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+        </div><div class="page-header__panel-left"><div class="sm-header_customer-menu-container">
+<button class="sm-header_customer-menu-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+<div class="sm-header_customer-menu"><ul class="header links"><li><a href="https://ld-magento.template-help.com/magento_62093/customer/account/" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <a href="https://ld-magento.template-help.com/magento_62093/wishlist/">My Wish List
+        <span data-bind="text: parseInt(wishlist().counter) || 0" class="counter qty"></span>
+
+    </a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+</script>
+<li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare" title="Compare Products"
+       data-bind="attr: {'href': compareProducts().listUrl}"
+    >
+        Compare        <span class="counter qty" data-bind="text: num = isNaN(parseInt(compareProducts().countCaption)) ? 0 : parseInt(compareProducts().countCaption)"></span>
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<li><a href="https://ld-magento.template-help.com/magento_62093/customer/account/create/" >Create an Account</a></li><li class="authorization-link" data-label="or">
+    <a href="https://ld-magento.template-help.com/magento_62093/customer/account/login/">
+        Sign In    </a>
+</li>
+</ul>        <div class="greet welcome" data-bind="scope: 'customer'">
+            <!-- ko if: customer().fullname  -->
+            <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+            </span>
+            <!-- /ko -->
+            <!-- ko ifnot: customer().fullname  -->
+            <span data-bind="html:'&lt;i class=&quot;fl-outicons-clock169&quot;&gt;&lt;/i&gt; 7 days a week from 9:00 am to 7:00 pm'"></span>
+            <!-- /ko -->
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+        
+</div></div><div class="header-switchers">
+</div></div></div></div><div class="page-header__content"><div class="container"><div class="top-container"><div class="page-header__content-left">       <div class="add_header_info">
+          <span class="icon fl-outicons-phone14"></span>
+          <div class="wrap-text">
+            <div class="box-offer-title">
+              <a href="tel:+3(800)2345-6789">+3(800) 2345-6789</a>
+            </div>
+            <div class="box-offer-desc">Round-the-clock free hotline (24/7)</div>
+          </div>
+        </div>
+</div><div class="page-header__content-logo">    <strong class="logo">
+        <img src="https://ld-magento.template-help.com/magento_62093/pub/media/theme_options/default/logo.png"
+             alt="cosmetta"
+             width="207"             height="44"        />
+    </strong>
+</div><div class="page-header__content-right"><div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://ld-magento.template-help.com/magento_62093/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://ld-magento.template-help.com/magento_62093/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Search entire store here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <div class="nested">
+    <a class="action advanced" href="https://ld-magento.template-help.com/magento_62093/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Search"
+                        class="action search">
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <div data-block="minicart" class="minicart-wrapper">
+        <a class="action showcart" href="https://ld-magento.template-help.com/magento_62093/checkout/cart/"
+                                          data-bind="scope: 'minicart_content'">
+                <span class="text"></span>
+            <span class="counter qty empty"
+                  data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+                <span class="counter-number">
+                    <!-- ko if: !getCartParam('summary_count') -->
+                        <!-- ko text: 0 --><!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko if: getCartParam('summary_count') -->
+                            <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                    <!-- /ko -->
+                </span>
+                <span class="counter-label">
+                    <!-- ko if: getCartParam('summary_count') == 1 -->
+                        <!-- ko i18n: 'item' --><!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko if: getCartParam('summary_count') > 1 -->
+                        <!-- ko i18n: 'items' --><!-- /ko -->
+                    <!-- /ko -->
+                </span>
+            </span>
+            <span class="showcart-label">My Cart</span>
+        </a>
+                    <div class="block block-minicart empty"
+                 data-role="dropdownDialog"
+                 data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnClickOutside": true,
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+                <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                    <!-- ko template: getTemplate() --><!-- /ko -->
+                </div>
+                            </div>
+                <script>
+            window.checkout = {"shoppingCartUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/cart\/","checkoutUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/","updateItemQtyUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/","minicartMaxItemsVisible":5,"websiteId":"1","customerLoginUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/captcha\/refresh\/","isRequired":false}}};
+        </script>
+        <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/loader-1.gif"
+        }
+    }
+
+        </script>
+    </div>
+
+
+</div></div><div class="page-header__content-menu"><div class="sm-header-panel-canvas"></div>
+
+<div class="sm-header-nav-wrap">
+                            <!-- RD Navbar Toggle -->
+        <button class="sm-header-nav-toggle"><span></span></button>
+        <!-- END RD Navbar Toggle -->
+        <!-- Top Nav -->
+        <nav class="navigation  tm-top-navigation" role="navigation" >
+            <ul data-mage-init='{"megamenu":{"menus": "li > ul:not(.mm-submenu), .megamenu-wrapper", "position":{"my":"left top","at":"left bottom"}, "differentPositionMenus":".megamenu-wrapper", "differentPosition":{"my":"left top","at":"left bottom","of":".navigation"}}}'>
+                <li  class="level0 nav-1 first level-top  parent"><a href="https://ld-magento.template-help.com/magento_62093/make-up.html"  class="level-top " ><span>Make-up</span></a>
+<!-- For sidebar menu: add class "in-sidebar" to "tm-megamenu" div -->
+
+<div class="tm-megamenu megamenu-wrapper submenu ">
+  <div class="container">
+        <div class="row">
+    <div class="col-sm-3 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips.html">
+                        Lips        </a>
+        <ul class="mm-submenu level2">
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lipstick.html">Lipstick</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/liquid-lipstick.html">Liquid Lipstick</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-stain.html">Lip Stain</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-gloss.html">Lip Gloss</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-plumper.html">Lip Plumper</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-liner.html">Lip Liner</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-balm-treatment.html">Lip Balm & Treatment</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/lips/lip-sets.html">Lip Sets</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-3 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes.html">
+                        Eyes        </a>
+        <ul class="mm-submenu level2">
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/eye-palettes.html">Eye Palettes</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/mascara.html">Mascara</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/eyeliner.html">Eyeliner</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/eyebrow.html">Eyebrow</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/eyeshadow.html">Eyeshadow</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/eye-primer.html">Eye Primer</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/under-eye-concealer.html">Under-Eye Concealer</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/eyes/false-eyelashes.html">False Eyelashes</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-3 ">
+    <ul class="mm-submenu level1">
+    <li class="item ui-menu-item">
+                <a href="https://ld-magento.template-help.com/magento_62093/make-up/face.html">
+                        Face        </a>
+        <ul class="mm-submenu level2">
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/foundation.html">Foundation</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/bb-cc-cream.html">BB & CC Cream</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/tinted-moisturizer.html">Tinted Moisturizer</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/concealer.html">Concealer</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/face-primer.html">Face Primer</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/setting-spray-powder.html">Setting Spray & Powder</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/color-correct.html">Color Correct</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                                                            <li class="item ui-menu-item">
+                                                            <a href="https://ld-magento.template-help.com/magento_62093/make-up/face/contour.html">Contour</a>
+                                                                                    <ul class="mm-submenu level3 vm-static"
+                            data-mage-init='{"subMenuViewMode": {}}'>
+                                                                                </ul>
+                                    </li>
+                    </ul>
+    </li>
+</ul></div><div class="col-sm-3 ">
+    <div class="static-block">
+    <div class="payment">
+<a href="make-up.html">
+<img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/mm-banner.jpg" alt="banner-image">
+</a>
+</div></div></div></div>    </div>
+</div></li><li  class="level0 nav-2 level-top  parent"><a href="https://ld-magento.template-help.com/magento_62093/skincare.html"  class="level-top " ><span>Skincare</span></a><ul class="level0 submenu rd-navbar-dropdown"><li  class="level1 nav-2-1 first"><a href="https://ld-magento.template-help.com/magento_62093/skincare/primers.html" ><span>Primers</span></a></li><li  class="level1 nav-2-2"><a href="https://ld-magento.template-help.com/magento_62093/skincare/removers.html" ><span>Removers</span></a></li><li  class="level1 nav-2-3 last"><a href="https://ld-magento.template-help.com/magento_62093/skincare/lotions.html" ><span>Lotions</span></a></li></ul></li><li  class="level0 nav-3 level-top "><a href="https://ld-magento.template-help.com/magento_62093/brushes-tools.html"  class="level-top " ><span>Brushes + Tools</span></a></li><li  class="level0 nav-4 level-top "><a href="https://ld-magento.template-help.com/magento_62093/fragrance.html"  class="level-top " ><span>Fragrance</span></a></li><li  class="level0 nav-5 last level-top "><a href="https://ld-magento.template-help.com/magento_62093/new-arrivals.html"  class="level-top " ><span>New Arrivals</span></a></li>            </ul>
+        </nav>
+
+    </div>
+</div></div></div></div></div></header><main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <div data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+    <div data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns container"><div class="column main"><input name="form_key" type="hidden" value="CIJkyn6vqWDpPNw7" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"customerRegisterUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/loader-1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"multishipping\/checkout\/overviewpost":["cart"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"review\/product\/post":["review"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"]},"clientSideSections":["checkout-data"],"baseUrls":["https:\/\/ld-magento.template-help.com\/magento_62093\/"]}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/customer-data":{"sectionLoadUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/section\/load\/","cookieLifeTime":"3600","updateSessionUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/account\/updateSession\/"}}}</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/ld-magento.template-help.com\/magento_62093\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/magento_62093\/"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<div class="widget block block-static-block">
+    <div class="banner-container-1">
+  <div class="row">
+    <div class="col-md-6">
+      <a class="banner-box banner-box-1" href="make-up.html" >
+        <div class="banner-img">
+                                   
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-1.jpg" alt="banner-image">
+           
+                                </div>
+      </a>
+    </div>
+    <div class="col-md-6">
+      <div class="banner-box banner-box-2">
+        <a href="skincare.html" class="banner-img">
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-2.jpg" alt="banner-image">
+        </a>
+      </div>
+      <div class="banner-box banner-box-3">
+        <a href="brushes-tools.html" class="banner-img">
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-3.jpg" alt="banner-image">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="banner-box banner-box-4">
+        <a href="fragrance.html" class="banner-img">
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-4.jpg" alt="banner-image">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="banner-box banner-box-5">
+        <a href="new-arrivals.html" class="banner-img">
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-5.jpg" alt="banner-image">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="banner-box banner-box-6">
+        <a href="new-arrivals.html" class="banner-img">
+          <img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/banner-1_img-6.jpg" alt="banner-image">
+        </a>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+
+
+    <div  class="block widget featured grid featured-product products many-f-products">
+
+    
+        
+
+                                                                        
+            <div class="block-title" data-role="collapsible">
+                <strong aria-level="2">Featured products</strong>
+            </div>
+
+
+            <div class="block-content custom-columns " data-role="content">
+
+                
+                    <div >
+
+                        
+                                                                                        
+                            
+
+                                                            <div class="products-grid widget-new-grid grid ">
+                                    <div class="product-items"
+                                        >
+                                        
+                                        
+                                            <div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_b_moisture_advanced_care_lipcolour_3.png"
+         width="270"
+         height="300"
+         alt="Borghese B Moisture Advanced Care Lipcolour" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_b_moisture_advanced_care_lipcolour_2.png"
+                 width="270"
+                 height="300"
+                 alt="Borghese B Moisture Advanced Care Lipcolour" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Borghese B Moisture Advanced Care Lipcolour"
+                                                               href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour.html"
+                                                               class="product-item-link">
+                                                                Borghese B Moisture Advanced Care Lipcolour                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="1">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-1-widget-new-grid"                data-price-amount="15"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$15.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short">
+                    <div class="rating-summary">
+                <span class="label"><span>Rating:</span></span>
+
+                <div class="rating-result__stars">
+                    <span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__half"></span><span class="rating-star__empty"></span>                </div>
+
+                <div class="rating-result__text">
+                    <span style="width:60%"><span>60%</span></span>
+                </div>
+            </div>
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv\/product\/1\/","data":{"product":"1","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/borghese-effetto-immediato-spa-soothing-tonic.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_effetto_immediato_spa_soothing_tonic_1.png"
+         width="270"
+         height="300"
+         alt="Borghese Effetto Immediato Spa Soothing Tonic" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_effetto_immediato_spa_soothing_tonic_4.png"
+                 width="270"
+                 height="300"
+                 alt="Borghese Effetto Immediato Spa Soothing Tonic" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Borghese Effetto Immediato Spa Soothing Tonic"
+                                                               href="https://ld-magento.template-help.com/magento_62093/borghese-effetto-immediato-spa-soothing-tonic.html"
+                                                               class="product-item-link">
+                                                                Borghese Effetto Immediato Spa Soothing Tonic                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="11">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-11-widget-new-grid"                data-price-amount="23"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$23.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/borghese-effetto-immediato-spa-soothing-tonic.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/borghese-effetto-immediato-spa-soothing-tonic.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"11","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"11","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/cerave-foaming-facial-cleanser.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/c/e/cerave_foaming_facial_cleanser_12_ounce_1.png"
+         width="270"
+         height="300"
+         alt="CeraVe Foaming Facial Cleanser " />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/c/e/cerave_foaming_facial_cleanser_12_ounce_2.png"
+                 width="270"
+                 height="300"
+                 alt="CeraVe Foaming Facial Cleanser " />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="CeraVe Foaming Facial Cleanser "
+                                                               href="https://ld-magento.template-help.com/magento_62093/cerave-foaming-facial-cleanser.html"
+                                                               class="product-item-link">
+                                                                CeraVe Foaming Facial Cleanser                                                             </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="12">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-12-widget-new-grid"                data-price-amount="24"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$24.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/cerave-foaming-facial-cleanser.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/cerave-foaming-facial-cleanser.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"12","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"12","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/cerave-renewing-system-eye-repair.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/c/e/cerave_renewing_system_eye_repair_1.png"
+         width="270"
+         height="300"
+         alt="CeraVe Renewing System Eye Repair" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/c/e/cerave_renewing_system_eye_repair_2.png"
+                 width="270"
+                 height="300"
+                 alt="CeraVe Renewing System Eye Repair" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="CeraVe Renewing System Eye Repair"
+                                                               href="https://ld-magento.template-help.com/magento_62093/cerave-renewing-system-eye-repair.html"
+                                                               class="product-item-link">
+                                                                CeraVe Renewing System Eye Repair                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="13">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-13-widget-new-grid"                data-price-amount="11"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$11.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short">
+                    <div class="rating-summary">
+                <span class="label"><span>Rating:</span></span>
+
+                <div class="rating-result__stars">
+                    <span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__half"></span><span class="rating-star__empty"></span>                </div>
+
+                <div class="rating-result__text">
+                    <span style="width:53%"><span>53%</span></span>
+                </div>
+            </div>
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/cerave-renewing-system-eye-repair.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/cerave-renewing-system-eye-repair.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"13","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"13","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/olay-cc-cream-total-effects-tone-correcting-moisturizer.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_cc_cream_total_effects_tone_correcting_moisturizer_2_.png"
+         width="270"
+         height="300"
+         alt="Olay CC Cream Total Effects Tone Correcting Moisturizer" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_cc_cream_total_effects_tone_correcting_moisturizer_3_.png"
+                 width="270"
+                 height="300"
+                 alt="Olay CC Cream Total Effects Tone Correcting Moisturizer" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Olay CC Cream Total Effects Tone Correcting Moisturizer"
+                                                               href="https://ld-magento.template-help.com/magento_62093/olay-cc-cream-total-effects-tone-correcting-moisturizer.html"
+                                                               class="product-item-link">
+                                                                Olay CC Cream Total Effects Tone Correcting Moisturizer                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="14">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-14-widget-new-grid"                data-price-amount="55"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$55.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short">
+                    <div class="rating-summary">
+                <span class="label"><span>Rating:</span></span>
+
+                <div class="rating-result__stars">
+                    <span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__half"></span><span class="rating-star__empty"></span>                </div>
+
+                <div class="rating-result__text">
+                    <span style="width:53%"><span>53%</span></span>
+                </div>
+            </div>
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/olay-cc-cream-total-effects-tone-correcting-moisturizer.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/olay-cc-cream-total-effects-tone-correcting-moisturizer.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"14","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"14","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/olay-complete-all-day-uv-moisture-cream.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_complete_all_day_uv_moisture_cream_spf_15_1_1.png"
+         width="270"
+         height="300"
+         alt="Olay Complete All Day UV Moisture Cream" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_complete_all_day_uv_moisture_cream_spf_15_4_1.png"
+                 width="270"
+                 height="300"
+                 alt="Olay Complete All Day UV Moisture Cream" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Olay Complete All Day UV Moisture Cream"
+                                                               href="https://ld-magento.template-help.com/magento_62093/olay-complete-all-day-uv-moisture-cream.html"
+                                                               class="product-item-link">
+                                                                Olay Complete All Day UV Moisture Cream                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="16">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-16-widget-new-grid"                data-price-amount="30"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$30.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/olay-complete-all-day-uv-moisture-cream.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/olay-complete-all-day-uv-moisture-cream.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"16","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"16","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-color-preserve-shine-2-in-1-shampoo.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/p/a/pantene_pro-v_color_preserve_shine_2-in-1_shampoo_2_.png"
+         width="270"
+         height="300"
+         alt="Pantene Pro-V Color Preserve Shine 2-In-1 Shampoo" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/p/a/pantene_pro-v_color_preserve_shine_2-in-1_shampoo_4__1.png"
+                 width="270"
+                 height="300"
+                 alt="Pantene Pro-V Color Preserve Shine 2-In-1 Shampoo" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Pantene Pro-V Color Preserve Shine 2-In-1 Shampoo"
+                                                               href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-color-preserve-shine-2-in-1-shampoo.html"
+                                                               class="product-item-link">
+                                                                Pantene Pro-V Color Preserve Shine 2-In-1 Shampoo                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="18">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-18-widget-new-grid"                data-price-amount="9"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$9.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short">
+                    <div class="rating-summary">
+                <span class="label"><span>Rating:</span></span>
+
+                <div class="rating-result__stars">
+                    <span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__half"></span><span class="rating-star__empty"></span>                </div>
+
+                <div class="rating-result__text">
+                    <span style="width:67%"><span>67%</span></span>
+                </div>
+            </div>
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-color-preserve-shine-2-in-1-shampoo.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/pantene-pro-v-color-preserve-shine-2-in-1-shampoo.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"18","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"18","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-expert-collection-advanced-thickening-treatment.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/p/a/pantene_pro-v_expert_collection_advanced_thickening_treatment_2_.png"
+         width="270"
+         height="300"
+         alt="Pantene Pro-V Expert Collection  Advanced Thickening Treatment" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/p/a/pantene_pro-v_expert_collection_advanced_thickening_treatment_3_.png"
+                 width="270"
+                 height="300"
+                 alt="Pantene Pro-V Expert Collection  Advanced Thickening Treatment" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Pantene Pro-V Expert Collection  Advanced Thickening Treatment"
+                                                               href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-expert-collection-advanced-thickening-treatment.html"
+                                                               class="product-item-link">
+                                                                Pantene Pro-V Expert Collection  Advanced Thickening Treatment                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="19">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-19-widget-new-grid"                data-price-amount="16"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$16.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/pantene-pro-v-expert-collection-advanced-thickening-treatment.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/pantene-pro-v-expert-collection-advanced-thickening-treatment.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"19","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"19","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/olay-complete-daily-defense-all-day-moisturizer.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_complete_daily_defense_all_day_moisturizer_5_.png"
+         width="270"
+         height="300"
+         alt="Olay Complete Daily Defense All Day Moisturizer" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_complete_daily_defense_all_day_moisturizer_2_.png"
+                 width="270"
+                 height="300"
+                 alt="Olay Complete Daily Defense All Day Moisturizer" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Olay Complete Daily Defense All Day Moisturizer"
+                                                               href="https://ld-magento.template-help.com/magento_62093/olay-complete-daily-defense-all-day-moisturizer.html"
+                                                               class="product-item-link">
+                                                                Olay Complete Daily Defense All Day Moisturizer                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="36">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-36-widget-new-grid"                data-price-amount="36"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$36.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short">
+                    <div class="rating-summary">
+                <span class="label"><span>Rating:</span></span>
+
+                <div class="rating-result__stars">
+                    <span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__full"></span><span class="rating-star__half"></span>                </div>
+
+                <div class="rating-result__text">
+                    <span style="width:73%"><span>73%</span></span>
+                </div>
+            </div>
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/olay-complete-daily-defense-all-day-moisturizer.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/olay-complete-daily-defense-all-day-moisturizer.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"36","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"36","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/verattiva-face-tonic-rinse-and-refresher.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/v/e/verattiva_face_tonic_rinse_and_refresher_7-ounce_1.png"
+         width="270"
+         height="300"
+         alt="VERAttiva Face Tonic Rinse and Refresher" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/v/e/verattiva_face_tonic_rinse_and_refresher_7-ounce_2.png"
+                 width="270"
+                 height="300"
+                 alt="VERAttiva Face Tonic Rinse and Refresher" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="VERAttiva Face Tonic Rinse and Refresher"
+                                                               href="https://ld-magento.template-help.com/magento_62093/verattiva-face-tonic-rinse-and-refresher.html"
+                                                               class="product-item-link">
+                                                                VERAttiva Face Tonic Rinse and Refresher                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="49">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-49-widget-new-grid"                data-price-amount="78"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$78.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/verattiva-face-tonic-rinse-and-refresher.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/verattiva-face-tonic-rinse-and-refresher.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"49","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"49","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/olay-total-effects-anti-aging-daily-moisturizer.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_total_effects_anti-aging_daily_moisturizer_1_1.png"
+         width="270"
+         height="300"
+         alt="Olay Total Effects Anti-Aging Daily Moisturizer" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/o/l/olay_total_effects_anti-aging_daily_moisturizer_2_1.png"
+                 width="270"
+                 height="300"
+                 alt="Olay Total Effects Anti-Aging Daily Moisturizer" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Olay Total Effects Anti-Aging Daily Moisturizer"
+                                                               href="https://ld-magento.template-help.com/magento_62093/olay-total-effects-anti-aging-daily-moisturizer.html"
+                                                               class="product-item-link">
+                                                                Olay Total Effects Anti-Aging Daily Moisturizer                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="54">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-54-widget-new-grid"                data-price-amount="48"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$48.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                    <div class="product-reviews-summary short no-rating">
+                <div class="reviews-actions">
+            <a class="action view" href="https://ld-magento.template-help.com/magento_62093/olay-total-effects-anti-aging-daily-moisturizer.html#reviews">1&nbsp;<span>Review</span></a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-mage-init='{"redirectUrl":{"url":"https://ld-magento.template-help.com/magento_62093/olay-total-effects-anti-aging-daily-moisturizer.html?options=cart"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"54","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"54","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                                                                    
+                                            </div><div class="product-item" style="width: 16.666666666667%; max-width: 16.666666666667%;">                                                                                        <div class="product-item-info">
+                                                <a href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour-1.html" class="product-item-photo">
+                                                    
+<div class="tm-featured-switch-image-container" data-mage-init='{"featuredSwitchImage":""}'>
+    <img class="photo image base"
+         src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_b_moisture_advanced_care_lipcolour_1_1.png"
+         width="270"
+         height="300"
+         alt="Borghese B Moisture Advanced" />
+
+            <div class="replaced">
+            <img class="photo2 image2"
+                 src="https://ld-magento.template-help.com/magento_62093/pub/media/catalog/product/cache/small_image/270x300/beff4985b56e3afdbeabfc89641a4582/b/o/borghese_b_moisture_advanced_care_lipcolour_2_1.png"
+                 width="270"
+                 height="300"
+                 alt="Borghese B Moisture Advanced" />
+        </div>
+
+        </div>
+
+                                                </a>
+                                                <div class="product-item-details">
+                                                    <div class="product-item-info-box">
+                                                        <strong class="product-item-name">
+                                                            <a title="Borghese B Moisture Advanced"
+                                                               href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour-1.html"
+                                                               class="product-item-link">
+                                                                Borghese B Moisture Advanced                                                            </a>
+                                                        </strong>
+                                                        <div class="price-box price-final_price" data-role="priceBox" data-product-id="58">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-58-widget-new-grid"                data-price-amount="15"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">$15.00</span>    </span>
+        </span>
+
+</div>                                                    </div>
+                                                                                                                <div class="product-reviews-summary short empty">
+        <div class="reviews-actions">
+            <a class="action add" href="https://ld-magento.template-help.com/magento_62093/borghese-b-moisture-advanced-care-lipcolour-1.html#review-form">
+                Be the first to review this product            </a>
+        </div>
+    </div>
+                                                                                                        <div class="product-item-info-box">
+                                                                                                                    <div class="product-item-actions">
+                                                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                                        data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv\/product\/58\/","data":{"product":"58","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                                        type="button" title="Add to Cart">
+                                                                                    <span>Add to Cart</span>
+                                                                                </button>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                                                                                    <a href="#"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/wishlist\/index\/add\/","data":{"product":"58","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               class="action towishlist" data-action="add-to-wishlist"
+                                                                               title="Add to Wish List">
+                                                                                <span>Add to Wish List</span>
+                                                                            </a>
+                                                                                                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                                               data-post='{"action":"https:\/\/ld-magento.template-help.com\/magento_62093\/catalog\/product_compare\/add\/","data":{"product":"58","uenc":"aHR0cHM6Ly9sZC1tYWdlbnRvLnRlbXBsYXRlLWhlbHAuY29tL21hZ2VudG9fNjIwOTMv"}}'
+                                                                               title="Add to Compare">
+                                                                                <span>Add to Compare</span>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                            </div>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                            </div>                                        
+                                    </div>
+                                </div>
+                            
+                                                                        </div>
+
+
+                            </div>
+    
+    </div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "parallax": []
+        }
+    }
+</script>
+
+<style>
+    .rd-parallax-inner {
+        min-height: 200px;
+    }
+        .parallax-1 {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+    }
+    </style>
+
+<div class="parallax-container parallax-1">
+    <section class="rd-parallax "
+             data-agent=".parallax-1"
+             data-on="false"
+             data-md-on="true"
+             style="visibility: hidden;">
+                                    <div class="rd-parallax-layer "
+                     data-speed="0.3"
+                     data-offset="0"
+                     data-fade="false"
+                     data-direction="normal"
+                     data-type="media"
+                     data-url="https://ld-magento.template-help.com/magento_62093/pub/media/parallax/images/parallax.jpg"></div>
+                                                <div class="rd-parallax-layer "
+                     data-speed="0"
+                     data-offset="0"
+                     data-fade="false"
+                     data-direction="normal"
+                     data-type="html">
+                    <div class="text-layout">
+                        <div class="parallax-block">
+  <div class="container">
+    <div class="parallax-wrapper">
+      <h2 class="parallax-title">-50%<span>off</span></h2>
+      <h6 class="parallax-pre-title">a few of our <span>favorite</span> things</h6>
+    </div>
+  </div>
+</div>                    </div>
+                </div>
+                        </section>
+</div><div class="widget block block-static-block">
+    <div class="offsers-wrap">
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="box-offer">
+        <div class="box-offer-inner">
+          <span class="icon fl-outicons-phone14"></span>
+          <div class="wrap-text">
+            <div class="box-offer-title">
+              <a href="tel:+3(800)2345-6789">+3(800) 2345-6789</a>
+            </div>
+            <div class="box-offer-desc">Round-the-clock free hotline (24/7)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="box-offer">
+        <div class="box-offer-inner box-offer-inner-offset-top">
+          <span class="icon fl-outicons-clock169"></span>
+          <div class="wrap-text">
+            <div class="box-offer-title">
+              <a href="shipping-delivery">Hours</a>
+            </div>
+            <div class="box-offer-desc">7 days a week from 9:00 am to 7:00 pm</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="box-offer">
+        <div class="box-offer-inner box-offer-inner-offset-top">
+          <span class="icon fl-outicons-truck72"></span>
+          <div class="wrap-text">
+            <div class="box-offer-title">
+              <a href="shipping-delivery">Free Shipping</a>
+            </div>
+            <div class="box-offer-desc">We provide you with fast and free delivery regardless of the product size and value.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="box-offer">
+        <div class="box-offer-inner">
+          <span class="icon fl-outicons-refresh8"></span>
+          <div class="wrap-text">
+            <div class="box-offer-title">
+              <a href="shipping-delivery">Return & Exchange</a>
+            </div>
+            <div class="box-offer-desc">You can return or exchange the item within 30 days.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div></div></main><footer class="page-footer"><div class="container content footer"><div class="subscribe-box"><div class="block newsletter">
+
+    <div class="content">
+        <div class="subscribe-text">
+            <h4><strong>Newsletter</strong></h4>
+            <label class="label" for="newsletter"><span>Get the latest news on new arrivals, gifts, special offers and other discount information.</span></label>
+        </div>
+        <form class="form subscribe"
+            novalidate
+            action="https://ld-magento.template-help.com/magento_62093/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <div class="control">
+                    <input name="email" type="email" id="newsletter"
+                                placeholder="Enter your email address"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary" title="Subscribe" type="submit">
+                    <span>Subscribe</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</div><div class="row"><div class="col-md-6 col-lg-3 order-md-5"><div class="footer-col"> <h4>About</h4>
+  <div class="footer-col-content about-footer-text"><p>Our store is more than just another average online retailer. We sell not only top quality products, but also give our customers a positive online shopping experience. Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc. Purchase the goods in a few clicks or taps, depending on the device you use. We work to make your life more enjoyable. </p></div>
+<style>
+    @media (min-width: 768px) {
+        ul.social-links.position-footer {
+            text-align: left;
+        }
+    }
+</style>
+<ul class="social-links position-footer type-font">
+            <li>
+            <a href="#" target="_blank">
+    <i class="fa fa-facebook" style="font-size: 15px; line-height: 40px;"></i>
+</a>        </li>
+            <li>
+            <a href="#" target="_blank">
+    <i class="fa fa-twitter" style="font-size: 15px; line-height: 40px;"></i>
+</a>        </li>
+            <li>
+            <a href="#" target="_blank">
+    <i class="fa fa-google-plus" style="font-size: 15px; line-height: 40px;"></i>
+</a>        </li>
+            <li>
+            <a href="#" target="_blank">
+    <i class="fa fa-instagram" style="font-size: 15px; line-height: 40px;"></i>
+</a>        </li>
+            <li>
+            <a href="#" target="_blank">
+    <i class="fa fa-youtube" style="font-size: 15px; line-height: 40px;"></i>
+</a>        </li>
+    </ul></div></div><div class="col-md-4 col-lg-2"><div class="footer-col"><h4>Information</h4><div class="footer-col-content"><ul>
+    <li><a href="https://ld-magento.template-help.com/magento_62093/about-us">About Us</a></li>
+    <li><a href="https://ld-magento.template-help.com/magento_62093/customer-service">Customer Service</a></li>
+    <li><a href="https://ld-magento.template-help.com/magento_62093/template-settings">Template Settings</a></li>
+</ul>
+
+<ul class="footer links"><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/search/term/popular/">Search Terms</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/contact/">Contact Us</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/sales/guest/form/">Orders and Returns</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/catalogsearch/advanced/" data-action="advanced-search">Advanced Search</a></li><li class="nav item"><a href="https://ld-magento.template-help.com/magento_62093/newsletter/manage/index/" class="newsletter-popup-link">Newsletter Subscription</a></li></ul></div></div></div><div class="col-md-4 col-lg-2"><div class="footer-col"><div class="footer-col">
+    <h4>Why buy from us</h4>
+    <div class="footer-col-content">
+        <ul>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/shipping-delivery">Shipping & Delivery</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/secure-payment">Secure payment</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/support">Support</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/guarantee">Guarantee</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/terms-conditions">Terms & Conditions</a></li>
+        </ul>
+    </div>
+</div></div></div><div class="col-md-4 col-lg-2"><div class="footer-col">
+    <h4>My account</h4>
+    <div class="footer-col-content">
+        <ul>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/customer/account/login/">Sign In</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/checkout/cart/">View Cart</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/wishlist/">My Wishlist</a></li>
+            <li><a href="https://ld-magento.template-help.com/magento_62093/faq">FAQ</a></li>
+        </ul>
+    </div>
+</div>
+</div><div class="col-md-6 col-lg-3 order-md-4"><script type="text/x-magento-init">
+{"*": {"facebookPagePlugin": {"pluginPageData":{"category":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"homepage":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"cms":{"title":"Facebook","position":"left","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"product":{"title":"Facebook","position":"footer","tabs":"timeline","width":null,"height":"210","small_header":"0","adapt_container_width":"1","hide_cover":"0","show_facepile":"1"},"url":"https:\/\/www.facebook.com\/TemplateMonster"}}}}
+</script></div></div></div><div class="footer-panel"><div class="container"><small class="copyright">
+    <span>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Magento Demo Store. All Rights Reserved.</span>
+</small>
+<div class="payment"><img src="https://ld-magento.template-help.com/magento_62093/pub/static/frontend/TemplateMonster/theme069/en_US/images/media/payment.png" alt="banner-image"></div></div></div></footer><script type="text/x-magento-init">
+    {
+        "*": {
+            "theme": {}
+        }
+    }
+</script>    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                if (versionObj.version !== '285b2a6d6d6c00fb9c6ee96f9509be52fd7e3362') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: '285b2a6d6d6c00fb9c6ee96f9509be52fd7e3362'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "/magento_62093",
+                "domain": ".ld-magento.template-help.com",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "ajaxWishlist": {"isShowSpinner":true,"isShowSuccessMessage":true,"successMessageText":"Product {product.name} has been added to your wishlist.","customerLoginUrl":"https:\/\/ld-magento.template-help.com\/magento_62093\/customer\/account\/login\/"}        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        ".newsletter-popup": {
+            "newsletterPopup": {"customClass":"","timeout":0,"isShowOnStartup":true,"isShowOnFooter":false,"title":"Enter your e-mail address to","content":"<span class=\"size-1\">Get up to<\/span>\r\n<span class=\"size-2\"><span class=\"banner-label\">50<i>%<b>off<\/b><\/i><\/span><\/span>\r\n<span class=\"size-3\">Any new order<\/span>","submit":"get promo code","cancel":"No Thanks, I prefer to pay full price","socialLinks":[]}        }
+    }
+</script><div class="newsletter-popup" style="display:none;">
+    <div class="block newsletter">
+    <form class="form subscribe"
+        novalidate
+        action="#"
+        method="post"
+        data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+        id="newsletter-validate-detail">
+        <div class="field newsletter">
+            <div class="control">
+                <input name="email" type="email" id="newsletter-5a2e1475d76c2"
+                            placeholder="Enter your email address"
+                            data-validate="{required:true, 'validate-email':true}"/>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+<script type="text/x-magento-init">
+{"*": {"googleMapOptions": {"pluginPageData":{"contacts":{"width":"100%","height":"300","show_on":null,"selector":null},"api":null}}}}
+</script>
+
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'googleMapPagePlugin'
+    ], function($){
+        $(window).on('load.map', function(){
+            loadScript();
+        })
+    });
+
+    function loadScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "http://maps.googleapis.com/maps/api/js?sensor=true&callback=initialize";
+        document.body.appendChild(script);
+    }
+
+    function initialize() {
+        
+            var mapOptions = {
+                center: new google.maps.LatLng(40.5899796,-73.8820439),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                zoom: 8,
+                disableDefaultUI: 0,
+                scrollwheel: 1,
+                draggable: 1,
+                            };
+            var element = document.getElementById("map_canvas_contacts");
+            if (element) {
+                var map_contacts = new google.maps.Map(element, mapOptions);
+            }
+
+                        }
+</script>
+<div class="scrollToTop">To Top</div></div>    </body>
+</html>
