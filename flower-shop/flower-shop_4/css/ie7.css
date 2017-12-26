@@ -1,0 +1,39 @@
+header #logo a img {
+	width:auto
+	}
+.product-grid li {
+	position:relative;
+	}
+
+.banner{
+	margin-bottom:23px;
+}
+.banner a {	
+	max-width:100%;
+}
+.banner a img{
+	width:auto;
+}
+.banner > div a{
+	border:none;
+}
+.banner > div.banner-1 a img{
+	border:1px solid #e4e3de;
+	border-bottom-color:#d8d6d0;
+}
+.fluid_container >div{
+	border:1px solid #e4e3de;
+	border-bottom-color:#d8d6d0;
+}
+/***********************************************/
+.pp_gallery ul li, .pp_gallery ul li a{
+	max-width:50px;
+}
+.pp_gallery ul li{
+	float:left;
+}
+#cboxLoadedContent{
+	position:relative;
+	z-index:2;
+	background-color:#fff;
+}

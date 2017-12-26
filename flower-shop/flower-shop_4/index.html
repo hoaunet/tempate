@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Flowers Store</title>
+<base href="http://luatsutunhan.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , initial-scale=1.0">
+<meta name="description" content="Flowers Store" />
+
+<script>
+    if (navigator.userAgent.match(/Android/i)) {
+        var viewport = document.querySelector("meta[name=viewport]");
+    }
+ if(navigator.userAgent.match(/Android/i)){
+    window.scrollTo(0,1);
+ }
+</script> 
+ 
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/cloud-zoom.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link href="catalog/view/theme/theme324/stylesheet/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/slideshow.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/jquery.prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/camera.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/superfish.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/responsive.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/photoswipe.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/theme324/stylesheet/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
+<script type="text/javascript" src="catalog/view/javascript/jquery/ui/external/jquery.cookie.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/theme324/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript" src="catalog/view/javascript/jquery/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/jquery.cycle.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/colorbox/colorbox.css" media="screen" />
+<!--[if IE]>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/fancybox/jquery.fancybox-1.3.4-iefix.js"></script>
+<![endif]-->
+<!--[if IE]>
+<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 8]><div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'><a href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+<script type="text/javascript" src="catalog/view/theme/theme324/js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/common.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/jQuery.equalHeights.js"></script>
+<script type="text/JavaScript" src="catalog/view/theme/theme324/js/cloud-zoom.1.0.2.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/jscript_zjquery.anythingslider.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/script.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/jquery.mobile-events.js"></script>
+<script type="text/javascript" src="catalog/view/theme/theme324/js/superfish.js"></script>
+<!--[if !IE]>
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<![endif]-->
+<!--[if IE]>
+<script type="text/javascript" src="catalog/view/theme/theme324/js//sl/jscript_zjquery.anythingslider.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/camera.js"></script>
+
+<!-- bx-slider -->
+<script type="text/javascript" language="javascript" src="catalog/view/theme/theme324/js/bxslider/jquery.bxslider.js"></script>
+<!-- photo swipe -->
+<script type="text/javascript" language="javascript" src="catalog/view/theme/theme324/js/photo-swipe/klass.min.js"></script>
+<script type="text/javascript" language="javascript" src="catalog/view/theme/theme324/js/photo-swipe/code.photoswipe.jquery-3.0.5.js"></script>
+
+<!--[if  IE 8]>
+  <style>
+    .success, #header #cart .content  { border:1px solid #e7e7e7;}
+  </style>
+<![endif]-->
+
+<!--[if  IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="css/ie6.css" />
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#logo img');
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/livesearch.css"/>
+</head>
+<body class="common-home"><a id="hidden" href="#"></a>
+
+<div class="swipe-left"></div>
+<div id="body">
+<div class="swipe">
+  <div class="swipe-menu">
+    <ul class="links">
+       <li class="first"><a class="active" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home"><i class="icon-home"></i>Home</a></li>
+      <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/wishlist" id="wishlist-total"><i class="icon-star"></i>Wish List (0)</a></li>
+      <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/account"><i class="icon-user"></i>My Account</a></li>
+      <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=checkout/cart"><i class="icon-shopping-cart"></i>Shopping Cart</a></li>
+      <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=checkout/checkout"><i class="icon-check"></i>Checkout</a></li>
+            <li class="login_h"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/login"><i class="icon-lock"></i>Log In</a></li> <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/register"><i class="icon-file-alt"></i>Create an account</a></li>           </ul>
+    
+  <div id="language" class="header-button">
+    <div class="heading">en<i class="icon-angle-down"></i></div>
+    <div class="heading1"><i class="icon-globe"></i>Language<i class="icon-angle-down"></i></div>
+    <ul>
+            <form action="https://livedemo00.template-help.com/opencart_47588/index.php?route=module/language" method="post" enctype="multipart/form-data">
+                  <li><span alt="English" title="English" onClick="$('input[name=\'language_code\']').attr('value', 'en').submit(); $(this).parent().parent().submit();" >en</span>
+                  <li><span alt="German" title="German" onClick="$('input[name=\'language_code\']').attr('value', 'de').submit(); $(this).parent().parent().submit();" >de</span>
+                  <li><span alt="Spanish" title="Spanish" onClick="$('input[name=\'language_code\']').attr('value', 'es').submit(); $(this).parent().parent().submit();" >es</span>
+                  <input type="hidden" name="language_code" value="" />
+            <input type="hidden" name="redirect" value="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home" />
+              </li>
+            
+            </form>
+    </ul>
+  </div>
+
+    <div id="currency" class="header-button">
+  <div>
+    <div class="heading-1"><i class="icon-money"></i>Currency<i class="icon-angle-down"></i></div>
+    <div class="heading">
+                                          $<i class="icon-angle-down"></i>
+                    </div>
+  </div>
+    <ul>
+      <form action="https://livedemo00.template-help.com/opencart_47588/index.php?route=module/currency" method="post" enctype="multipart/form-data">
+                              <li><a title="Euro" onClick="$('input[name=\'currency_code\']').attr('value', 'EUR').submit(); $(this).parent().parent().submit();"><span>€</span></a></li>
+                                              <li><a title="Pound Sterling" onClick="$('input[name=\'currency_code\']').attr('value', 'GBP').submit(); $(this).parent().parent().submit();"><span>£</span></a></li>
+                                              <li><a title="US Dollar"><span class="act">$</span></a></li>
+                            <input type="hidden" name="currency_code" value="" />
+      <input type="hidden" name="redirect" value="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home" />
+      </form>
+    </ul>
+      
+  </div>
+
+        <ul class="foot">
+            <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+            <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=6">Delivery</a></li>
+            <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+          </ul>
+        <ul class="foot foot-1">
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/contact">Contact Us</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/return/insert">Returns</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/sitemap">Site Map</a></li>
+    </ul>
+    <ul class="foot foot-2">
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer">Brands</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/voucher">Gift Vouchers</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=affiliate/account">Affiliates</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/special">Specials</a></li>
+    </ul>
+    <ul class="foot foot-3">
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/order">Order History</a></li>
+      <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/newsletter">Newsletter</a></li>
+    </ul>
+  </div>
+</div>
+<div id="page">
+<div id="shadow">
+<div class="shadow"></div>
+
+<header id="header">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+      <div class="top-site">
+        <div class="right">
+          <div id="search">
+            <div class="inner">
+              <div class="button-search"><i class="icon-search"></i><span>SEARCH</span></div>
+              <input  type="text" name="search" placeholder="" value="" />
+            </div>
+          </div>
+          <div class="buttons_top">
+            <div id="currency" class="header-button">
+  <div>
+    <div class="heading-1"><i class="icon-money"></i>Currency<i class="icon-angle-down"></i></div>
+    <div class="heading">
+                                          $<i class="icon-angle-down"></i>
+                    </div>
+  </div>
+    <ul>
+      <form action="https://livedemo00.template-help.com/opencart_47588/index.php?route=module/currency" method="post" enctype="multipart/form-data">
+                              <li><a title="Euro" onClick="$('input[name=\'currency_code\']').attr('value', 'EUR').submit(); $(this).parent().parent().submit();"><span>€</span></a></li>
+                                              <li><a title="Pound Sterling" onClick="$('input[name=\'currency_code\']').attr('value', 'GBP').submit(); $(this).parent().parent().submit();"><span>£</span></a></li>
+                                              <li><a title="US Dollar"><span class="act">$</span></a></li>
+                            <input type="hidden" name="currency_code" value="" />
+      <input type="hidden" name="redirect" value="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home" />
+      </form>
+    </ul>
+      
+  </div>
+
+            
+  <div id="language" class="header-button">
+    <div class="heading">en<i class="icon-angle-down"></i></div>
+    <div class="heading1"><i class="icon-globe"></i>Language<i class="icon-angle-down"></i></div>
+    <ul>
+            <form action="https://livedemo00.template-help.com/opencart_47588/index.php?route=module/language" method="post" enctype="multipart/form-data">
+                  <li><span alt="English" title="English" onClick="$('input[name=\'language_code\']').attr('value', 'en').submit(); $(this).parent().parent().submit();" >en</span>
+                  <li><span alt="German" title="German" onClick="$('input[name=\'language_code\']').attr('value', 'de').submit(); $(this).parent().parent().submit();" >de</span>
+                  <li><span alt="Spanish" title="Spanish" onClick="$('input[name=\'language_code\']').attr('value', 'es').submit(); $(this).parent().parent().submit();" >es</span>
+                  <input type="hidden" name="language_code" value="" />
+            <input type="hidden" name="redirect" value="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home" />
+              </li>
+            
+            </form>
+    </ul>
+  </div>
+
+          </div>            
+        </div>
+        <div class="toprow">
+          <ul class="links">
+             <li class="first"><a class="active" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home"><i class="icon-home"></i>Home</a></li>
+            <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/wishlist" id="wishlist-total"><i class="icon-star"></i>Wish List (0)</a></li>
+            <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/account"><i class="icon-user"></i>My Account</a></li>
+            <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=checkout/cart"><i class="icon-shopping-cart"></i>Shopping Cart</a></li>
+            <li><a class="" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=checkout/checkout"><i class="icon-check"></i>Checkout</a></li>
+                      <li class="login_h"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/login"><i class="icon-lock"></i>Log In</a></li> <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/register"><i class="icon-file-alt"></i>Create an account</a></li>                       
+          </ul>
+          
+          <div class="clear"></div>
+          
+        </div>
+        </div>
+        
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="toprow-1">
+          <a class="swipe-control" href="#"><i class="icon-reorder"></i></a>
+          <div class="top-search">
+            <i class="icon-search"></i>
+          </div>
+        
+        </div>        
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12 logo-container">
+                  <div id="logo"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=common/home"><img src="https://livedemo00.template-help.com/opencart_47588/image/data/logo.png" title="Flowers Store" alt="Flowers Store" /></a></div>
+                
+        
+        <div class="cart-position">
+          <div class="cart-inner"><div id="cart" >
+
+  <div class="heading">
+  <span class="link_a"> 
+    <i class="icon-shopping-cart"></i>
+    <b>Shopping Cart</b><br>
+    <span class="sc-button"></span>
+    <span id="cart-total2">0</span>
+    <span id="cart-total">0 item(s) - $0.00</span>
+    <i class="icon-angle-down"></i>
+    <span class="clear"></span>
+    </span>
+  </div>
+  
+  <div class="content">
+  <div class="content-scroll">
+  
+    <div class="empty">Your shopping cart is empty!</div>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+        <div id="menu">   
+          <script type="text/javascript">
+            $(document).ready(function(){           
+              $('.menu ul li').last().addClass('last');
+              $('.menu ul li li').last().addClass('last');
+            });
+          </script>
+          <ul  class="menu">
+                                                <li class="cat_1">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=57">Congratulation</a>
+                        </li>
+                                    <li class="cat_2">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20">Corporate</a>
+                      
+                                <ul>                                                                                                <li>
+                                                      <a class="screenshot1"  href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_77">Lorem ipsum dolor</a>
+                                </li>
+                                                                                                <li>
+                                                      <a class="screenshot1"  href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_24">Sit aconsectetur</a>
+                                </li>
+                                                                                                <li>
+                                                      <a class="screenshot1"  href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88">Ut eros purus</a>                  
+                  <ul>
+                                    <li>
+                                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88_91">Morbi eu massa blanit</a>                    
+                                      </li>
+                                    <li>
+                                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88_92">Fusce et mauris sit</a>                    
+                                      </li>
+                                    </ul>
+                                  </li>
+                                                                                                <li>
+                                                      <a class="screenshot1"  href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_89">Pellentesque malesuada</a>
+                                </li>
+                                                                                                <li>
+                                                      <a class="screenshot1"  href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_90">Nunc et orci et libero</a>
+                                </li>
+                                                </ul>
+                                        </li>
+                                    <li class="cat_3">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=17">Family  flowers</a>
+                        </li>
+                                    <li class="cat_4">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=86">Funeral</a>
+                        </li>
+                                    <li class="cat_5">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=85">Get  well</a>
+                        </li>
+                                    <li class="cat_6">
+                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=84">Mixed </a>
+                        </li>
+                      </ul>
+          
+          <div class="clear"></div>
+  </div>
+          
+        
+      </div>
+    </div>
+        <div class="row">
+      <div class="span12">
+        
+        <div id="menu-gadget">
+          <div id="menu-icon">Categories</div>
+          <ul id="nav" class="sf-menu-phone">
+                        <li ><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=57">Congratulation</a>
+                          </li>
+                        <li class="parent"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20">Corporate</a>
+                        
+                                <ul>
+                                                                                                <li >
+                                                      <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_77">Lorem ipsum dolor</a>
+                                </li>
+                                                                                                <li >
+                                                      <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_24">Sit aconsectetur</a>
+                                </li>
+                                                                                                <li class="parent">
+                                                      <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88">Ut eros purus</a>
+                  <ul>
+                                    <li>
+                                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88_91">Morbi eu massa blanit</a>
+                                      </li>
+                                    <li>
+                                        <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_88_92">Fusce et mauris sit</a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                                                                                <li >
+                                                      <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_89">Pellentesque malesuada</a>
+                                </li>
+                                                                                                <li >
+                                                      <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=20_90">Nunc et orci et libero</a>
+                                </li>
+                                                </ul>
+                                        </li>
+                        <li ><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=17">Family  flowers</a>
+                          </li>
+                        <li ><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=86">Funeral</a>
+                          </li>
+                        <li ><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=85">Get  well</a>
+                          </li>
+                        <li ><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/category&amp;path=84">Mixed </a>
+                          </li>
+                      </ul>
+        </div>
+        
+      </div>
+    </div>
+      </div></div></div></div>  
+</header>
+
+
+<section>
+<div class="header-modules">
+  <div class="container">
+    <div class="row">     
+           <script>
+  jQuery(function(){
+    jQuery('#camera_wrap_0').camera({
+      fx: 'stampede',
+      navigation: true,
+      playPause: false,
+      thumbnails: false,
+      navigationHover: false,
+      barPosition: 'top',
+      loader: false,
+      time: 6000,
+      transPeriod:800,
+      alignment: 'center',
+      autoAdvance: true,
+      mobileAutoAdvance: true,
+      barDirection: 'leftToRight', 
+      barPosition: 'bottom',
+      easing: 'easeInOutExpo',
+      fx: 'scrollHorz',
+      height: '43.2%',
+      minHeight: '90px',
+      hover: true,
+      pagination: false,
+      loaderColor     : '#1f1f1f', 
+      loaderBgColor   : 'transparent',
+      loaderOpacity   : 1,
+      loaderPadding   : 0,
+      loaderStroke    : 3
+      });
+  });
+</script>
+<div class="fluid_container span9" >
+  <div id="camera_wrap_0">
+    <div title="slide-1" data-thumb="images/slide-1-868x375.jpg"  data-link="product_page.html" data-src="images/slide-1-868x375.jpg"></div>
+      <div title="slide-2" data-thumb="images/slide-2-868x375.jpg"  data-link="product_page.html" data-src="images/slide-2-868x375.jpg"></div>
+      <div title="slide-3" data-thumb="images/slide-3-868x375.jpg"  data-link="product_page.html" data-src="images/slide-3-868x375.jpg"></div>
+    </div>
+  <div class="clear"></div>
+</div>   <div id="banner0" class="banner">
+      <div class="span3 banner-1"><a href="index.php?route=product/product&amp;product_id=28"><div class="s-desc"><h1>birthday Flowers</h1>
+<p>Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.</p>
+<span>
+<h2>save up to</h2>
+50%
+</span></div><img src="images/banner-1-268x212.jpg" alt="banner-1" title="banner-1" /><span class="line-banner"></span></a></div>
+    </div>
+   <div id="banner1" class="banner">
+      <div class="span3 banner-2"><a href="index.php?route=product/product&amp;product_id=49"><div class="s-desc"><h1>Free Delivery</h1>
+on orders over $50</div><img src="images/banner-2-270x129.jpg" alt="banner-2" title="banner-2" /><span class="line-banner"></span></a></div>
+    </div>
+      
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+
+<div id="container">
+
+<div class="container">
+<div id="notification"></div>
+<div class="row">
+<div class="span12">
+  <div class="row">
+    <div class="span9  " id="content"><script type="text/javascript">
+  if ($('.container').width() > 723) {
+    (function($){$.fn.equalHeights=function(minHeight,maxHeight){tallest=(minHeight)?minHeight:0;this.each(function(){if($(this).height()>tallest){tallest=$(this).height()}});if((maxHeight)&&tallest>maxHeight)tallest=maxHeight;return this.each(function(){$(this).height(tallest)})}})(jQuery)
+    $(window).load(function(){
+      if($(".maxheight-feat").length){
+      $(".maxheight-feat").equalHeights()}
+    });
+    window.onresize = function ()
+      {
+        //alert('');
+      }
+    };
+</script>
+<div class="box featured">
+  <div class="box-heading">Featured Products</div>
+  <div class="box-content">
+  <div class="box-product">
+    <ul class="row">
+                  <li class="first-in-line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox1").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view1',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="product_detail.html"><img id="img_34" src="images/The FTD Spirit of Spring Basket 1-229x196.png" alt="Fusce et mauris sit" /></a>          
+          <a href="product_detail.html"   rel="colorbox" class="colorbox1 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view1 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="product_detail.html"><img src="images/The FTD Spirit of Spring Basket 1-270x231.png" alt="Fusce et mauris sit" /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Fusce et mauris sit</h2>
+                <div class="inf">
+                                      <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=8">Proin feugiat</a></span>
+                                                        <span class="model">Model:Product 7</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $49.99                                        
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="34;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=34" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('34');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('34');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=34">Fusce et mauris sit</a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $49.99                          </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="34;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+                  <li class=" span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox2").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view2',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=46"><img id="img_46" src="images/Silver Linings Calla Lily Plant 1-229x196.png" alt="Morbi eu massa blanit" /></a>          
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=46"   rel="colorbox" class="colorbox2 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view2 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=46"><img src="images/Silver Linings Calla Lily Plant 1-270x231.png" alt="Morbi eu massa blanit" /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Morbi eu massa blanit</h2>
+                <div class="inf">
+                                      <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=10">Aenean id nunc</a></span>
+                                                        <span class="model">Model:Product 19</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $59.99                                        
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="46;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=46" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('46');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('46');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=46">Morbi eu massa blanit</a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $59.99                          </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="46;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+                  <li class="last-in-line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox3").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view3',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=49"><img id="img_49" src="images/Simple Perfection Bouquet 1-229x196.png" alt="Nam luctus leo quam" /></a>          
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=49"   rel="colorbox" class="colorbox3 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view3 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=49"><img src="images/Simple Perfection Bouquet 1-270x231.png" alt="Nam luctus leo quam" /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Nam luctus leo quam</h2>
+                <div class="inf">
+                                                        <span class="model">Model:Product 19</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $89.99                                        
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="49;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=49" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('49');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('49');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=49">Nam luctus leo quam</a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $89.99                          </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="49;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+                  <li class="first-in-line last_line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox4").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view4',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=42"><img id="img_42" src="images/Sweet Surprises Bouquet 1-229x196.png" alt="Pellentesque et " /></a>         
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=42"   rel="colorbox" class="colorbox4 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view4 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=42"><img src="images/Sweet Surprises Bouquet 1-270x231.png" alt="Pellentesque et " /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Pellentesque et </h2>
+                <div class="inf">
+                                      <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=8">Proin feugiat</a></span>
+                                                        <span class="model">Model:Product 15</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $69.99                                        
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="42;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=42" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('42');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('42');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=42">Pellentesque et </a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $69.99                          </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="42;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+                  <li class=" last_line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox5").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view5',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=32"><img id="img_32" src="images/Sunny Skies Bouquet 1-229x196.png" alt="Nunc et orci et libero" /></a>         
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=32"   rel="colorbox" class="colorbox5 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view5 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=32"><img src="images/Sunny Skies Bouquet 1-270x231.png" alt="Nunc et orci et libero" /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Nunc et orci et libero</h2>
+                <div class="inf">
+                                      <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=5">Quisque ipsum</a></span>
+                                                        <span class="model">Model:Product 5</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $129.99                                       
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="32;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=32" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('32');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('32');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=32">Nunc et orci et libero</a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $129.99                         </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="32;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+                  <li class="last-in-line last_line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox6").colorbox({
+          rel: 'colorbox',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view6',
+          current:'Product {current} of {total}'
+          });
+          });
+        </script> 
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=29"><img id="img_29" src="images/Blooming Bounty Bouquet 1-229x196.png" alt="Sonec enim sapien" /></a>          
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=29"   rel="colorbox" class="colorbox6 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+          <div  class="quick-view6 preview">
+            <div class="wrapper marg row-fluid">
+              <div class="left span4">
+                                  <div class="image3">
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=29"><img src="images/Blooming Bounty Bouquet 1-270x231.png" alt="Sonec enim sapien" /></a>
+                    
+                  </div>
+                              </div>
+              <div class="right span8">
+                <h2>Sonec enim sapien</h2>
+                <div class="inf">
+                                      <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=6">Sed rhoncus</a></span>
+                                                        <span class="model">Model:Product 2</span>
+                                    <span class="prod-stock-2">Availability:</span>
+                    
+                                         <span class="prod-stock">In Stock</span>
+                                                          <div class="price">
+                    <span class="text-price">Price: </span>
+                                        $189.99                                       
+                  </div>
+                                  </div>
+                <div class="cart-button">
+                <div class="prev_button">
+                  <div class="cart">
+                    <a title="Add to cart" data-id="29;" class="button addToCart-1 ">
+                      <span>Add to cart</span>
+                    </a>
+                  </div>
+                  <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=29" class="button details"><span>Details</span></a>
+                </div>
+                  <div class="wishlist">
+                    <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('29');">
+                      <i class="icon-star"></i>
+                      <span>Add to Wish List</span>
+                    </a>
+                  </div>
+                  <div class="compare">
+                    <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('29');">
+                      <i class="icon-bar-chart"></i>
+                      <span>Add to Compare</span>
+                    </a>
+                  </div>
+                  <span class="clear"></span>
+                </div>
+                <div class="clear"></div>
+                <div class="rating">
+                  <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="0" />
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name maxheight-feat"><a href="product_detail.html">Sonec enim sapien</a></div>
+            
+                        <div class="description">What do we do when we want to show our thankfulness...</div>
+                
+            
+          </div>
+                      <div class="price">
+                            $189.99                         </div>
+                    <div class="cart-button">         
+            <div class="cart"><a title="Add to cart" data-id="29;" class="button addToCart"><!--<i class="icon-shopping-cart"></i>--><span>Add to cart</span></a></div>           
+            <span class="clear"></span>
+          </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+          </ul>
+  </div>
+  <div class="clear"></div>
+  </div>
+</div>
+    <h1 style="display: none;">Flowers Store</h1>
+    </div>
+    <aside class="span3" id="column-left">
+    <div class="clear"></div>
+<div class="box man">
+  <div class="box-heading"><span>Brands</span></div>
+  <div class="box-content">
+        <ul class="info">
+            <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=10">Aenean id nunc</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=9">Cras eleifend</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=11">Pellentesque</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=7">Phasellus luctus</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=8">Proin feugiat</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=5">Quisque ipsum</a></li>
+        
+              <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=6">Sed rhoncus</a></li>
+        
+            </ul>
+        <div class="clear"></div>
+  </div>
+</div>    <script type="text/javascript">
+  if ($('.container').width() > 723) {
+    (function($){$.fn.equalHeights=function(minHeight,maxHeight){tallest=(minHeight)?minHeight:0;this.each(function(){if($(this).height()>tallest){tallest=$(this).height()}});if((maxHeight)&&tallest>maxHeight)tallest=maxHeight;return this.each(function(){$(this).height(tallest)})}})(jQuery)
+  $(window).load(function(){
+    if($(".maxheight-spec").length){
+    $(".maxheight-spec").equalHeights()}
+  });
+  };
+</script>
+<div class="box specials">
+  <div class="box-heading special-heading">Specials</div>
+  <div class="box-content">
+  <div class="box-product">
+    <ul class="row">
+                  <li class="first-in-line last_line span3">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("a.colorbox-1").colorbox({
+          rel: 'colorbox1',
+          inline:true,
+          html: true,
+          width:'58%',
+          maxWidth:'780px',
+          height:'70%',
+          opacity:0.6,
+          open:false,
+          returnFocus:false,
+          fixed: false,
+          title: false,
+          href:'.quick-view-1',
+          current:'Product {current} of {total}'
+          });
+           });
+        </script>
+        <div class="image2">
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43"><img id="img_43" src="images/Deep Emotions Bouquet 1-229x196.png" alt="Lonec non fermentum" /></a>          
+          <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43"   rel="colorbox" class="colorbox-1 quick-view-button"><i class=" icon-search "></i></a>
+        </div>
+        <div style="display:none;">
+            <div class="quick-view-1 preview">
+              <div class="wrapper marg row-fluid">
+                <div class="left span4">
+                                      <div class="image3"><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43"><img src="images/Deep Emotions Bouquet 1-270x231.png" alt="Lonec non fermentum" /></a></div>
+                                  </div>
+                <div class="right span8">
+                  <h2>Lonec non fermentum</h2>
+                  <div class="inf">
+                                            <span class="manufacture">Brand: <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer/info&amp;manufacturer_id=8">Proin feugiat</a></span>
+                                                                <span class="model">Model:Product 16</span>
+                                        <span class="prod-stock-2">Availability:</span>
+                                             <span class="prod-stock">In Stock</span>
+                                                              <div class="price">
+                      <span class="text-price">Price: </span>
+                                            <span class="price-new">$99.99</span> <span class="price-old">$109.99</span>
+                                          </div>
+                                      </div>
+                  <div class="cart-button">
+                  <div class="prev_button">
+                    <div class="cart">
+                      <a title="Add to cart" data-id="43;" class="button addToCart-1 ">
+                        <!--<i class="icon-shopping-cart"></i>-->
+                        <span>Add to cart</span>
+                      </a>
+                    </div>
+                    <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43" class="button details"><span>Details</span></a>
+                  </div>
+                    <div class="wishlist">
+                      <a class="tooltip-1" title="Add to Wish List"  onclick="addToWishList('43');">
+                        <i class="icon-star"></i>
+                        <span>Add to Wish List</span>
+                      </a>
+                    </div>
+                    <div class="compare">
+                      <a class="tooltip-1" title="Add to Compare"  onclick="addToCompare('43');">
+                        <i class="icon-bar-chart"></i>
+                        <span>Add to Compare</span>
+                      </a>
+                    </div>
+                    <span class="clear"></span>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="rating">
+                    <img height="18" src="catalog/view/theme/theme324/image/stars-0.png" alt="Based on 0 reviews." />
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to <strong>present flowers</strong>. They are a universal gift and believe us - even if you are not a fan, it doesn’t matter because it is very pleasant to receive flowers.<br />
+We are proud to present our wonderful goods. Here you can find many wonderful examples because our collection is one of the biggest among flower stores. We have many unique products, you don’t have to worry about the quality because our goods have premium quality and after all, trust is the foundation of collaboration.<br />
+We work with the <strong>leading florists</strong> because this sphere is very important in our kind of activity. You can rely on us because we are offering only premium quality goods. Important thing is that you can save a lot of money in our store. There are many different benefits and discounts. We are ready to make your life more beautiful.</p>
+              </div>
+            </div>
+          </div>
+          
+        <div class="inner">
+          <div class="f-left">
+            
+            <div class="name"><a class="maxheight-spec" href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43">Lonec non fermentum</a></div>
+            
+            
+            
+                        <div class="price">
+                            <span class="price-new">$99.99</span><span class="price-old">$109.99</span>
+                          </div>
+                        
+            
+            </div>
+            <div class="cart-button">
+              <a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/product&amp;product_id=43" class="button details"><span>Details</span></a>             
+              <span class="clear"></span>
+            </div>
+          <div class="clear"></div>
+                  </div>
+        <div class="clear"></div>
+      </li>
+           </ul>
+  </div>
+  </div>
+</div>
+  </aside>
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</section>
+<footer>
+<div class="container">
+  <div class="footer-block">
+    <div class="row">
+  
+            <div class="span2">
+        <h3>Information</h3>
+        <ul>
+                <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+                <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=6">Delivery</a></li>
+                <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+                </ul>
+      </div>
+            <div class="span2">
+        <h3>Customer Service</h3>
+        <ul>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/contact">Contact Us</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/return/insert">Returns</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=information/sitemap">Site Map</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <h3>Extras</h3>
+        <ul>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/manufacturer">Brands</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/voucher">Gift Vouchers</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=affiliate/account">Affiliates</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=product/special">Specials</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <h3>My Account</h3>
+        <ul>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/account">My Account</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/order">Order History</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/wishlist">Wish List</a></li>
+        <li><a href="https://livedemo00.template-help.com/opencart_47588/index.php?route=account/newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+          <li><a href="https://youtube.com">You Tube</a></li>
+        </ul>
+      </div>
+      <div class="span2 footer-phone">
+        <h3>Online support</h3>
+        <div class="foot-phone">          
+          <div class="extra-wrap">
+            <div>1-800-234-5677</div>
+            <div>1-800-256-5677</div>
+          </div>
+        </div>
+      </div>
+  </div></div></div>
+<div class="container">
+  <div class="row">
+  <div class="span12">
+    <div id="powered">
+      <div>
+      <span class="pow">
+      Powered By <a href="https://www.opencart.com">OpenCart</a> Flowers Store <span>&copy; 2017</span><!-- [[%FOOTER_LINK]] -->
+      </span>
+      <ul class="social">           
+        <li><a href="https://facebook.com" class="tooltip-2" title="Facebook"><i class=" icon-facebook"></i></a></li>
+        <li><a href="https://twitter.com" class="tooltip-2" title="Twitter"><i class=" icon-twitter"></i></a></li>
+        <li><a href="#" class="tooltip-2" title="RSS"><i class=" icon-rss"></i></a></li>
+        <li><a href="https://youtube.com" class="tooltip-2" title="You Tube"><i class=" icon-youtube"></i></a></li>
+        <li><a href="https://accounts.google.com" class="tooltip-2" title="Google+"><i class="icon-google-plus"></i></a></li>
+      </ul>
+        
+      </div>
+      <p id="back-top"> <a href="#top"><span></span></a> </p>
+    </div>  
+  </div>
+  </div></div>
+</footer>
+<script type="text/javascript"  src="catalog/view/theme/theme324/js/livesearch.js"></script>
+</div>
+</div>
+</div>
+
+</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
