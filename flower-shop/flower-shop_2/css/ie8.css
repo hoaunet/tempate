@@ -1,0 +1,27 @@
+/* God I hate Microsoft! */
+header #logo a img {
+	width:auto
+	}
+.camera_caption {
+	width:auto
+	}
+#cboxLoadingGraphic, #cboxLoadingOverlay {display:none !important;}
+
+/*---------------------------*/
+div.sort {width:225px}
+div.limit {width:155px}
+html[lang="de"] div.sort {width:285px;}
+html[lang="de"] div.limit {width:155px;}
+html[lang="es"] div.sort {width:275px;}
+html[lang="es"] div.limit {width:155px;}
+
+.product-info .cart-top-padd label {width:65px;}
+html[lang="de"] .product-info .cart-top-padd label {width:85px;}
+html[lang="es"] .product-info .cart-top-padd label {width:95px;}
+/*---------------------------*/
+
+#search input {
+	max-width:none;
+	outline:none
+	}
+.product-info .image {margin-bottom:20px;}
