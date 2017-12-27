@@ -239,8 +239,6 @@ input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, in
 .search-course ul li input[type="text"]:focus {
 	box-shadow: 0 0 5px rgba(8,56,127,0.5);
 }
-
-
 form p {
 	float: left;
 	position: relative;
@@ -589,7 +587,7 @@ ul li ul li ul li {
 }
 .logo:before {
 	content: '';
-	background: url(assets/images/header-illustration.png);
+	background: url(../images/header-illustration.png);
 	width: 375px;
 	height: 123px;
 	position: absolute;
@@ -900,7 +898,7 @@ ul li ul li ul li {
 	width: 100%;
 }
 .cs-newslist article {
-	background: url(assets/images/news-bg1.png);
+	background: url(../images/news-bg1.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-color: #f3f3f3;
@@ -1263,7 +1261,7 @@ ul li ul li ul li {
 	float: left;
 	width: 100%;
 	padding: 30px 30px 20px 30px;
-	background: url(assets/images/news-bg1.png);
+	background: url(../images/news-bg1.png);
 	background-position: left bottom;
 	background-repeat: no-repeat;
 	background-color: #b1c5e1;
@@ -2295,7 +2293,7 @@ footer .newsletter-section .cs-error-msg {
 #footer-widget {
 	float: left;
 	width: 100%;
-	background: url(assets/images/footer-illustration.png);
+	background: url(../images/footer-illustration.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-color: #f3f3f3;
@@ -3155,7 +3153,7 @@ text-align: center;
 	float: left;
 	padding: 25px 30px 65px;
 	position: relative;
-	background: url(assets/images/bg-about.png) left bottom #b1c5e1 no-repeat;
+	background: url(../images/bg-about.png) left bottom #b1c5e1 no-repeat;
 }
 .comment-respond:before,
 .cs-plain-form .form-style:before {
@@ -3405,7 +3403,7 @@ text-align: center;
 .under-holder {
 	width: 100%;
 	float: left;
-	background: url(assets/images/bg-under.png) no-repeat 0 270px;
+	background: url(../images/bg-under.png) no-repeat 0 270px;
 }
 .under-wrapp {
 	width: 880px;
@@ -3520,7 +3518,7 @@ text-align: center;
 	overflow: hidden;
 	padding: 30px 40px 28px 35px;
 	min-height: 320px;
-	background:url(assets/images/bg-about.png) no-repeat left bottom #f3f3f3;
+	background:url(../images/bg-about.png) no-repeat left bottom #f3f3f3;
 }
 .image-frame.frame-plane section h4 {
 	color: #222;
@@ -3553,7 +3551,7 @@ text-align: center;
 	width: 109px;
 	height: 5px;
 	display: inline-block;
-	background:url(assets/images/spreater-img.png) repeat-x;
+	background:url(../images/spreater-img.png) repeat-x;
 	float: none;
 	border-bottom: none;
 }
@@ -4382,7 +4380,7 @@ max-width: 50%;
 	float: left;
 	padding: 0 0 12px;
 	margin: 0 0 9px 0;
-	background:url(assets/images/spreater-img.png) repeat-x bottom;
+	background:url(../images/spreater-img.png) repeat-x bottom;
 }
 .categories li {
 	list-style: none;
@@ -4590,7 +4588,7 @@ max-width: 50%;
     position: absolute;
     top: 4px;
     width: 14px;
-	background: url(assets/images/plus-img.png) no-repeat;
+	background: url(../images/plus-img.png) no-repeat;
 }
 
 .event-editor .socialmedia{ position: relative; padding: 0 0 12px; float: left; width: 100%;}
@@ -5073,7 +5071,7 @@ max-width: 50%;
 	width: 100%;
 }
 .cs-seprator .devider{
-	background: url(assets/images/spreater-img1.png) repeat-x;
+	background: url(../images/spreater-img1.png) repeat-x;
 	height: 4px;
 	width: 100%;
 }
@@ -6503,7 +6501,7 @@ border-color: transparent transparent #f7f8f8 transparent;
 	margin:0px auto;
 	width:51px;
 	height:7px;
-	background:url(assets/images/testimonials_spliter.jpg) no-repeat;
+	background:url(../images/testimonials_spliter.jpg) no-repeat;
 	margin-top:10px;
 	}
 .event-caption blockquote p:after { 
@@ -6552,7 +6550,7 @@ border-color: transparent transparent #f7f8f8 transparent;
 	}
 .arrow_box {
 	position: relative;
-	background: url(assets/images/send_email_bg.png) no-repeat left bottom #b1c5e1;
+	background: url(../images/send_email_bg.png) no-repeat left bottom #b1c5e1;
 	min-height:295px;
 	
 }
@@ -6725,7 +6723,7 @@ border-color: transparent transparent #f7f8f8 transparent;
     line-height: 24px;
 }
 .pricing_spliter{
-	background:url(assets/images/pricing_spliter_bg.jpg) no-repeat;
+	background:url(../images/pricing_spliter_bg.jpg) no-repeat;
 	width:109px;
 	height:4px;
 	margin:0px auto;
