@@ -335,3 +335,31 @@
 	.blog_big_img { float:none; width:100%; margin:0 0 20px 0; }
 				
 }
+.product-image-container{
+    float: left;
+}
+
+.product-thumbs{
+    clear: both;
+    overflow: hidden;
+    margin: 0 -2px;
+}
+
+.product-thumb {
+    display: inline-block;
+    margin: 4px 2px;    
+}
+
+.products-grid .product-image-container{
+    float: none;
+}
+
+.product-thumb a{
+    border: 1px solid #ececec;
+    display: block;
+}
+
+.product-thumb a.active,
+.product-thumb a:hover{
+    border: 1px solid #ccc;
+}

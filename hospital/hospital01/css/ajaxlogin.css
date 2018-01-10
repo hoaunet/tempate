@@ -115,7 +115,7 @@
     height:31px; 
     width:40px; 
     z-index:9999;
-    background: url('../../../images/youama/ajaxlogin/loader.gif') no-repeat center center;
+    background: url('../images/loader.gif') no-repeat center center;
 }
 .youama-window-title {margin-bottom: 8px; text-align: center;}
 .youama-window-title h3 { 
