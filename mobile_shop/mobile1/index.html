@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<!--[if IEMobile]><html class="iemobile" lang="en-gb"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en-gb"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en-gb"> <!--<![endif]-->
+<head>   
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+<!--<base href="http://luatsutunhan.com" />-->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="x-ua-compatible" content="IE=edge,chrome=1" />
+<title>Mobile Shop</title> 
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="allvmscripts.css" type="text/css" />
+  <link rel="stylesheet" href="virtuemart.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/template.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="css/camera.css" type="text/css" />
+  <link rel="stylesheet" href="css/bannersblock.css" type="text/css" />
+  <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css?vmver=8615" type="text/css" />
+  <link rel="stylesheet" href="css/superfish.css" type="text/css" />
+  <link rel="stylesheet" href="css/slicknav.css" type="text/css" />  
+  <script src="js/mootools-core.js" type="text/javascript"></script>
+  <script src="js/core.js" type="text/javascript"></script>
+  <script src="js/mootools-more.js" type="text/javascript"></script>
+  <script src="js/modal.js" type="text/javascript"></script>
+  <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+  <script src="js/camera.min.js" type="text/javascript"></script>
+  <script src="js/superfish.js" type="text/javascript"></script>
+  <script src="js/jquery.mobilemenu.js" type="text/javascript"></script>
+  <script src="js/jquery.hoverIntent.js" type="text/javascript"></script>
+  <script src="js/sftouchscreen.js" type="text/javascript"></script>
+  <script src="js/jquery.slicknav.js" type="text/javascript"></script>
+  <script src="js/vmsite.js?vmver=8615" type="text/javascript"></script>
+  <script src="js/jquery.fancybox-1.3.4.pack.js?vmver=8615" type="text/javascript" defer="defer"></script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      SqueezeBox.initialize({});
+      SqueezeBox.assign($('a.modal').get(), {
+        parse: 'rel'
+      });
+    });
+jQuery(window).load(function() {
+    jQuery('li.level0  ul').each(function(index) {jQuery(this).prev().addClass('idCatSubcat')});
+    jQuery('#accordion li.level0 ul').css('display','none');
+    jQuery('#accordion li.active').each(function() {
+      jQuery('#accordion li.active > span').addClass('expanded');
+    }); 
+    jQuery('#accordion li.level0.active > ul').css('display','block');
+    jQuery('#accordion li.level0.active > ul > li.active > ul').css('display','block');
+    jQuery('li.level0 ul').each(function(index) {
+      jQuery(this).prev().addClass('close').click(function() {
+      if (jQuery(this).next().css('display') == 'none') {
+       jQuery(this).next().slideDown(200, function () {
+        jQuery(this).prev().removeClass('collapsed').addClass('expanded');
+        jQuery(this).prev().find('.fa').removeClass('fa-caret-down').addClass('fa-caret-up');
+        jQuery(this).parent().addClass('bgact');
+        });
+      }else {
+        jQuery(this).next().slideUp(200, function () {
+        jQuery(this).prev().removeClass('expanded').addClass('collapsed');
+        jQuery(this).prev().find('.fa').removeClass('fa-caret-up').addClass('fa-caret-down');
+         jQuery(this).parent().removeClass('bgact');
+        jQuery(this).find('ul').each(function() {
+          jQuery(this).hide().prev().removeClass('expanded').addClass('collapsed');
+          jQuery(this).hide().prev().find('.fa').removeClass('fa-caret-up').addClass('fa-caret-down');
+         
+        });
+        });
+      }
+      return false;
+      });
+  });
+  });
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />  
+  <!--[if lte IE 8]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   <!--[if lt IE 9]><div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'><a href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->      
+  <script type="text/javascript">
+      var animate =  '1';
+  </script>
+</head>  
+<body class="front home  featured">
+<div id="wrapper" class="z-index">
+  <div class="cotainer-top">
+    <!-- Top row --><!-- Header row -->
+    <div class="header-row">
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="logo-fleft"><!-- Site logo / title / description -->
+                <div class="site-logo site-logo__header"><a class="site-logo_link" href="index.html"><img class="site-logo_img" src="images/logo_banhangonlinetohienthanh.png" alt="luatsutunhan.com" /></a><span class="site-desc"></span></div>
+              </div>
+            </div> 
+            <div class="col-md-4 col-lg-4 col-sm-6">
+              <div class="moduletable  mod_search">
+                <div class="module_content">
+                  <form action="#" method="post" class="form-inline">
+                    <div class="search-form search-form__">
+                      <div class="form-group"><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox form-control" type="text" size="30" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /></div><button type="submit" title="Search" class="btn btn-search" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i></button> <input type="hidden" name="task" value="search" />
+                    <input type="hidden" name="option" value="com_search" />
+                    <input type="hidden" name="Itemid" value="121" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6">
+              <div class="moduletable  mod_custom">
+                <div class="module_content">
+                  <div class="custom"  ><p>Call us : <span>0123-456-789</span></div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+                <div class="moduletable  mod_virtuemart_cart_tm">
+                  <div class="module_content">                    
+                  <script id="jsVars_js" type="text/javascript">//<![CDATA[ 
+                  vmSiteurl = '#' ;
+                  vmLang = '&lang=en' ;
+                  Virtuemart.addtocart_popup = '1' ; 
+                  usefancy = true;
+                   //]]></script>
+                  <!-- Virtuemart 2 Ajax Card -->
+                  <div class="vmCartModule" id="vmCartModule">
+                    <div class="minicart">
+                        <div class="total_products"><span class="cart_num"><span class="crt-text">cart</span><a href="#">0</a></span></div>
+                      <div class="total"></div>
+                    </div>
+                    <div id="hiddencontainer" style="display:none">
+                      <div class="container">
+                        <div class="wrapper marg-bot sp"><div class="spinner"></div><!-- Image line --><div class="image"></div>
+                        <div class="fleft">
+                          <div class="product_row"><span class="product_name"></span><div class="clear"></div>
+                            <span class="quantity"></span><div class="prices" style="display:inline;"></div>
+                            <a class="vm2-remove_from_cart" onclick="remove_product_cart(this);"><i class="fa fa-times-circle"></i><span class="product_cart_id" style="display:none;"></span></a>
+                          </div>
+                          <div class="product_attributes"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="cart_list">
+                    <div class="text-cart">Your shopping cart is empty!    </div> 
+                    <div class="vm_cart_products" id="vm_cart_products"></div>
+                    <div class="total"></div>
+                    <div class="show_cart"></div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                jQuery(document).ready(function() {
+                  jQuery('.mod_virtuemart_cart_tm').hover(
+                     function(){
+                     jQuery('#cart_list').stop(true,true).slideDown(400) 
+                     },
+                     function(){ 
+                     jQuery('#cart_list').stop(true,true).delay(500).slideUp(100)
+                     }
+                  )
+                });
+                function remove_product_cart(elm) {
+                  var cart_id = jQuery(elm).children("span.product_cart_id").text();
+                  jQuery.ajax({
+                    url: 'index.php?option=com_virtuemart&view=cart&task=delete&removeProductCart=cart_virtuemart_product_id='+cart_id,
+                    type: 'post',
+                    data: 'cart_virtuemart_product_id='+cart_id,
+                    dataType: 'html',
+                    success: function(html){
+                            mod=jQuery(".vmCartModule");
+                      jQuery.getJSON(vmSiteurl+"index.php?option=com_virtuemart&nosef=1&view=cart&task=viewJS&format=json"+vmLang,
+                        function(datas, textStatus) {
+                          if (datas.totalProduct >0) {
+                            mod.find(".vm_cart_products").html("");
+                            datas.products.reverse();
+                            jQuery.each(datas.products, function(key, val) {
+                              if (key<4){ 
+                                jQuery("#hiddencontainer .container").clone().appendTo(".vmCartModule .vm_cart_products");
+                                jQuery.each(val, function(key, val) {
+                                  if (jQuery("#hiddencontainer .container ."+key)) mod.find(".vm_cart_products ."+key+":last").html(val) ;
+                              });
+                              } 
+                            });
+                            mod.find(".total").html(datas.billTotal);
+                            mod.find(".show_cart").html(datas.cart_show);
+                          } else {
+                            mod.find(".text-cart").html(datas.cart_empty_text);
+                            mod.find(".vm_cart_products").hide();
+                            mod.find(".total").hide();
+                            mod.find(".show_cart").hide();
+                            mod.find("#cart_list").hide();
+                          }
+                          mod.find(".total_products").html(datas.totalProductTxt);
+                        }
+                      );
+                    }
+                }); 
+                }
+                </script>   </div>
+              </div>
+              <div class="moduletable  mod_virtuemart_currencies">
+                <div class="module_header"><h3 class="module_title">Currencies</h3></div>
+                <div class="module_content">      
+                  <div class="mod-currency-selector ">  
+                    <form action="#" method="post" class="form-inline">
+                          <select id="virtuemart_currency_id" name="virtuemart_currency_id" class="inputbox vm-chzn-select form-control">
+                    <option value="47">Euro &euro;</option>
+                    <option value="144" selected="selected">United States dollar $</option>
+                  </select>
+                        <!-- <input class="button btn btn-default" type="submit" name="submit" value="" /> -->
+                    </form>
+                  </div>
+                  <script>
+                    jQuery('#virtuemart_currency_id').change(function(){
+                      jQuery(this).parent('form').submit();
+                    })
+                  </script>   </div>
+              </div>
+              <div class="clearfix"></div>
+            </div> 
+          </div>
+        </div>
+      </div>       
+    </div>
+   </div><!-- Header module navigation -->
+</div>  
+<div class="navigation"><!-- Header module position -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12">
+        <div class="moduletable   mod_superfish_menu">        
+          <div class="module_content">
+            <ul class="sf-menu ">
+              <li class="item-121 current active"><a href="index.html" >Home</a></li>
+              <li class="item-143 parent"><a href="product_page.html" >Catalog</a>
+                <ul class="menu"><li class="  list-item""><a href="product_page.html" ><span>Accessories</span></a></li>
+                  <li class="  list-item""><a href="#" ><span>Brand</span></a></li>
+                  <li class="  list-item""><a href="#" ><span>Price plan</span></a></li>
+                  <li class="  list-item""><a href="#" ><span>Sim cards</span></a></li>
+                  <li class=" parent list-item""><a href="#" ><span>Software</span></a>            <ul class="menu"><li class="  list-item""><a href="#" ><span>Curabitur rhoncus</span></a></li><li class="  list-item""><a href="#" ><span>Proin hendrerit nisl</span></a></li><li class="  list-item""><a href="#" ><span>Proin viverra, urna</span></a></li><li class=" parent list-item""><a href="#" ><span>Sed in dui et mauris</span></a>            <ul class="menu"><li class="  list-item""><a href="#" ><span>Proin lobortis</span></a></li><li class="  list-item""><a href="#" ><span>Ut congue turpis</span></a></li><li class="  list-item""><a href="#" ><span>Vestibulum faucibus</span></a></li></ul></li></ul></li><li class="  list-item""><a href="#" ><span>Top sellers</span></a></li><li class="  list-item""><a href="#" ><span>Vintage</span></a></li></ul></li><li class="item-142"><a href="about_us.html" >About us</a></li><li class="item-144"><a href="simple_blog.html" >Blog</a></li><li class="item-145"><a href="contact_us.html" >Contacts</a></li></ul>
+                  <script type="text/javascript">
+                  jQuery(document).ready(function(){
+                    jQuery.noConflict();
+                    // initialise plugins
+                      jQuery('ul.sf-menu').superfish({
+                        hoverClass:    'sfHover',         
+                        pathClass:     'overideThisToUse',
+                        pathLevels:    1,    
+                        delay:         500, 
+                        animation:     {opacity:'show'}, 
+                        speed:         'normal',   
+                        autoArrows:    false, 
+                        dropShadows:   true, 
+                        disableHI:     false, 
+                        easing:        "swing",
+                        onInit:        function(){},
+                        onBeforeShow:  function(){},
+                        onShow:        function(){},
+                        onHide:        function(){}
+                      });
+
+                    jQuery('.sf-menu').slicknav({
+                      label: 'Navigation: ',
+                      prependTo: '.navigation',
+                      closeOnClick: true,
+                      allowParentLinks: true
+                    });
+
+                      var ismobile = navigator.userAgent.match(/(iPhone)|(iPod)|(android)|(webOS)/i)
+                      if(ismobile){
+                        jQuery('.sf-menu').sftouchscreen({});
+                      }
+                    });
+                  </script>   </div>
+              </div>
+            </div>
+          </div>
+         </div>           
+      </div>                     
+   <!-- Main row -->
+  <div class="main-row">
+    <div class="container">
+      <div class="main">
+        <div class="row"><!-- Left aside -->
+          <div class="col-md-3">
+            <div class="aside aside__left">
+              <div class="moduletable  mod_virtuemart_category"><div class="module_header"><h3 class="module_title">Categories</h3></div>
+        <div class="module_content">
+          <ul class="VMmenu list list__categories list__accordion VMmenu" id="id="accordion"">
+            <li id="vm-category-9" class="list-item level0 VmClose"><a href="#" >Accessories</a></li>
+            <li id="vm-category-2" class="list-item level0 VmClose"><a href="#" >Brand</a></li>
+            <li id="vm-category-4" class="list-item level0 VmClose"><a href="#" >Price plan</a></li>
+            <li id="vm-category-5" class="list-item level0 VmClose"><a href="#" >Sim cards</a></li>
+            <li id="vm-category-3" class="list-item level0 parent has-children VmClose"><a href="#" >Software</a><span class="VmArrow"><i class="fa fa-caret-down"></i></span>  
+              <ul class="menu list-sub level1">
+                <li id="vm-category-14" class="category-14 VmClose"><a href="#" >Curabitur rhoncus</a></li>
+                <li id="vm-category-12" class="category-12 VmClose"><a href="#" >Proin hendrerit nisl</a></li>
+                <li id="vm-category-11" class="category-11 VmClose"><a href="#" >Proin viverra, urna</a></li>
+                <li id="vm-category-10" class="category-10 parent has-children VmClose"><a href="#" >Sed in dui et mauris</a><span class="VmArrow"><i class="fa fa-caret-down"></i></span>
+                  <ul class="menu list-sub level2">
+                    <li id="vm-category-7" class="category-7 VmClose"><a href="#" >Proin lobortis</a></li>
+                    <li id="vm-category-13" class="category-13 VmClose"><a href="#" >Ut congue turpis</a></li>
+                    <li id="vm-category-6" class="category-6 VmClose"><a href="#" >Vestibulum faucibus</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li id="vm-category-8" class="list-item level0 VmClose"><a href="#" >Top sellers</a>     </li>
+            <li id="vm-category-1" class="list-item level0 VmClose"><a href="#" >Vintage</a>     </li>
+          </ul>
+        </div>
+      </div>  
+      <div class="moduletable moduletable__ spec mod_virtuemart_product">
+        <div class="module_header"><h3 class="module_title">Bestsellers</h3></div>
+        <div class="module_content">      
+          <div class="vm-products vm-products__ spec"><!-- Header text -->
+          <!-- Products listing --><!-- Display style: DIV -->
+            <div class="products-listing listing__grid">
+              <div class="rows">
+                <div class="item item_product sale"  style=" width:100%">
+                  <div class="product_wrap"><span class="product_sale-label label label-success">Sale</span>
+                    <div class="item_image product_image"><a href="#" title="Ipsum dolor sit amet conse ctetur">
+                      <img src="images/product15_resized.png" alt="product15" class="featuredProductImage" /></a>                
+                    </div>
+                    <div class="product_price">  
+                      <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$75.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$102.60</span></div></div>
+                      <h4 class="item_name product_title"><a href="#">Ipsum dolor sit amet conse ctetur</a></h4>  
+                      <div class="clearfix"></div>
+                      <div class="product_addtocart">
+                        <div class="addtocart-area">
+                        <form method="post" class="product" action="index.php">
+                          <input name="quantity" type="hidden" value="1" />
+                          <div class="addtocart-bar">
+                          <script type="text/javascript">
+                                function check(obj) {
+                                // use the modulus operator '%' to see if there is a remainder
+                                remainder=obj.value % 1;
+                                quantity=obj.value;
+                                if (remainder  != 0) {
+                                  alert('!');
+                                  obj.value = quantity-remainder;
+                                  return false;
+                                  }
+                                return true;
+                                }
+                            </script> 
+                              <div class="form-inline hidden">
+                                <div class="form-group"><span class="quantity-box">
+                                  <input type="text" class="quantity-input js-recalculate" name="quantity[]" onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');" onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         value="1"/>
+                                        </span><span class="quantity-controls js-recalculate"><i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i></span>
+                                </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="form-group">
+                              <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                              <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                              </div>          
+                              <input type="hidden" class="pname" value="Ipsum dolor sit amet conse ctetur"/>
+                              <input type="hidden" name="option" value="com_virtuemart"/>
+                              <input type="hidden" name="view" value="cart"/>
+                              <noscript><input type="hidden" name="task" value="add"/></noscript>
+                              <input type="hidden" name="virtuemart_product_id[]" value="15"/>
+                              <input type="hidden" name="virtuemart_category_id[]" value="4"/>
+                            </form>
+                          </div>
+                        </div>
+                       <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='rows'><div class="item item_product sale"  style=" width:100%">
+                   <div class="product_wrap"><span class="product_sale-label label label-success">Sale</span>
+                      <div class="item_image product_image"><a href="#" title="Ipsum dolor sit amet conse ctetur"><img src="images/product18_resized.png" alt="product18" class="featuredProductImage" /></a></div>
+                      <div class="product_price">   
+                        <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$105.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$125.40</span></div>                </div>
+                        <h4 class="item_name product_title"><a href="#">Ipsum dolor sit amet conse ctetur</a> </h4>  
+                        <div class="clearfix"></div>                                
+                        <div class="product_addtocart">
+                          <div class="addtocart-area">
+                            <form method="post" class="product" action="index.php">
+                              <input name="quantity" type="hidden" value="1" />          
+                              <div class="addtocart-bar">
+                              <script type="text/javascript">
+                                    function check(obj) {
+                                    // use the modulus operator '%' to see if there is a remainder
+                                    remainder=obj.value % 1;
+                                    quantity=obj.value;
+                                    if (remainder  != 0) {
+                                      alert('!');
+                                      obj.value = quantity-remainder;
+                                      return false;
+                                      }
+                                    return true;
+                                    }
+                                </script> 
+                              <div class="form-inline hidden">
+                                  <div class="form-group">
+                                  <span class="quantity-box">
+                                  <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                         onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                         value="1"/></span>
+                                   <span class="quantity-controls js-recalculate"><i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                      <i class="fa fa-minus quantity-controls quantity-minus"></i></span>
+                                  </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="form-group"><input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" /></div>
+                              <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                            </div>          
+                          <input type="hidden" class="pname" value="Ipsum dolor sit amet conse ctetur"/>
+                          <input type="hidden" name="option" value="com_virtuemart"/>
+                          <input type="hidden" name="view" value="cart"/>
+                          <noscript><input type="hidden" name="task" value="add"/></noscript>
+                          <input type="hidden" name="virtuemart_product_id[]" value="18"/>
+                          <input type="hidden" name="virtuemart_category_id[]" value="4"/>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>            
+              </div>
+            </div>    
+            <!-- Footer text -->
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <!-- Top content -->
+    <div class="top-content">
+      <div class="moduletable  mod_slideshowck">
+        <div class="module_content">      
+            <!--[if lte IE 7]>
+            <link href="css/camera_ie.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!--[if IE 8]>
+            <link href="css/camera_ie8.css" rel="stylesheet" type="text/css" />
+            <![endif]--><script type="text/javascript"> <!--
+               jQuery(function(){
+                jQuery('#camera_wrap_113').camera({
+                        height: '56.896%',
+                        minHeight: '',
+                        pauseOnClick: false,
+                        hover: 1,
+                        fx: 'simpleFade',
+                        loader: 'none',
+                        pagination: 1,
+                        thumbnails: 0,
+                        thumbheight: 75,
+                        thumbwidth: 100,
+                        time: 7000,
+                        transPeriod: 1000,
+                        alignment: 'center',
+                        autoAdvance: 1,
+                        mobileAutoAdvance: 1,
+                        portrait: 0,
+                        barDirection: 'leftToRight',
+                        imagePath: 'images/',
+                        lightbox: 'mediaboxck',
+                        fullpage: 0,
+                mobileimageresolution: '0',
+                        navigationHover: false,
+                        navigation: false,
+                        playPause: false,
+                        barPosition: 'bottom'
+                });
+        }); //--> </script><!-- debut Slideshow CK -->
+        <div class="slideshowck camera_wrap camera_amber_skin" id="camera_wrap_113" style="width:100%px;">
+          <div data-thumb="images/slide1.jpg" data-src="images/slide1.jpg" data-link="#" data-target="_parent">
+            <div class="camera_caption fadeIn">
+            <div class="camera_caption_title"></div>
+            <div class="camera_caption_desc">
+              <div class="txt1">Lorem ipsum dolor sit amet</div> <div class="txt2">iPhone 6</div> <div class="txt4">Aenean nonummy accumsan malesu hendrerit mauris</div> <div class="txt3">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</div>                      </div>
+          </div>
+        </div>
+      <div data-thumb="images/slide2_th.jpg" data-src="images/slide2.jpg" data-link="#" data-target="_parent">
+        <div class="camera_caption fadeIn">
+          <div class="camera_caption_title"></div>
+          <div class="camera_caption_desc">
+            <div class="txt1">Cum sociis nato pena magnis</div> <div class="txt2">samsung</div> <div class="txt4">malesuada Lorem ipsum dolor sit amet consectetuer</div> <div class="txt3">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</div>                      </div>
+        </div>
+      </div>
+      <div data-thumb="images/slide3_th.jpg" data-src="images/slide3.jpg" data-link="#" data-target="_parent">
+        <div class="camera_caption fadeIn">
+          <div class="camera_caption_title"></div>
+          <div class="camera_caption_desc">
+            <div class="txt1">cenas tristiq lue orci ac sem</div> <div class="txt2">htc</div> <div class="txt4">Lorem ipsum dolor sit  amet consectetuer</div> <div class="txt3">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</div>                     </div>
+        </div>
+      </div>
+    </div>
+  <div style="clear:both;"></div>
+<!-- fin Slideshow CK -->
+    </div>
+  </div>  
+  <div class="moduletable moduletable__content_first mod_bannersblock">
+    <div class="module_content">
+      <div class="banner_block content_first">
+        <ul class="listing__banners">   
+          <li class="item banner item-1" style="width:270px; height:auto;"><a href="#" target="_self" title="Lorem">
+            <span class="caption"> <div class="txt1">Clearance <span>Get up to 25% off</span></div>
+              <div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</div>
+            </span></a>                                        
+        </li>
+        <li class="item banner item-2" style="width:570px; height:auto;"><a href="#" target="_self" title="Lorem"><span class="caption"> <div class="txt1">Free Shipping 
+          <span>on orders over $99</span></div><div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</div></span>
+          </a>                                        
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>  
+  <div class="moduletable moduletable__new mod_virtuemart_product">
+    <div class="module_header"><h3 class="module_title">New Products</h3></div>
+      <div class="module_content">
+        <div class="vm-products vm-products__new">
+          <!-- Header text -->
+          <!-- Products listing -->
+          <!-- Display style: DIV -->
+          <div class="products-listing listing__grid">
+            <div class="rows">
+              <div class="item item_product "  style=" width:33%">
+                <div class="product_wrap">
+                  <div class="item_image product_image">
+                  <a href="#" title="Dolor sit amet"><img src="images/product76_resized.png" alt="product76" class="featuredProductImage" /></a></div>
+                  <div class="product_price">    
+                  <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$114.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$114.00</span></div>                </div>
+                  <h4 class="item_name product_title"><a href="#">Dolor sit amet</a></h4>  
+                  <div class="clearfix"></div>
+                  <div class="product_addtocart">
+                    <div class="addtocart-area">              
+                    <form method="post" class="product" action="index.php"><input name="quantity" type="hidden" value="1" />                      
+                      <div class="addtocart-bar">
+                      <script type="text/javascript">
+                            function check(obj) {
+                            // use the modulus operator '%' to see if there is a remainder
+                            remainder=obj.value % 1;
+                            quantity=obj.value;
+                            if (remainder  != 0) {
+                              alert('!');
+                              obj.value = quantity-remainder;
+                              return false;
+                              }
+                            return true;
+                            }
+                        </script> 
+                        <div class="form-inline hidden">
+                          <div class="form-group"><span class="quantity-box">
+                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                            onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                               onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                               onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                               onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');" value="1"/></span>
+                            <span class="quantity-controls js-recalculate"><i class="fa fa-plus quantity-controls quantity-plus"></i>
+                              <i class="fa fa-minus quantity-controls quantity-minus"></i></span>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group">
+                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" /></div>
+                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                      </div>          
+                      <input type="hidden" class="pname" value="Dolor sit amet"/>
+                      <input type="hidden" name="option" value="com_virtuemart"/>
+                      <input type="hidden" name="view" value="cart"/>
+                      <noscript><input type="hidden" name="task" value="add"/></noscript>
+                      <input type="hidden" name="virtuemart_product_id[]" value="76"/>
+                      <input type="hidden" name="virtuemart_category_id[]" value="13"/>
+                    </form>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="item item_product sale"  style=" width:33%">
+              <div class="product_wrap"><span class="product_sale-label label label-success">Sale</span>
+                <div class="item_image product_image"><a href="#" ><img src="images/product77_resized.png" alt="product77" class="featuredProductImage" /></a></div>
+                <div class="product_price"> 
+                <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$95.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$136.80</span></div>               </div>
+                <h4 class="item_name product_title"><a href="#">Lorem ipsum dolor sit amet</a></h4>  
+                <div class="clearfix"></div>                                
+                <div class="product_addtocart">
+                  <div class="addtocart-area">
+                   <form method="post" class="product" action="index.php">
+                    <input name="quantity" type="hidden" value="1" />          
+                    <div class="addtocart-bar">
+                    <script type="text/javascript">
+                          function check(obj) {
+                          // use the modulus operator '%' to see if there is a remainder
+                          remainder=obj.value % 1;
+                          quantity=obj.value;
+                          if (remainder  != 0) {
+                            alert('!');
+                            obj.value = quantity-remainder;
+                            return false;
+                            }
+                          return true;
+                          }
+                      </script> 
+                      <div class="form-inline hidden">
+                                            <div class="form-group">
+                                            <span class="quantity-box">
+                                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   value="1"/>
+                                        </span>
+                                             <span class="quantity-controls js-recalculate">
+                                                <i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i>
+                                               
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="form-group">
+                                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                                        
+                                        
+          </div>
+          
+          <input type="hidden" class="pname" value="Lorem ipsum dolor sit amet"/>
+          <input type="hidden" name="option" value="com_virtuemart"/>
+          <input type="hidden" name="view" value="cart"/>
+          <noscript><input type="hidden" name="task" value="add"/></noscript>
+          <input type="hidden" name="virtuemart_product_id[]" value="77"/>
+          <input type="hidden" name="virtuemart_category_id[]" value="14"/>
+        </form>
+      </div>
+                      </div>
+                                                               <div class="clearfix"></div>
+              </div>
+            </div>
+            
+                        <div class="item item_product sale"  style=" width:33%">
+
+              <div class="product_wrap">
+                            
+                                    <span class="product_sale-label label label-success">Sale</span>
+                                                <div class="item_image product_image">
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-78-detail" title="Ipsum dolor sit amet conse ctetur"><img src="/virtuemart_52588/images/stories/virtuemart/product/resized/product78_resized.png" alt="product78" class="featuredProductImage" /></a>                </div>
+                <div class="product_price">     
+
+                <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$105.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$125.40</span></div>                </div>
+                <h4 class="item_name product_title">
+                  
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-78-detail">Ipsum dolor sit amet conse ctetur</a> 
+                </h4>  
+                                                               <div class="clearfix"></div>
+                                
+                <div class="product_addtocart">
+                        <div class="addtocart-area">
+
+        <form method="post" class="product" action="index.php">
+                <input name="quantity" type="hidden" value="1" />
+          
+          <div class="addtocart-bar">
+          <script type="text/javascript">
+                function check(obj) {
+                // use the modulus operator '%' to see if there is a remainder
+                remainder=obj.value % 1;
+                quantity=obj.value;
+                if (remainder  != 0) {
+                  alert('!');
+                  obj.value = quantity-remainder;
+                  return false;
+                  }
+                return true;
+                }
+            </script> 
+                                                                                                        <div class="form-inline hidden">
+                                            <div class="form-group">
+                                            <span class="quantity-box">
+                                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   value="1"/>
+                                        </span>
+                                             <span class="quantity-controls js-recalculate">
+                                                <i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i>
+                                               
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="form-group">
+                                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                                        
+                                        
+          </div>
+          
+          <input type="hidden" class="pname" value="Ipsum dolor sit amet conse ctetur"/>
+          <input type="hidden" name="option" value="com_virtuemart"/>
+          <input type="hidden" name="view" value="cart"/>
+          <noscript><input type="hidden" name="task" value="add"/></noscript>
+          <input type="hidden" name="virtuemart_product_id[]" value="78"/>
+          <input type="hidden" name="virtuemart_category_id[]" value="14"/>
+        </form>
+      </div>
+                      </div>
+                                                               <div class="clearfix"></div>
+              </div>
+            </div>
+            
+            </div><div class='rows'>            <div class="item item_product "  style=" width:33%">
+
+              <div class="product_wrap">
+                              <div class="item_image product_image">
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-79-detail" title="Lorem ipsum dolor sit amet conse"><img src="/virtuemart_52588/images/stories/virtuemart/product/resized/product79_resized.png" alt="product79" class="featuredProductImage" /></a>               </div>
+                <div class="product_price">     
+
+                <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$148.20</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$148.20</span></div>                </div>
+                <h4 class="item_name product_title">
+                  
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-79-detail">Lorem ipsum dolor sit amet conse</a> 
+                </h4>  
+                                                               <div class="clearfix"></div>
+                                
+                <div class="product_addtocart">
+                        <div class="addtocart-area">
+
+        <form method="post" class="product" action="index.php">
+                <input name="quantity" type="hidden" value="1" />
+          
+          <div class="addtocart-bar">
+          <script type="text/javascript">
+                function check(obj) {
+                // use the modulus operator '%' to see if there is a remainder
+                remainder=obj.value % 1;
+                quantity=obj.value;
+                if (remainder  != 0) {
+                  alert('!');
+                  obj.value = quantity-remainder;
+                  return false;
+                  }
+                return true;
+                }
+            </script> 
+                                                                                                        <div class="form-inline hidden">
+                                            <div class="form-group">
+                                            <span class="quantity-box">
+                                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   value="1"/>
+                                        </span>
+                                             <span class="quantity-controls js-recalculate">
+                                                <i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i>
+                                               
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="form-group">
+                                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                                        
+                                        
+          </div>
+          
+          <input type="hidden" class="pname" value="Lorem ipsum dolor sit amet conse"/>
+          <input type="hidden" name="option" value="com_virtuemart"/>
+          <input type="hidden" name="view" value="cart"/>
+          <noscript><input type="hidden" name="task" value="add"/></noscript>
+          <input type="hidden" name="virtuemart_product_id[]" value="79"/>
+          <input type="hidden" name="virtuemart_category_id[]" value="14"/>
+        </form>
+      </div>
+                      </div>
+                                                               <div class="clearfix"></div>
+              </div>
+            </div>
+            
+                        <div class="item item_product "  style=" width:33%">
+
+              <div class="product_wrap">
+                              <div class="item_image product_image">
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-80-detail" title="Lorem ipsum dolor sit amet, consect etuer"><img src="/virtuemart_52588/images/stories/virtuemart/product/resized/product80_resized.png" alt="product80" class="featuredProductImage" /></a>                </div>
+                <div class="product_price">     
+
+                <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$102.60</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$102.60</span></div>                </div>
+                <h4 class="item_name product_title">
+                  
+                  <a href="/virtuemart_52588/index.php/online-store/software/curabitur-rhoncus/product-80-detail">Lorem ipsum dolor sit amet, consect...</a> 
+                </h4>  
+                                                               <div class="clearfix"></div>
+                                
+                <div class="product_addtocart">
+                        <div class="addtocart-area">
+
+        <form method="post" class="product" action="index.php">
+                <input name="quantity" type="hidden" value="1" />
+          
+          <div class="addtocart-bar">
+          <script type="text/javascript">
+                function check(obj) {
+                // use the modulus operator '%' to see if there is a remainder
+                remainder=obj.value % 1;
+                quantity=obj.value;
+                if (remainder  != 0) {
+                  alert('!');
+                  obj.value = quantity-remainder;
+                  return false;
+                  }
+                return true;
+                }
+            </script> 
+                                                                                                        <div class="form-inline hidden">
+                                            <div class="form-group">
+                                            <span class="quantity-box">
+                                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   value="1"/>
+                                        </span>
+                                             <span class="quantity-controls js-recalculate">
+                                                <i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i>
+                                               
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="form-group">
+                                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                                        
+                                        
+          </div>
+          
+          <input type="hidden" class="pname" value="Lorem ipsum dolor sit amet, consect etuer"/>
+          <input type="hidden" name="option" value="com_virtuemart"/>
+          <input type="hidden" name="view" value="cart"/>
+          <noscript><input type="hidden" name="task" value="add"/></noscript>
+          <input type="hidden" name="virtuemart_product_id[]" value="80"/>
+          <input type="hidden" name="virtuemart_category_id[]" value="14"/>
+        </form>
+      </div>
+                      </div>
+                                                               <div class="clearfix"></div>
+              </div>
+            </div>
+            
+                        <div class="item item_product sale"  style=" width:33%">
+
+              <div class="product_wrap">
+                            
+                                    <span class="product_sale-label label label-success">Sale</span>
+                                                <div class="item_image product_image">
+                  <a href="/virtuemart_52588/index.php/online-store/software/proin-hendrerit-nisl/product-72-detail" title="Lorem ipsum dolor sit amet, consect etuer"><img src="/virtuemart_52588/images/stories/virtuemart/product/resized/product72_resized.png" alt="product72" class="featuredProductImage" /></a>               </div>
+                <div class="product_price">     
+
+                <div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >$95.00</span></div><div class="PricesalesPriceWithDiscount vm-display vm-price-value" ><span class="PricesalesPriceWithDiscount" >$136.80</span></div>               </div>
+                <h4 class="item_name product_title">
+                  
+                  <a href="/virtuemart_52588/index.php/online-store/software/proin-hendrerit-nisl/product-72-detail">Lorem ipsum dolor sit amet, consect...</a> 
+                </h4>  
+                                                               <div class="clearfix"></div>
+                                
+                <div class="product_addtocart">
+                        <div class="addtocart-area">
+
+        <form method="post" class="product" action="index.php">
+                <input name="quantity" type="hidden" value="1" />
+          
+          <div class="addtocart-bar">
+          <script type="text/javascript">
+                function check(obj) {
+                // use the modulus operator '%' to see if there is a remainder
+                remainder=obj.value % 1;
+                quantity=obj.value;
+                if (remainder  != 0) {
+                  alert('!');
+                  obj.value = quantity-remainder;
+                  return false;
+                  }
+                return true;
+                }
+            </script> 
+                                                                                                        <div class="form-inline hidden">
+                                            <div class="form-group">
+                                            <span class="quantity-box">
+                                            <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+                                                   value="1"/>
+                                        </span>
+                                             <span class="quantity-controls js-recalculate">
+                                                <i class="fa fa-plus quantity-controls quantity-plus"></i>
+                                                <i class="fa fa-minus quantity-controls quantity-minus"></i>
+                                               
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="form-group">
+                                        <input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />                                        </div>
+                                        <noscript><input type="hidden" name="task" value="add"/></noscript> 
+                                        
+                                        
+          </div>
+          
+          <input type="hidden" class="pname" value="Lorem ipsum dolor sit amet, consect etuer"/>
+          <input type="hidden" name="option" value="com_virtuemart"/>
+          <input type="hidden" name="view" value="cart"/>
+          <noscript><input type="hidden" name="task" value="add"/></noscript>
+          <input type="hidden" name="virtuemart_product_id[]" value="72"/>
+          <input type="hidden" name="virtuemart_category_id[]" value="12"/>
+        </form>
+      </div>
+                      </div>
+                                                               <div class="clearfix"></div>
+              </div>
+            </div>
+            
+                    </div>
+      </div>
+
+    
+                <!-- Footer text -->  
+                </div>    
+              </div>
+            </div>
+          </div>                                               
+          <!-- Main content area -->
+          <div class="main-content"><div class="featured-view featured-view__"></div></div>                                                  
+        </div>        
+      </div>          
+    </div>
+  </div>
+</div>                                                                                                     
+<div id="push"></div>    
+<div id="footer">
+<!-- Bottom row -->
+<!-- Footer row -->
+<div class="footer-row">
+  <div class="container">
+  <div class="footer">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-sm-4">
+        <div class="moduletable  mod_menu">
+          <div class="module_content">      
+            <ul class="menu menu__ list foot-nav">
+            <li class="item-121 current active"><a href="index.html" >Home</a></li><li class="item-143"><a href="product_page.html" >Catalog</a></li><li class="item-142"><a href="about_us.html" >About us</a></li><li class="item-144"><a href="simple_blog.html" >Blog</a></li><li class="item-145"><a href="contact_us.html" >Contacts</a></li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-4">
+          <div class="moduletable  mod_menu">
+            <div class="module_content">      
+              <ul class="menu menu__ list">
+              <li class="item-139"><a href="#" >Contact vendor</a></li><li class="item-140"><a href="#" >Vendor details</a></li><li class="item-141"><a href="#" >Vendor TOS</a></li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-2 col-sm-4">
+          <div class="moduletable  mod_socialmedialinks">
+            <div class="module_content">
+              <div class="smile" style="text-align: right "> <a style="margin:4px;" rel="nofollow" href="#" target="_blank">
+                <i class="fa fa-facebook"></i><span>Facebook</span><img src="images/facebook.png" alt="Facebook" title="Follow us on Facebook" /></a><a style="margin:4px;" rel="nofollow" href="#" target="_blank">
+                <i class="fa fa-twitter"></i><span>Twitter</span><img src="images/twitter.png" alt="Twitter" title="Follow us on Twitter" /></a>  </div>
+              <div class="clr"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>          
+  <!-- Copyright row -->
+  <div class="copyright-row">
+    <div class="container">
+      <div class="copyright">
+        <div class="moduletable   mod_footer">        
+          <div class="module_content">Copyright &#169; 2018 Mobile. All Rights Reserved.    </div>
+        </div>
+      </div>   
+    </div>
+  </div>
+</div>
+<div id="totopscroller"></div>
+<div class="chat-position">
+  <div class="moduletable  mod_olark_chat">
+    <div class="module_content">      
+    <!-- begin olark code -->
+    <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+    f[z]=function(){
+    (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+    },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+    f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+    0:+new Date};a.P=function(u){
+    a.p[u]=new Date-a.p[0]};function s(){
+    a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+    hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+    return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+    b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+    b.contentWindow[g].open()}catch(w){
+    c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+    var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+    b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+    loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+    /* custom configuration goes here (www.olark.com/documentation) */
+    olark.identify('5615-604-10-1042');/*]]>*/</script><noscript><a href="https://www.olark.com/site/5615-604-10-1042/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="https://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+    <!-- end olark code -->   
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/tm-stick-up.js"></script>
+<script type="text/javascript" src="js/scrollUp.min.js"></script>
+<script type="text/javascript" src="js/vm/scriptsAll.js"></script>
+<script type="text/javascript" src="js/animate/wow.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
+
