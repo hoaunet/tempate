@@ -1,0 +1,26 @@
+﻿/* ThemeColor Setup */
+
+.cscolor, .cs-blog-grid .owl-controls .owl-prev:hover i, .cs-blog-grid .owl-controls .owl-next:hover i, .cs-testimonial .cs-question-mark:before, .cs-readmore-btn,
+.cs-full-blog .cs-post-options li a, .cs-blog-editor .cs-full-blog .cs-bloginfo .cs-post-options li.cs-admin-post a, .cs-blog-editor .cs-title .cs-admin-post a,
+.relevant-search .cs-search-results .suggestions ul li:before, .site-maps-links ul li:before, .suggestions ul li:before, .site-maps-links ul li:before, .cs-fancy-heading h1 span,
+.cs-counter figure i, .cs-userinfo li i, .cs-widget-contact i, .page-sidebar .widget_text i, #footer-sec .widget_text i, .footer-nav p a
+{
+	color: #ff9310 !important;
+}
+.cs-bgcolor, .csbg-color, table thead tr th, .breadcrumb-sec .breadcrumbs li.active, 
+.cs-portfolio-modren figcaption .cs-text .separator:after, .cs-portfolio-medium .cs-gallery-view:before, .cs-project-details .cs-detail-list>li:before, 
+.cs-project-details .cs-detail-list .cs-share .btn-share, .cs-project-details .cs-heading:before, .cs-project-details .cs-project-pagination figcaption .separator:after,
+.cs-related-projects .cs-detail-head:before, .cs-pricing-details .cs-heading:before, .cs-section-title h2:before, .cs-testimonial .cs-question-mark:before,
+.cs-section-title h2:before, .cs-readmore-btn:before, .comment-reply i, .btnsubmit, .cs-relevant-list p span, .cs-divider1:before, .cs-search-area .btnsubmit,
+.cs-relevant-list p span, .cs-fancy-heading .cs-spreater .cs-divider1, .cs-classic figure figcaption span, .cs-modren figure figcaption span, .cs-box .panel-body:before,
+.cs-section-title h2:before, .cs-blog .cs-bloginfo-sec h3:before, .cs-heading-description h1:before, .cs-heading-description h2:before, .cs-section-title h1:before,
+.cs-section-title h3:before, .cs-banner-form .form-content p:before, .cs-default-btn, .cs-spreater .cs-divider-style:before, .cs-counter figure:before, .page-not-found  .cs-search-area input[type="submit"],
+.under-wrapp .cs-search-area input[type="submit"], .under-wrapp .main-digit-wrapp.has-bg4, .cs-teaminfo:before, #footer-sec .widget-section-title:after, #copyright .btn-top:hover
+
+{
+	background-color: #ff9310 !important;
+}
+
+.csborder-color,.csborder-hovercolor:hover{
+	border-color: #ff9310 !important;
+}

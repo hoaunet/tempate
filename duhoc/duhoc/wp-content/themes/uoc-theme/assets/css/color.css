@@ -1,0 +1,41 @@
+/* ThemeColor Setup */
+
+.cscolor,.cs-hovercolor:hover,/* Widget */.widget ul li a:hover, .widget_cetegorie ul li:hover a:before, .widget_list ul li:hover a:before, .widget_list ul li:hover a, .widget-online-poll .inner-sec ul li:hover a, .widget ul li a:hover:before,
+.widget_nav_menu ul li:hover a, .widget_pages ul li a:hover, .cs-course-table .content .active .title-bar>ul>li:first-child,
+.cs-course-detail .cs-features i, .cs-document-list li .icon i, .cs-tabs .tab-content ul li i, .cs-tabs .tab-nav .active a, .widget_tabs .tab-nav li.active a,
+/*Event*/.event-timeline article:before,
+/*Pages*/ .page-not-found h1, .cs-search-results .text a, /*Contect Us*/.cs-contact-info ul li i, .cs-opening ul li .timehoure .time-start i, .under-wrapp .cons-text-wrapp h1 span,
+.is-countdown .main-digit-wrapp .px-digit, .cs-tabs.box .nav-tabs li.active a, .panel-group.cs-default.simple .panel-heading a, .cs-list .cs-linked-list li.active a,
+/*Event*/.event-timeline article:before, 
+/* pagination */.pagination li a:hover,/* Cs Blog */ .cs-blog article:hover h2 a, .cs-thumb-post ul li a:hover, .cs-blog-masnery article:hover h4 a, .cs-blog article .blog-info-sec .categories a:hover, .cs-tags ul li a:hover,
+.cs-course-table .content .active .title-bar>ul>li:first-child,
+.cs-list .cs-default .panel-title a,
+/* Widget */.widget_cetegorie ul li:hover a,.widget_cetegorie ul li:hover a:before,.cs-newslist article:hover h4 a,
+.cs-gallery-nav li a:hover,.cs-gallery-nav li.active a,.cat-multicolor ul li:hover a:before,.cs-campunews ul li:hover .cs-campus-info h6 a, .news-ticker .flex-direction-nav li a:hover i
+, .cs-custom-nav .owl-nav .owl-prev:hover i, .cs-custom-nav .owl-nav .owl-next:hover i, .cs-gallery ul li h6 a:hover, .cs-filterable .cs-views li:hover i,
+.cs-team-slider .flex-direction-nav li a:hover, .testimonial-slider .flex-direction-nav li a:hover, .cs-detail-area .address-box .price-box a:hover, .grid-filter li a:hover, .events-listing .text h2 a:hover  , .cs-courses.listing-view article:hover h2 a , .active  article:hover .cs-text h2 , .element-size-33 .cs-services:hover .text h4
+{
+	color: #08387f !important;
+}
+
+.csbg-color,.csbg-hovercolor:hover,/* Header */.top-nav ul li a:hover,.main-nav,/* NewsLatter */.newsletter-from input[type="submit"],
+/* MainBanner */.flexslider .flex-pauseplay:hover,.flexslider .flex-direction-nav a:hover,/* Ticker */.ticker-title, .cs-courses.listing-view article figure .course-num:after,
+.cs-course-table .head, .cs-tabs .tab-nav li.active:after, .widget_tag_cloud .cs-tags ul li a:hover,
+/*Event*/.date-time,
+/*Pages*/ .page-no-search .cs-search-area input[type="submit"], .cs-plain-form input[type="submit"], .cs-tabs.box .nav-tabs li.active a:before, .cs-list .cs-linked-list li.active i,
+.cs-list .panel-heading a:before, .main-filter .question-btn, .cs-answer-list .back-top-btn,
+/*Event*/.date-time,/* pagination */ .pagination li a:before, .cs-attachment ul li a:hover figure, .thumblist .comment-reply:hover,
+/* Widget */.widget-online-poll .inner-sec ul li:hover a:before, .responsive-calendar .day.active a, .responsive-calendar .day a:hover,
+/* Ticker */.ticker-title, .cs-courses.listing-view article figure .course-num:after,
+.cs-course-table .head, .cs-tabs .tab-nav li.active:after, .widget_tag_cloud .cs-tags ul li:hover a, .cs-blog article figure figcaption .cs-hover a:hover,
+/* Header */.top-nav ul li a:hover,.main-nav,/* NewsLatter */.newsletter-from input[type="submit"],
+/* MainBanner */.flexslider .flex-pauseplay:hover,.flexslider .flex-direction-nav a:hover,/* Ticker */.ticker-title,
+.search-course ul li input[type="submit"], .cs-main-filterable .cs-filter-nav li a.active, .cs-post-pagination .cs-prev-next li:hover, #backtop:hover, .cs-courses.listing-view .course-info .courses-btn a:hover, .cs-document-list li:hover ,  .event-editor .socialmedia .add-calender , .share-btn  , .text-background-left .text-button-plain:hover , .text-background-right .text-button-plain:hover , .pricing-page .price-button .upgrate:hover , .fullbackground-gray  .get-enrole-button  .get-enrole:hover
+{
+	background-color: #08387f !important;
+}
+
+.csborder-color,.csborder-hovercolor:hover,.bottom-footer , .event-editor .socialmedia .add-calender , .share-btn , .text-background-right .text-button-plain:hover , .text-background-left  .text-button-plain:hover , .pricing-page .price-button .upgrate:hover , .fullbackground-gray  .get-enrole-button  .get-enrole:hover
+{
+	border-color: #08387f !important;
+}
