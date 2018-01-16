@@ -1,0 +1,6604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Uoce v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-09 08:00:48+0000\n"
+"Last-Translator: admin <dum1@chimpgroup.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: U.A.E.\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: include/shortcodes/frontend/services.php:58
+#@ uoc
+msgid "Read More"
+msgstr ""
+
+#: archive.php:276
+#: cs-templates/blog-styles/blog-large.php:62
+#: cs-templates/blog-styles/blog-list.php:58
+#: cs-templates/blog-styles/blog-medium.php:51
+#: cs-templates/blog-styles/blog-mesnory.php:44
+#: functions.php:2943
+#: index.php:105
+#@ uoc
+msgid "0"
+msgstr ""
+
+#: archive.php:276
+#: cs-templates/blog-styles/blog-large.php:62
+#: cs-templates/blog-styles/blog-list.php:58
+#: cs-templates/blog-styles/blog-medium.php:51
+#: cs-templates/blog-styles/blog-mesnory.php:44
+#: functions.php:2943
+#: index.php:105
+#@ uoc
+msgid "1"
+msgstr ""
+
+#: archive.php:276
+#: cs-templates/blog-styles/blog-large.php:62
+#: cs-templates/blog-styles/blog-list.php:58
+#: cs-templates/blog-styles/blog-medium.php:51
+#: cs-templates/blog-styles/blog-mesnory.php:44
+#: functions.php:2943
+#: index.php:105
+#@ uoc
+msgid "%"
+msgstr ""
+
+#: archive.php:316
+#@ uoc
+msgid "No post found."
+msgstr ""
+
+#: comments.php:25
+#: comments.php:31
+#@ uoc
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:32
+#@ uoc
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:54
+#, php-format
+#@ uoc
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:55
+#@ uoc
+msgid "You must be  to post a comment."
+msgstr ""
+
+#: comments.php:56
+#@ uoc
+msgid "Log out"
+msgstr ""
+
+#: comments.php:56
+#@ uoc
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:57
+#, php-format
+#@ uoc
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:76
+#: include/shortcodes/frontend/quick_quote.php:113
+#@ uoc
+msgid "Name"
+msgstr ""
+
+#: include/shortcodes/frontend/contactus.php:104
+#@ uoc
+msgid "Email Address"
+msgstr ""
+
+#: include/admin_functions.php:172
+#: include/shortcodes/frontend/quick_quote.php:172
+#@ uoc
+msgid "Message"
+msgstr ""
+
+#: comments.php:97
+#@ uoc
+msgid "Leave us a comment"
+msgstr ""
+
+#: comments.php:98
+#@ uoc
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:99
+#: functions.php:2677
+#: include/theme-components/cs-importer/wordpress-importer.php:286
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:73
+#@ uoc
+msgid "Submit"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:52
+#@ uoc
+msgid "Edit Blog Options"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:60
+#: include/shortcodes/admin/call-to-action.php:89
+#: include/shortcodes/admin/clients.php:76
+#: include/shortcodes/admin/contactus.php:68
+#: include/shortcodes/admin/faq.php:81
+#: include/shortcodes/admin/flex-column.php:131
+#: include/shortcodes/admin/image-frame.php:77
+#: include/shortcodes/admin/infobox.php:95
+#: include/shortcodes/admin/list.php:78
+#: include/shortcodes/admin/map.php:82
+#: include/shortcodes/admin/multi-services.php:68
+#: include/shortcodes/admin/opening_hours.php:79
+#: include/shortcodes/admin/progressbar.php:88
+#: include/shortcodes/admin/promobox.php:81
+#: include/shortcodes/admin/quick_quote.php:69
+#: include/shortcodes/admin/quote.php:73
+#: include/shortcodes/admin/slider.php:92
+#: include/shortcodes/admin/table.php:101
+#: include/shortcodes/admin/tabs.php:76
+#: include/shortcodes/admin/team.php:69
+#: include/shortcodes/admin/testimonial.php:69
+#: include/shortcodes/admin/video.php:67
+#@ uoc
+msgid "Section Title"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:74
+#@ uoc
+msgid "Choose Category"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:80
+#@ uoc
+msgid "-- Select Category --"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:86
+#@ uoc
+msgid "Please select category to show posts. If you dont select category it will display all posts."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:92
+#@ uoc
+msgid "Blog Design Views"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:98
+#@ uoc
+msgid "Blog Medium"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:99
+#@ uoc
+msgid "Blog Large"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:114
+#@ uoc
+msgid "Post Order"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:120
+#@ uoc
+msgid "Asc"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:121
+#@ uoc
+msgid "DESC"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:129
+#@ uoc
+msgid "Post Description"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:135
+#: include/admin_functions.php:528
+#: include/admin_functions.php:543
+#: include/admin_functions.php:560
+#: include/shortcodes/admin/button.php:104
+#: include/shortcodes/admin/clients.php:88
+#: include/shortcodes/admin/counters.php:232
+#: include/shortcodes/admin/divider.php:90
+#: include/shortcodes/admin/faq.php:142
+#: include/shortcodes/admin/list.php:105
+#: include/shortcodes/admin/map.php:249
+#: include/shortcodes/admin/opening_hours.php:93
+#: include/shortcodes/admin/price-table.php:211
+#: include/shortcodes/admin/promobox.php:134
+#: include/shortcodes/admin/tabs.php:131
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Yes"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:136
+#: include/admin_functions.php:529
+#: include/admin_functions.php:544
+#: include/admin_functions.php:559
+#: include/shortcodes/admin/button.php:105
+#: include/shortcodes/admin/clients.php:89
+#: include/shortcodes/admin/counters.php:233
+#: include/shortcodes/admin/divider.php:91
+#: include/shortcodes/admin/faq.php:141
+#: include/shortcodes/admin/list.php:106
+#: include/shortcodes/admin/map.php:250
+#: include/shortcodes/admin/opening_hours.php:94
+#: include/shortcodes/admin/price-table.php:212
+#: include/shortcodes/admin/promobox.php:135
+#: include/shortcodes/admin/tabs.php:130
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "No"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:145
+#@ uoc
+msgid "Length of Excerpt"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:152
+#@ uoc
+msgid "Enter number of character for short description text."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:159
+#@ uoc
+msgid "No. of Post Per Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:166
+#: cs-templates/blog-styles/blog_element.php:182
+#@ uoc
+msgid "To display all the records, leave this field blank."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:196
+#@ uoc
+msgid "Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:200
+#@ uoc
+msgid "Show Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:201
+#@ uoc
+msgid "Single Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:208
+#: include/shortcodes/admin/button.php:185
+#: include/shortcodes/admin/call-to-action.php:319
+#: include/shortcodes/admin/categories.php:103
+#: include/shortcodes/admin/clients.php:188
+#: include/shortcodes/admin/contactus.php:129
+#: include/shortcodes/admin/counters.php:253
+#: include/shortcodes/admin/divider.php:130
+#: include/shortcodes/admin/faq.php:192
+#: include/shortcodes/admin/flex-column.php:152
+#: include/shortcodes/admin/heading.php:213
+#: include/shortcodes/admin/image-frame.php:146
+#: include/shortcodes/admin/infobox.php:219
+#: include/shortcodes/admin/list.php:175
+#: include/shortcodes/admin/map.php:272
+#: include/shortcodes/admin/multi-services.php:203
+#: include/shortcodes/admin/opening_hours.php:171
+#: include/shortcodes/admin/price-table.php:290
+#: include/shortcodes/admin/progressbar.php:166
+#: include/shortcodes/admin/promobox.php:236
+#: include/shortcodes/admin/quick_quote.php:126
+#: include/shortcodes/admin/quote.php:136
+#: include/shortcodes/admin/revolution-slider.php:117
+#: include/shortcodes/admin/services.php:292
+#: include/shortcodes/admin/sitemap.php:64
+#: include/shortcodes/admin/slider.php:198
+#: include/shortcodes/admin/spacer.php:65
+#: include/shortcodes/admin/table.php:137
+#: include/shortcodes/admin/tabs.php:190
+#: include/shortcodes/admin/team.php:166
+#: include/shortcodes/admin/testimonial.php:200
+#: include/shortcodes/admin/tweets.php:92
+#: include/shortcodes/admin/video.php:108
+#@ uoc
+msgid "Insert"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:216
+#: include/admin_functions.php:751
+#: include/shortcodes/admin/accordion.php:249
+#: include/shortcodes/admin/button.php:193
+#: include/shortcodes/admin/call-to-action.php:327
+#: include/shortcodes/admin/categories.php:111
+#: include/shortcodes/admin/clients.php:196
+#: include/shortcodes/admin/contactus.php:137
+#: include/shortcodes/admin/counters.php:261
+#: include/shortcodes/admin/divider.php:138
+#: include/shortcodes/admin/faq.php:200
+#: include/shortcodes/admin/flex-column.php:161
+#: include/shortcodes/admin/heading.php:221
+#: include/shortcodes/admin/image-frame.php:154
+#: include/shortcodes/admin/infobox.php:227
+#: include/shortcodes/admin/list.php:184
+#: include/shortcodes/admin/map.php:280
+#: include/shortcodes/admin/multi-services.php:211
+#: include/shortcodes/admin/opening_hours.php:180
+#: include/shortcodes/admin/price-table.php:298
+#: include/shortcodes/admin/progressbar.php:174
+#: include/shortcodes/admin/promobox.php:244
+#: include/shortcodes/admin/quick_quote.php:134
+#: include/shortcodes/admin/quote.php:144
+#: include/shortcodes/admin/revolution-slider.php:125
+#: include/shortcodes/admin/services.php:300
+#: include/shortcodes/admin/sitemap.php:72
+#: include/shortcodes/admin/slider.php:207
+#: include/shortcodes/admin/spacer.php:73
+#: include/shortcodes/admin/table.php:145
+#: include/shortcodes/admin/tabs.php:198
+#: include/shortcodes/admin/team.php:175
+#: include/shortcodes/admin/testimonial.php:208
+#: include/shortcodes/admin/tweets.php:101
+#@ uoc
+msgid "Save"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Client"
+msgstr ""
+
+#: include/admin_functions.php:139
+#: include/shortcodes/admin_functions.php:1
+#: include/shortcodes/frontend/sitemap.php:85
+#@ uoc
+msgid "Categories"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:63
+#@ uoc
+msgid "Edit Team Options"
+msgstr ""
+
+#: functions.php:2115
+#: include/metaboxes/general-settings.php:39
+#: include/theme-options/theme_options.php:179
+#: include/theme-options/theme_options.php:593
+#@ uoc
+msgid "Revolution Slider"
+msgstr ""
+
+#: functions.php:2189
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:268
+#@ uoc
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:2190
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:269
+#@ uoc
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:2191
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:270
+#, php-format
+#@ uoc
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:2192
+#@ uoc
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:2193
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:273
+#, php-format
+#@ uoc
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2194
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:278
+#, php-format
+#@ uoc
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2195
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2196
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:288
+#, php-format
+#@ uoc
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2197
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:293
+#, php-format
+#@ uoc
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2198
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2199
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:303
+#, php-format
+#@ uoc
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2200
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2201
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:313
+#@ uoc
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2202
+#@ uoc
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2203
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:322
+#@ uoc
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:2204
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:324
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2277
+#@ uoc
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:2205
+#, php-format
+#@ uoc
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:2504
+#@ uoc
+msgid "CS Theme Option"
+msgstr ""
+
+#: functions.php:2505
+#: include/theme-components/cs-importer/theme_importer.php:149
+#@ uoc
+msgid "Import Demo Data"
+msgstr ""
+
+#: functions.php:2676
+#@ uoc
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: functions.php:2739
+#: include/shortcodes/admin/price-table.php:207
+#@ uoc
+msgid "Featured"
+msgstr ""
+
+#: functions.php:2755
+#: include/shortcodes/admin/quote.php:82
+#: include/shortcodes/admin/testimonial.php:142
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Author"
+msgstr ""
+
+#: functions.php:2755
+#: functions.php:2758
+#: functions.php:2772
+#@ uoc
+msgid "Archives"
+msgstr ""
+
+#: cs-templates/blog-styles/blog-large.php:86
+#: functions.php:2758
+#: include/metaboxes/post_meta.php:281
+#: include/shortcodes/frontend/sitemap.php:46
+#@ uoc
+msgid "Tags"
+msgstr ""
+
+#: functions.php:2760
+#, php-format
+#@ uoc
+msgid "Search Results : %s"
+msgstr ""
+
+#: functions.php:2762
+#, php-format
+#@ uoc
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: functions.php:2764
+#, php-format
+#@ uoc
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions.php:2764
+#@ uoc
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:2766
+#, php-format
+#@ uoc
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions.php:2766
+#@ uoc
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: 404.php:21
+#: functions.php:2768
+#@ uoc
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:2770
+#: functions.php:4333
+#@ uoc
+msgid "Home"
+msgstr ""
+
+#: functions.php:2786
+#@ uoc
+msgid "Suggestions:"
+msgstr ""
+
+#: functions.php:2791
+#@ uoc
+msgid "Make sure all words are spelled correctly"
+msgstr ""
+
+#: functions.php:2792
+#@ uoc
+msgid "Wildcard searches (using the asterisk *) are not supported"
+msgstr ""
+
+#: functions.php:2793
+#@ uoc
+msgid "Try more general keywords, especially if you are attempting a name"
+msgstr ""
+
+#: single.php:89
+#@ uoc
+msgid "by"
+msgstr ""
+
+#: functions.php:3026
+#@ uoc
+msgid "Previous Project"
+msgstr ""
+
+#: functions.php:3032
+#@ uoc
+msgid "Go Back"
+msgstr ""
+
+#: functions.php:3036
+#@ uoc
+msgid "Next Project"
+msgstr ""
+
+#: functions.php:3116
+#: include/theme-options/theme_options.php:1141
+#@ uoc
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:3118
+#@ uoc
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:3238
+#@ uoc
+msgid "Like This"
+msgstr ""
+
+#: functions.php:3410
+#: functions.php:3466
+#: page_contact_submit.php:22
+#@ uoc
+msgid "Name:"
+msgstr ""
+
+#: functions.php:3414
+#: functions.php:3470
+#: page_contact_submit.php:26
+#@ uoc
+msgid "Email:"
+msgstr ""
+
+#: functions.php:3422
+#: functions.php:3494
+#: page_contact_submit.php:34
+#@ uoc
+msgid "Message:"
+msgstr ""
+
+#: functions.php:3474
+#@ uoc
+msgid "Mobile Number:"
+msgstr ""
+
+#: functions.php:3478
+#@ uoc
+msgid "No of Workers:"
+msgstr ""
+
+#: functions.php:3482
+#@ uoc
+msgid "Date:"
+msgstr ""
+
+#: functions.php:3486
+#@ uoc
+msgid "Time:"
+msgstr ""
+
+#: functions.php:3490
+#@ uoc
+msgid "Address:"
+msgstr ""
+
+#: functions.php:3426
+#: functions.php:3498
+#: page_contact_submit.php:38
+#@ uoc
+msgid "IP Address:"
+msgstr ""
+
+#: functions.php:3823
+#@ uoc
+msgid "Other Share Options"
+msgstr ""
+
+#: functions.php:4068
+#@ uoc
+msgid "This widget will be displayed on right/left side of the page."
+msgstr ""
+
+#: functions.php:4079
+#@ uoc
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:4081
+#@ uoc
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions.php:4095
+#@ uoc
+msgid "This Widget Show the Content in Footer Area."
+msgstr ""
+
+#: functions.php:4165
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Edit"
+msgstr ""
+
+#: functions.php:4346
+#@ uoc
+msgid "Current Page"
+msgstr ""
+
+#: include/admin_functions.php:89
+#@ uoc
+msgid "Typography"
+msgstr ""
+
+#: include/admin_functions.php:89
+#@ uoc
+msgid "Common Elements"
+msgstr ""
+
+#: include/admin_functions.php:89
+#@ uoc
+msgid "Media Element"
+msgstr ""
+
+#: include/admin_functions.php:89
+#@ uoc
+msgid "Content Blocks"
+msgstr ""
+
+#: include/admin_functions.php:89
+#@ uoc
+msgid "Loops"
+msgstr ""
+
+#: include/admin_functions.php:131
+#: include/metaboxes/post_meta.php:109
+#: include/metaboxes/post_meta.php:163
+#: include/shortcodes/admin/multi-services.php:81
+#: include/shortcodes/admin/testimonial.php:83
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Slider"
+msgstr ""
+
+#: include/admin_functions.php:132
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Blog"
+msgstr ""
+
+#: include/admin_functions.php:133
+#: include/admin_functions.php:182
+#: include/admin_functions.php:183
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Team"
+msgstr ""
+
+#: include/admin_functions.php:134
+#: include/shortcodes/config.php:67
+#@ uoc
+msgid "Teams"
+msgstr ""
+
+#: include/admin_functions.php:135
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Column"
+msgstr ""
+
+#: include/admin_functions.php:136
+#@ uoc
+msgid "Accordions"
+msgstr ""
+
+#: include/admin_functions.php:138
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Divider"
+msgstr ""
+
+#: include/admin_functions.php:140
+#@ uoc
+msgid "Message Box"
+msgstr ""
+
+#: include/admin_functions.php:141
+#: include/admin_functions.php:1430
+#: include/shortcodes/admin/call-to-action.php:121
+#: include/shortcodes/admin/call-to-action.php:153
+#: include/shortcodes/admin/call-to-action.php:206
+#: include/shortcodes/admin/counters.php:106
+#: include/shortcodes/admin/counters.php:162
+#: include/shortcodes/admin/services.php:113
+#: include/shortcodes/admin/services.php:145
+#: include/shortcodes/admin/slider.php:125
+#: include/shortcodes/admin/testimonial.php:163
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-options/theme_options_fields.php:1514
+#: include/theme-options/theme_options_fields.php:1520
+#: include/theme-options/theme_options_fields.php:1588
+#: include/theme-options/theme_options_fields.php:1684
+#: include/theme-options/theme_options_fields.php:1691
+#@ uoc
+msgid "Image"
+msgstr ""
+
+#: include/admin_functions.php:142
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Image Frame"
+msgstr ""
+
+#: include/admin_functions.php:143
+#: include/metaboxes/general-settings.php:39
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Map"
+msgstr ""
+
+#: include/admin_functions.php:186
+#: include/admin_functions.php:426
+#: include/metaboxes/post_meta.php:163
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Video"
+msgstr ""
+
+#: include/admin_functions.php:144
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Quote"
+msgstr ""
+
+#: include/admin_functions.php:145
+#: include/admin_functions.php:146
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Quick Quote"
+msgstr ""
+
+#: include/admin_functions.php:147
+#@ uoc
+msgid "Drop cap"
+msgstr ""
+
+#: include/admin_functions.php:148
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Price Table"
+msgstr ""
+
+#: include/admin_functions.php:149
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Tabs"
+msgstr ""
+
+#: include/admin_functions.php:150
+#@ uoc
+msgid "Sitemap"
+msgstr ""
+
+#: include/admin_functions.php:151
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Accordion"
+msgstr ""
+
+#: include/admin_functions.php:152
+#: include/admin_functions.php:153
+#@ uoc
+msgid "Prayer"
+msgstr ""
+
+#: include/admin_functions.php:154
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Table"
+msgstr ""
+
+#: include/admin_functions.php:155
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Call to Action"
+msgstr ""
+
+#: include/admin_functions.php:156
+#: include/shortcodes/config.php:66
+#@ uoc
+msgid "Flex Column"
+msgstr ""
+
+#: include/admin_functions.php:157
+#: include/shortcodes/admin/clients.php:118
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Clients"
+msgstr ""
+
+#: include/admin_functions.php:158
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Heading"
+msgstr ""
+
+#: include/admin_functions.php:159
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Testimonials"
+msgstr ""
+
+#: include/admin_functions.php:160
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Info box"
+msgstr ""
+
+#: include/admin_functions.php:161
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Spacer"
+msgstr ""
+
+#: include/admin_functions.php:162
+#@ uoc
+msgid "Promo Box"
+msgstr ""
+
+#: include/admin_functions.php:163
+#@ uoc
+msgid "Offer Slider"
+msgstr ""
+
+#: include/admin_functions.php:164
+#: include/metaboxes/post_meta.php:163
+#@ uoc
+msgid "Audio"
+msgstr ""
+
+#: include/admin_functions.php:165
+#@ uoc
+msgid "Icons"
+msgstr ""
+
+#: include/admin_functions.php:166
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-widgets/widgets_keys.php:16
+#@ uoc
+msgid "Contact Us"
+msgstr ""
+
+#: include/admin_functions.php:167
+#@ uoc
+msgid "Tooltip"
+msgstr ""
+
+#: include/admin_functions.php:168
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Services"
+msgstr ""
+
+#: include/admin_functions.php:169
+#: include/admin_functions.php:177
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Multiple Services"
+msgstr ""
+
+#: include/admin_functions.php:170
+#@ uoc
+msgid "Highlight"
+msgstr ""
+
+#: include/admin_functions.php:171
+#: include/shortcodes/admin/faq.php:96
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "List"
+msgstr ""
+
+#: include/admin_functions.php:173
+#: include/shortcodes/config.php:65
+#@ uoc
+msgid "Faq"
+msgstr ""
+
+#: include/admin_functions.php:174
+#: include/shortcodes/admin_functions.php:1
+#: include/shortcodes/config.php:71
+#@ uoc
+msgid "Progress bars"
+msgstr ""
+
+#: include/admin_functions.php:175
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter"
+msgstr ""
+
+#: include/admin_functions.php:176
+#@ uoc
+msgid "Members"
+msgstr ""
+
+#: include/admin_functions.php:178
+#: include/theme-options/theme_options.php:1552
+#: include/theme-options/theme_options.php:1554
+#@ uoc
+msgid "Mail Chimp"
+msgstr ""
+
+#: include/admin_functions.php:179
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Facilities"
+msgstr ""
+
+#: include/admin_functions.php:180
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Tweets"
+msgstr ""
+
+#: include/admin_functions.php:181
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Button"
+msgstr ""
+
+#: include/admin_functions.php:184
+#: include/shortcodes/frontend/sitemap.php:106
+#@ uoc
+msgid "Portfolio"
+msgstr ""
+
+#: include/admin_functions.php:283
+#: include/admin_functions.php:322
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Add Element"
+msgstr ""
+
+#: include/admin_functions.php:292
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-header/header_functions.php:59
+#: searchform.php:12
+#@ uoc
+msgid "Search"
+msgstr ""
+
+#: include/admin_functions.php:294
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Filter by"
+msgstr ""
+
+#: include/admin_functions.php:296
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Show all"
+msgstr ""
+
+#: include/admin_functions.php:317
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "CS: Insert shortcode"
+msgstr ""
+
+#: include/admin_functions.php:411
+#@ uoc
+msgid "Edit Page Section"
+msgstr ""
+
+#: include/admin_functions.php:417
+#@ uoc
+msgid "Background View"
+msgstr ""
+
+#: include/admin_functions.php:423
+#: include/metaboxes/post_meta.php:109
+#: include/metaboxes/post_meta.php:163
+#@ uoc
+msgid "None"
+msgstr ""
+
+#: include/admin_functions.php:424
+#: include/admin_functions.php:435
+#: include/metaboxes/general-settings.php:170
+#: include/metaboxes/page_meta.php:125
+#: include/shortcodes/admin/flex-column.php:78
+#: include/shortcodes/admin/promobox.php:104
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Background Image"
+msgstr ""
+
+#: include/admin_functions.php:425
+#: include/admin_functions.php:494
+#@ uoc
+msgid "Custom Slider"
+msgstr ""
+
+#: include/admin_functions.php:439
+#: include/admin_functions.php:512
+#: include/admin_functions.php:1165
+#: include/admin_functions.php:1444
+#: include/metaboxes/classes/cs_meta_fields_render.php:519
+#: include/metaboxes/classes/cs_meta_fields_render.php:869
+#: include/shortcodes/admin/call-to-action.php:157
+#: include/shortcodes/admin/call-to-action.php:223
+#: include/shortcodes/admin/clients.php:155
+#: include/shortcodes/admin/counters.php:166
+#: include/shortcodes/admin/flex-column.php:84
+#: include/shortcodes/admin/image-frame.php:101
+#: include/shortcodes/admin/map.php:179
+#: include/shortcodes/admin/multi-services.php:157
+#: include/shortcodes/admin/promobox.php:108
+#: include/shortcodes/admin/services.php:149
+#: include/shortcodes/admin/slider.php:129
+#: include/shortcodes/admin/team.php:106
+#: include/shortcodes/admin/testimonial.php:167
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-options/theme_options_fields.php:1104
+#: include/theme-options/theme_options_fields.php:1156
+#: include/theme-options/theme_options_fields.php:1179
+#: include/theme-options/theme_options_fields.php:1221
+#: include/theme-options/theme_options_fields.php:1322
+#: include/theme-options/theme_options_fields.php:1414
+#: include/theme-options/theme_options_fields.php:1527
+#: include/theme-options/theme_options_fields.php:1698
+#@ uoc
+msgid "Browse"
+msgstr ""
+
+#: include/admin_functions.php:457
+#: include/admin_functions.php:474
+#@ uoc
+msgid "Background Image Position"
+msgstr ""
+
+#: include/admin_functions.php:463
+#@ uoc
+msgid "Select position"
+msgstr ""
+
+#: include/admin_functions.php:464
+#: include/shortcodes/admin/button.php:151
+#: include/shortcodes/admin/counters.php:116
+#: include/shortcodes/admin/divider.php:77
+#: include/shortcodes/admin/heading.php:140
+#: include/shortcodes/admin/promobox.php:170
+#: include/shortcodes/admin/services.php:221
+#@ uoc
+msgid "Left"
+msgstr ""
+
+#: include/admin_functions.php:465
+#: include/metaboxes/general-settings.php:58
+#: include/shortcodes/admin/button.php:152
+#: include/shortcodes/admin/heading.php:142
+#: include/shortcodes/admin/promobox.php:171
+#: include/shortcodes/admin/services.php:222
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Right"
+msgstr ""
+
+#: include/admin_functions.php:466
+#: include/metaboxes/general-settings.php:58
+#: include/shortcodes/admin/divider.php:78
+#: include/shortcodes/admin/heading.php:141
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Center"
+msgstr ""
+
+#: include/admin_functions.php:480
+#@ uoc
+msgid "Repeat"
+msgstr ""
+
+#: include/admin_functions.php:481
+#@ uoc
+msgid "No Repeat"
+msgstr ""
+
+#: include/admin_functions.php:506
+#: include/admin_functions.php:1014
+#: include/shortcodes/admin/video.php:75
+#@ uoc
+msgid "Video Url"
+msgstr ""
+
+#: include/admin_functions.php:516
+#@ uoc
+msgid "Please enter Vimeo/Youtube Video Url"
+msgstr ""
+
+#: include/admin_functions.php:522
+#@ uoc
+msgid "Enable Mute"
+msgstr ""
+
+#: include/admin_functions.php:537
+#@ uoc
+msgid "Video Auto Play"
+msgstr ""
+
+#: include/admin_functions.php:553
+#@ uoc
+msgid "Enable Parallax"
+msgstr ""
+
+#: include/admin_functions.php:568
+#@ uoc
+msgid "Select View"
+msgstr ""
+
+#: include/admin_functions.php:574
+#@ uoc
+msgid "Box"
+msgstr ""
+
+#: include/admin_functions.php:575
+#@ uoc
+msgid "Wide"
+msgstr ""
+
+#: include/admin_functions.php:583
+#: include/metaboxes/general-settings.php:117
+#: include/metaboxes/page_meta.php:135
+#: include/shortcodes/admin/call-to-action.php:251
+#: include/shortcodes/admin/clients.php:130
+#: include/shortcodes/admin/flex-column.php:120
+#: include/shortcodes/admin/infobox.php:112
+#: include/shortcodes/admin/multi-services.php:132
+#: include/shortcodes/admin/price-table.php:197
+#: include/shortcodes/admin/promobox.php:157
+#: include/shortcodes/admin/testimonial.php:101
+#: include/shortcodes/admin/tweets.php:74
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-widgets/facebook.php:64
+#: include/theme-options/theme_options.php:644
+#: include/theme-options/theme_options.php:796
+#: include/theme-options/theme_options.php:823
+#: include/theme-options/theme_options.php:854
+#@ uoc
+msgid "Background Color"
+msgstr ""
+
+#: include/admin_functions.php:593
+#: include/metaboxes/general-settings.php:93
+#: include/theme-options/theme_options.php:601
+#@ uoc
+msgid "Padding Top"
+msgstr ""
+
+#: include/admin_functions.php:599
+#@ uoc
+msgid "Set the Padding top (In px)"
+msgstr ""
+
+#: include/admin_functions.php:605
+#: include/metaboxes/general-settings.php:105
+#: include/theme-options/theme_options.php:610
+#@ uoc
+msgid "Padding Bottom"
+msgstr ""
+
+#: include/admin_functions.php:611
+#@ uoc
+msgid "Set the Padding Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:617
+#: include/shortcodes/admin/divider.php:98
+#@ uoc
+msgid "Margin Top"
+msgstr ""
+
+#: include/admin_functions.php:623
+#: include/admin_functions.php:659
+#@ uoc
+msgid "Set the Border Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:629
+#: include/shortcodes/admin/divider.php:108
+#@ uoc
+msgid "Margin Bottom"
+msgstr ""
+
+#: include/admin_functions.php:635
+#@ uoc
+msgid "Set the Margin Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:641
+#@ uoc
+msgid "Border Top"
+msgstr ""
+
+#: include/admin_functions.php:647
+#@ uoc
+msgid "Set the Border top (In px)"
+msgstr ""
+
+#: include/admin_functions.php:653
+#: include/shortcodes/admin/list.php:101
+#: include/shortcodes/admin/opening_hours.php:89
+#@ uoc
+msgid "Border Bottom"
+msgstr ""
+
+#: include/admin_functions.php:665
+#: include/metaboxes/general-settings.php:137
+#: include/shortcodes/admin/button.php:111
+#: include/shortcodes/admin/map.php:257
+#: include/theme-options/theme_options.php:658
+#@ uoc
+msgid "Border Color"
+msgstr ""
+
+#: include/admin_functions.php:675
+#: include/shortcodes/admin/call-to-action.php:308
+#: include/shortcodes/admin/clients.php:95
+#: include/shortcodes/admin/counters.php:242
+#: include/shortcodes/admin/faq.php:102
+#: include/shortcodes/admin/price-table.php:218
+#: include/shortcodes/admin/progressbar.php:98
+#: include/shortcodes/admin/services.php:280
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Custom Id"
+msgstr ""
+
+#: include/admin_functions.php:686
+#@ uoc
+msgid "Select Layout"
+msgstr ""
+
+#: include/admin_functions.php:709
+#: include/metaboxes/general-settings.php:374
+#@ uoc
+msgid "Select Left Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:725
+#: include/admin_functions.php:744
+#: include/metaboxes/general-settings.php:378
+#: include/metaboxes/general-settings.php:403
+#@ uoc
+msgid "Add New Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:725
+#: include/admin_functions.php:744
+#: include/metaboxes/general-settings.php:378
+#: include/metaboxes/general-settings.php:403
+#@ uoc
+msgid "Click Here"
+msgstr ""
+
+#: include/admin_functions.php:730
+#: include/metaboxes/general-settings.php:399
+#@ uoc
+msgid "Select Right Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:898
+#: include/admin_functions.php:987
+#@ uoc
+msgid "Edit Options"
+msgstr ""
+
+#: include/admin_functions.php:905
+#: include/admin_functions.php:993
+#@ uoc
+msgid "Image Title"
+msgstr ""
+
+#: include/admin_functions.php:913
+#@ uoc
+msgid "Image Description"
+msgstr ""
+
+#: include/admin_functions.php:921
+#: include/admin_functions.php:1023
+#: include/shortcodes/admin/promobox.php:207
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Link"
+msgstr ""
+
+#: include/admin_functions.php:929
+#@ uoc
+msgid "Link Target"
+msgstr ""
+
+#: include/admin_functions.php:936
+#@ uoc
+msgid "Please select image target"
+msgstr ""
+
+#: include/admin_functions.php:1001
+#@ uoc
+msgid "Use Image As"
+msgstr ""
+
+#: include/admin_functions.php:1005
+#@ uoc
+msgid "LightBox to current thumbnail"
+msgstr ""
+
+#: include/admin_functions.php:1006
+#@ uoc
+msgid "LightBox to Video"
+msgstr ""
+
+#: include/admin_functions.php:1007
+#: include/shortcodes/admin/services.php:258
+#@ uoc
+msgid "Link URL"
+msgstr ""
+
+#: include/admin_functions.php:1009
+#@ uoc
+msgid "Please select Image link where it will go"
+msgstr ""
+
+#: include/admin_functions.php:1146
+#: include/admin_functions.php:1406
+#: include/metaboxes/general-settings.php:63
+#: include/shortcodes/admin/call-to-action.php:197
+#: include/shortcodes/admin/categories.php:71
+#: include/shortcodes/admin/clients.php:122
+#: include/shortcodes/admin/heading.php:86
+#: include/shortcodes/admin/image-frame.php:127
+#: include/shortcodes/admin/infobox.php:104
+#: include/shortcodes/admin/infobox.php:184
+#: include/shortcodes/admin/map.php:91
+#: include/shortcodes/admin/multi-services.php:108
+#: include/shortcodes/admin/price-table.php:110
+#: include/shortcodes/admin/promobox.php:141
+#: include/shortcodes/admin/services.php:229
+#: include/shortcodes/admin/slider.php:147
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-widgets/cs_flickr.php:38
+#: include/theme-components/cs-widgets/facebook.php:35
+#: include/theme-options/theme_options_fields.php:1302
+#: include/theme-options/theme_options_fields.php:1394
+#: include/theme-options/theme_options_fields.php:1491
+#: include/theme-options/theme_options_fields.php:1586
+#: include/theme-options/theme_options_fields.php:1660
+#@ uoc
+msgid "Title"
+msgstr ""
+
+#: include/admin_functions.php:1153
+#: include/admin_functions.php:1464
+#: include/theme-options/theme_options_fields.php:1309
+#: include/theme-options/theme_options_fields.php:1364
+#: include/theme-options/theme_options_fields.php:1402
+#: include/theme-options/theme_options_fields.php:1546
+#: include/theme-options/theme_options_fields.php:1718
+#@ uoc
+msgid "Url"
+msgstr ""
+
+#: include/admin_functions.php:1157
+#: include/theme-options/theme_options_fields.php:1406
+#@ uoc
+msgid "Please enter full Url"
+msgstr ""
+
+#: include/admin_functions.php:1161
+#: include/theme-options/theme_options_fields.php:1362
+#: include/theme-options/theme_options_fields.php:1410
+#@ uoc
+msgid "Icon Path"
+msgstr ""
+
+#: include/admin_functions.php:1171
+#: include/shortcodes/admin/button.php:137
+#: include/shortcodes/admin/counters.php:125
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-options/theme_options_fields.php:1327
+#: include/theme-options/theme_options_fields.php:1421
+#@ uoc
+msgid "Fontawsome Icon"
+msgstr ""
+
+#: include/admin_functions.php:1179
+#: include/theme-options/theme_options_fields.php:1429
+#@ uoc
+msgid "Font Awesome Color"
+msgstr ""
+
+#: include/admin_functions.php:1410
+#: include/theme-options/theme_options_fields.php:1491
+#: include/theme-options/theme_options_fields.php:1664
+#@ uoc
+msgid "Please enter Banner Title"
+msgstr ""
+
+#: include/admin_functions.php:1413
+#: include/theme-options/theme_options_fields.php:1498
+#: include/theme-options/theme_options_fields.php:1668
+#@ uoc
+msgid "Banner Style"
+msgstr ""
+
+#: include/admin_functions.php:1417
+#: include/theme-options/theme_options_fields.php:1502
+#: include/theme-options/theme_options_fields.php:1672
+#@ uoc
+msgid "Top Banner"
+msgstr ""
+
+#: include/admin_functions.php:1418
+#: include/theme-options/theme_options_fields.php:1503
+#: include/theme-options/theme_options_fields.php:1673
+#@ uoc
+msgid "Bottom Banner"
+msgstr ""
+
+#: include/admin_functions.php:1419
+#: include/theme-options/theme_options_fields.php:1504
+#: include/theme-options/theme_options_fields.php:1674
+#@ uoc
+msgid "Sidebar Banner"
+msgstr ""
+
+#: include/admin_functions.php:1420
+#: include/theme-options/theme_options_fields.php:1505
+#: include/theme-options/theme_options_fields.php:1675
+#@ uoc
+msgid "Vertical Banner"
+msgstr ""
+
+#: include/admin_functions.php:1422
+#: include/theme-options/theme_options_fields.php:1498
+#@ uoc
+msgid "Please enter Banner Banner Style"
+msgstr ""
+
+#: include/admin_functions.php:1426
+#: include/theme-options/theme_options_fields.php:1510
+#: include/theme-options/theme_options_fields.php:1680
+#@ uoc
+msgid "Banner Type"
+msgstr ""
+
+#: include/admin_functions.php:1433
+#: include/theme-options/theme_options_fields.php:1510
+#: include/theme-options/theme_options_fields.php:1687
+#@ uoc
+msgid "Please enter Banner Banner Type"
+msgstr ""
+
+#: include/admin_functions.php:1460
+#: include/theme-options/theme_options_fields.php:1520
+#: include/theme-options/theme_options_fields.php:1714
+#@ uoc
+msgid "Please enter Banner Image"
+msgstr ""
+
+#: include/admin_functions.php:1468
+#: include/theme-options/theme_options_fields.php:1546
+#: include/theme-options/theme_options_fields.php:1722
+#@ uoc
+msgid "Please enter Banner Url"
+msgstr ""
+
+#: include/admin_functions.php:1472
+#: include/shortcodes/admin/button.php:172
+#: include/theme-options/theme_options_fields.php:1553
+#: include/theme-options/theme_options_fields.php:1726
+#@ uoc
+msgid "Target"
+msgstr ""
+
+#: include/admin_functions.php:1476
+#: include/shortcodes/admin/button.php:177
+#: include/theme-options/theme_options_fields.php:1557
+#: include/theme-options/theme_options_fields.php:1730
+#@ uoc
+msgid "Self"
+msgstr ""
+
+#: include/admin_functions.php:1477
+#: include/shortcodes/admin/button.php:176
+#: include/theme-options/theme_options_fields.php:1558
+#: include/theme-options/theme_options_fields.php:1731
+#@ uoc
+msgid "Blank"
+msgstr ""
+
+#: include/admin_functions.php:1479
+#: include/theme-options/theme_options_fields.php:1553
+#: include/theme-options/theme_options_fields.php:1733
+#@ uoc
+msgid "Please select Banner Link Target"
+msgstr ""
+
+#: include/admin_functions.php:1483
+#: include/theme-options/theme_options_fields.php:1563
+#: include/theme-options/theme_options_fields.php:1737
+#@ uoc
+msgid "Adsense Code"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:247
+#@ uoc
+msgid "Full Width"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:256
+#@ uoc
+msgid "Sidebar Right"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:265
+#@ uoc
+msgid "Sidebar Left"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:714
+#@ uoc
+msgid "Add Gallery"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:753
+#@ uoc
+msgid "Delete image"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:753
+#@ uoc
+msgid "<i class=\"icon-times\"></i>"
+msgstr ""
+
+#: include/metaboxes/classes/cs_meta_fields_render.php:764
+#@ uoc
+msgid "Delete"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:32
+#@ uoc
+msgid "Choose Sub-header"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:39
+#@ uoc
+msgid "Default Subheader"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:39
+#@ uoc
+msgid "Custom Subheader"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:39
+#@ uoc
+msgid "No Subheader"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:44
+#: include/metaboxes/general-settings.php:147
+#: include/metaboxes/general-settings.php:153
+#: include/metaboxes/general-settings.php:190
+#: include/metaboxes/general-settings.php:196
+#: include/metaboxes/general-settings.php:231
+#: include/metaboxes/general-settings.php:237
+#: include/metaboxes/general-settings.php:254
+#: include/metaboxes/general-settings.php:260
+#: include/metaboxes/general-settings.php:277
+#: include/metaboxes/general-settings.php:367
+#: include/metaboxes/general-settings.php:386
+#: include/metaboxes/general-settings.php:392
+#: include/metaboxes/general-settings.php:413
+#: include/metaboxes/page_meta.php:83
+#: include/metaboxes/page_meta.php:112
+#: include/metaboxes/page_meta.php:118
+#: include/metaboxes/page_meta.php:144
+#: include/metaboxes/post_meta.php:114
+#: include/metaboxes/post_meta.php:129
+#: include/metaboxes/post_meta.php:135
+#: include/metaboxes/post_meta.php:150
+#: include/metaboxes/post_meta.php:169
+#: include/metaboxes/post_meta.php:185
+#: include/metaboxes/post_meta.php:192
+#: include/metaboxes/post_meta.php:207
+#: include/metaboxes/post_meta.php:214
+#: include/metaboxes/post_meta.php:231
+#: include/metaboxes/post_meta.php:238
+#: include/metaboxes/post_meta.php:255
+#@ uoc
+msgid "Wrapper"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:51
+#@ uoc
+msgid "Text Align"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:58
+#: include/shortcodes/admin/quote.php:115
+#: include/shortcodes/admin/services.php:208
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "left"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:73
+#@ uoc
+msgid "Sub Heading"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:83
+#: include/theme-options/theme_options.php:636
+#@ uoc
+msgid "Breadcrumbs"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:100
+#: include/metaboxes/general-settings.php:112
+#@ uoc
+msgid "Set the top padding (In PX), It Will Only work if padding is selected as"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:121
+#@ uoc
+msgid "Please add color"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:127
+#: include/shortcodes/admin/call-to-action.php:240
+#: include/shortcodes/admin/infobox.php:123
+#: include/shortcodes/admin/multi-services.php:124
+#: include/shortcodes/admin/quote.php:100
+#: include/shortcodes/admin/testimonial.php:92
+#: include/shortcodes/admin/tweets.php:68
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-options/theme_options.php:651
+#@ uoc
+msgid "Text Color"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:160
+#@ uoc
+msgid "Show Image"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:174
+#@ uoc
+msgid "This is demo test"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:213
+#: include/metaboxes/page_meta.php:100
+#@ uoc
+msgid "Select Slider"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:219
+#: include/metaboxes/page_meta.php:106
+#: include/theme-options/theme_options.php:595
+#@ uoc
+msgid "Please select Revolution Slider if already included in package. Otherwise buy Sliders from Code canyon But its optional"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:244
+#@ uoc
+msgid "Custom Map Short Code"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:248
+#@ uoc
+msgid "Please Add/Edit the short code for Map"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:267
+#: include/theme-options/theme_options.php:585
+#@ uoc
+msgid "Header Border Color"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:354
+#@ uoc
+msgid "Choose Sidebar"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:419
+#@ uoc
+msgid "orderby"
+msgstr ""
+
+#: include/metaboxes/page_meta.php:10
+#@ uoc
+msgid "Page Options"
+msgstr ""
+
+#: include/metaboxes/page_meta.php:21
+#: include/metaboxes/post_meta.php:23
+#@ uoc
+msgid "General Settings"
+msgstr ""
+
+#: include/metaboxes/page_meta.php:22
+#@ uoc
+msgid "Subheader"
+msgstr ""
+
+#: include/metaboxes/page_meta.php:24
+#: include/metaboxes/post_meta.php:25
+#@ uoc
+msgid "Seo Options"
+msgstr ""
+
+#: include/metaboxes/page_meta.php:71
+#@ uoc
+msgid "Header Background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:239
+#@ uoc
+msgid "General"
+msgstr ""
+
+#: include/theme-options/theme_options.php:245
+#@ uoc
+msgid "Sub Header"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:271
+#@ uoc
+msgid "Social Sharing"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:142
+#: include/metaboxes/post_meta.php:199
+#@ uoc
+msgid "Add Gallery Images"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:9
+#@ uoc
+msgid "Post Options"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:24
+#@ uoc
+msgid "Sub Header Options"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:26
+#@ uoc
+msgid "Post Settings"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:91
+#@ uoc
+msgid "Detail View"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:97
+#: include/shortcodes/admin/promobox.php:94
+#@ uoc
+msgid "View 1"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:97
+#: include/shortcodes/admin/promobox.php:95
+#@ uoc
+msgid "View 2"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:102
+#@ uoc
+msgid "Thumbnail View"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:109
+#: include/metaboxes/post_meta.php:163
+#@ uoc
+msgid "Single Image"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:121
+#: include/metaboxes/post_meta.php:176
+#@ uoc
+msgid "Information Box"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:124
+#: include/metaboxes/post_meta.php:179
+#@ uoc
+msgid "Use Featured Image as Thumbnail"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:156
+#@ uoc
+msgid "Inside Post Thumbnail View"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:290
+#@ uoc
+msgid "Next Previous"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:156
+#: include/shortcodes/frontend/quick_quote.php:119
+#@ uoc
+msgid "Email"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:124
+#: include/theme-components/cs-widgets/widgets_keys.php:218
+#: include/theme-options/theme_options.php:1242
+#@ uoc
+msgid "Facebook"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:255
+#: include/theme-options/theme_options.php:1249
+#: include/theme-options/theme_options.php:1593
+#: include/theme-options/theme_options.php:1595
+#@ uoc
+msgid "Twitter"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1256
+#@ uoc
+msgid "Google Plus"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:197
+#@ uoc
+msgid "Sub Title"
+msgstr ""
+
+#: include/page_builder.php:6
+#@ uoc
+msgid "CS Page Builder"
+msgstr ""
+
+#: include/page_builder.php:43
+#@ uoc
+msgid "Add Page Sections"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:64
+#@ uoc
+msgid "Edit Button Options"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:70
+#: include/shortcodes/admin/slider.php:76
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Size"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:74
+#: include/shortcodes/admin/counters.php:152
+#: include/shortcodes/admin/services.php:174
+#@ uoc
+msgid "Large"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:75
+#: include/shortcodes/admin/counters.php:151
+#: include/shortcodes/admin/services.php:173
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Medium"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:76
+#: include/shortcodes/admin/counters.php:150
+#: include/shortcodes/admin/services.php:172
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Small"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:78
+#: include/shortcodes/admin/slider.php:84
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Select column width. This width will be calculated depend page width"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:83
+#@ uoc
+msgid "Button Title"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:91
+#: include/shortcodes/admin/call-to-action.php:269
+#: include/shortcodes/admin/price-table.php:200
+#@ uoc
+msgid "Button Link"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:95
+#@ uoc
+msgid "Button external/internal url"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:100
+#: include/shortcodes/admin/map.php:245
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Border"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:119
+#: include/shortcodes/admin/call-to-action.php:289
+#: include/shortcodes/admin/promobox.php:216
+#@ uoc
+msgid "Button Background Color"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:127
+#: include/shortcodes/admin/call-to-action.php:278
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Button Color"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:131
+#@ uoc
+msgid "select a color which you want on the buttons"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:141
+#: include/shortcodes/admin/counters.php:129
+#: include/shortcodes/admin/tabs.php:156
+#@ uoc
+msgid "select the fontawsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:147
+#@ uoc
+msgid "Button Icon Position"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:154
+#@ uoc
+msgid "set a position for the button"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:159
+#@ uoc
+msgid "Button Type"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:163
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Square"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:164
+#@ uoc
+msgid "Rounded"
+msgstr ""
+
+#: include/shortcodes/admin/button.php:167
+#@ uoc
+msgid "Select the display type for the button"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:67
+#@ uoc
+msgid "Edit Clients Options"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:84
+#@ uoc
+msgid "Gray Scale"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:119
+#: include/shortcodes/admin/faq.php:133
+#: include/shortcodes/admin/infobox.php:163
+#: include/shortcodes/admin/list.php:134
+#: include/shortcodes/admin/multi-services.php:104
+#: include/shortcodes/admin/opening_hours.php:117
+#: include/shortcodes/admin/progressbar.php:121
+#: include/shortcodes/admin/slider.php:122
+#: include/shortcodes/admin/tabs.php:122
+#: include/shortcodes/admin/testimonial.php:128
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Remove"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:138
+#: include/shortcodes/admin/multi-services.php:140
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Website Url"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:151
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Client Logo"
+msgstr ""
+
+#: include/shortcodes/admin/clients.php:182
+#@ uoc
+msgid "Add Client"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:61
+#@ uoc
+msgid "Edit Contact Form Options"
+msgstr ""
+
+#: include/shortcodes/admin/accordion.php:87
+#: include/shortcodes/admin/call-to-action.php:93
+#: include/shortcodes/admin/call-to-action.php:234
+#: include/shortcodes/admin/contactus.php:72
+#: include/shortcodes/admin/flex-column.php:135
+#: include/shortcodes/admin/image-frame.php:80
+#: include/shortcodes/admin/infobox.php:99
+#: include/shortcodes/admin/list.php:82
+#: include/shortcodes/admin/map.php:86
+#: include/shortcodes/admin/opening_hours.php:83
+#: include/shortcodes/admin/promobox.php:84
+#: include/shortcodes/admin/quick_quote.php:73
+#: include/shortcodes/admin/quote.php:77
+#: include/shortcodes/admin/slider.php:96
+#: include/shortcodes/admin/table.php:106
+#: include/shortcodes/admin/tabs.php:81
+#: include/shortcodes/admin/testimonial.php:73
+#: include/shortcodes/admin/video.php:70
+#@ uoc
+msgid "This is used for the one page navigation, to identify the section below. Give a title"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:77
+#: include/shortcodes/admin/multi-services.php:75
+#: include/shortcodes/admin/quick_quote.php:78
+#@ uoc
+msgid "View"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:81
+#@ uoc
+msgid "Plain"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:88
+#@ uoc
+msgid "Label On/Off"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:92
+#: include/shortcodes/admin/heading.php:155
+#: include/shortcodes/admin/heading.php:168
+#: include/shortcodes/admin/map.php:202
+#: include/shortcodes/admin/map.php:215
+#: include/shortcodes/admin/map.php:226
+#: include/shortcodes/admin/map.php:237
+#@ uoc
+msgid "On"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:93
+#: include/shortcodes/admin/heading.php:156
+#: include/shortcodes/admin/heading.php:169
+#: include/shortcodes/admin/map.php:203
+#: include/shortcodes/admin/map.php:214
+#: include/shortcodes/admin/map.php:227
+#: include/shortcodes/admin/map.php:238
+#@ uoc
+msgid "Off"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:99
+#: include/shortcodes/admin/quick_quote.php:89
+#@ uoc
+msgid "Send To"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:103
+#: include/shortcodes/admin/quick_quote.php:93
+#@ uoc
+msgid "add a email which you want to receive email"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:108
+#: include/shortcodes/admin/quick_quote.php:98
+#@ uoc
+msgid "Success Message"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:112
+#: include/shortcodes/admin/quick_quote.php:102
+#@ uoc
+msgid "set a message if your email sent successfully"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:117
+#: include/shortcodes/admin/quick_quote.php:107
+#@ uoc
+msgid "Error Message"
+msgstr ""
+
+#: include/shortcodes/admin/contactus.php:121
+#: include/shortcodes/admin/quick_quote.php:111
+#@ uoc
+msgid "set a message for error message"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:83
+#@ uoc
+msgid "Edit Counter Options"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:91
+#@ uoc
+msgid "Classic View"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:100
+#@ uoc
+msgid "Choose Icon/Image"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:120
+#: include/shortcodes/admin/counters.php:105
+#: include/shortcodes/admin/list.php:92
+#: include/shortcodes/admin/services.php:112
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Icon"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:108
+#@ uoc
+msgid "Choose an icon/image for the counter"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:134
+#: include/shortcodes/admin/infobox.php:174
+#: include/shortcodes/admin/services.php:132
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Icon Color"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:139
+#: include/shortcodes/admin/flex-column.php:114
+#: include/shortcodes/admin/flex-column.php:125
+#@ uoc
+msgid "set a color for the counter icon"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:145
+#: include/shortcodes/admin/services.php:168
+#@ uoc
+msgid "Icon Size"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:153
+#: include/shortcodes/admin/services.php:175
+#@ uoc
+msgid "Extra Large"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:155
+#: include/shortcodes/admin/services.php:177
+#@ uoc
+msgid "Select Icon Size"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:185
+#@ uoc
+msgid "Set number"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:201
+#@ uoc
+msgid "enter a sub title for the counter"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:206
+#: include/shortcodes/admin/multi-services.php:116
+#: include/shortcodes/admin/price-table.php:123
+#: include/shortcodes/admin/promobox.php:149
+#: include/shortcodes/admin/services.php:239
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Title Color"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:244
+#: include/shortcodes/admin/call-to-action.php:255
+#: include/shortcodes/admin/call-to-action.php:282
+#: include/shortcodes/admin/call-to-action.php:293
+#: include/shortcodes/admin/counters.php:210
+#: include/shortcodes/admin/infobox.php:129
+#: include/shortcodes/admin/price-table.php:184
+#: include/shortcodes/admin/quote.php:105
+#@ uoc
+msgid "Provide a hex colour code here (include #) if you want to override the default"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:227
+#@ uoc
+msgid "Border Frame"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:235
+#@ uoc
+msgid "set yes/no border frame form the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:312
+#: include/shortcodes/admin/counters.php:246
+#: include/shortcodes/admin/infobox.php:140
+#: include/shortcodes/admin/price-table.php:223
+#: include/shortcodes/admin/progressbar.php:102
+#: include/shortcodes/admin/services.php:284
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Use this option if you want to use specified id for this element"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:67
+#@ uoc
+msgid "Edit Divider Option"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:73
+#: include/shortcodes/admin/faq.php:89
+#: include/shortcodes/admin/heading.php:107
+#: include/theme-options/theme_options_fields.php:1587
+#@ uoc
+msgid "Style"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:86
+#@ uoc
+msgid "Back to Top"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:93
+#@ uoc
+msgid "set back to top from the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:103
+#@ uoc
+msgid "set margin top for the divider in px"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:113
+#@ uoc
+msgid "set a margin bottom for the divider in px"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:118
+#: include/shortcodes/admin/spacer.php:55
+#: include/shortcodes/admin/video.php:93
+#@ uoc
+msgid "Height"
+msgstr ""
+
+#: include/shortcodes/admin/divider.php:123
+#@ uoc
+msgid "set the divider height"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:73
+#@ uoc
+msgid "Edit Faq Options"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:105
+#: include/shortcodes/admin/faq.php:94
+#: include/shortcodes/admin/image-frame.php:91
+#: include/shortcodes/admin/quick_quote.php:82
+#: include/shortcodes/admin/testimonial.php:82
+#@ uoc
+msgid "Simple"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:106
+#: include/shortcodes/admin/faq.php:95
+#: include/shortcodes/admin/image-frame.php:89
+#: include/shortcodes/admin/multi-services.php:80
+#: include/shortcodes/admin/services.php:98
+#@ uoc
+msgid "Modern"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:132
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "FAQ"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:137
+#: include/shortcodes/admin/tabs.php:125
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Active"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:148
+#@ uoc
+msgid "Faq Title"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:166
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Faq Text"
+msgstr ""
+
+#: include/shortcodes/admin/faq.php:187
+#@ uoc
+msgid "Add Faq"
+msgstr ""
+
+#: include/shortcodes/admin/flex-column.php:66
+#@ uoc
+msgid "Edit Flex Column Options"
+msgstr ""
+
+#: include/shortcodes/admin/flex-column.php:86
+#: include/shortcodes/admin/image-frame.php:103
+#@ uoc
+msgid "Browse the image"
+msgstr ""
+
+#: include/shortcodes/admin/flex-column.php:109
+#: include/shortcodes/admin/heading.php:200
+#: include/shortcodes/admin/promobox.php:190
+#: include/shortcodes/admin/services.php:271
+#@ uoc
+msgid "Content Color"
+msgstr ""
+
+#: include/shortcodes/admin/flex-column.php:140
+#@ uoc
+msgid "Column Text"
+msgstr ""
+
+#: include/shortcodes/admin/flex-column.php:144
+#: include/shortcodes/admin/multi-services.php:181
+#: include/shortcodes/admin/quote.php:128
+#: include/shortcodes/admin/slider.php:159
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Enter your content"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:75
+#@ uoc
+msgid "Edit Heading Options"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:96
+#: include/shortcodes/admin/services.php:247
+#: include/theme-options/theme_options.php:1132
+#@ uoc
+msgid "Content"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:102
+#: include/shortcodes/admin/promobox.php:185
+#@ uoc
+msgid "Enter content here"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:124
+#: include/theme-options/theme_options.php:274
+#@ uoc
+msgid "Font Size"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:131
+#@ uoc
+msgid "add font size number for the heading"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:136
+#: include/shortcodes/admin/promobox.php:166
+#: include/shortcodes/admin/quote.php:111
+#: include/shortcodes/admin/services.php:204
+#: include/shortcodes/admin/services.php:217
+#@ uoc
+msgid "Align"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:144
+#: include/shortcodes/admin/quote.php:119
+#@ uoc
+msgid "Align the content position"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:164
+#@ uoc
+msgid "Divider On/Off"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:171
+#@ uoc
+msgid "set divider on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:176
+#@ uoc
+msgid "Font Style"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:180
+#@ uoc
+msgid "Normal"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:181
+#@ uoc
+msgid "Italic"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:182
+#@ uoc
+msgid "Oblique"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:184
+#@ uoc
+msgid "select a font style from the drop down"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:189
+#@ uoc
+msgid "Heading Color"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:194
+#@ uoc
+msgid "heading color for the heading element"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:205
+#@ uoc
+msgid "set a content color for the heading element"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:71
+#@ uoc
+msgid "Edit Image Options"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:85
+#@ uoc
+msgid "Image Style"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:90
+#: include/shortcodes/admin/multi-services.php:79
+#: include/shortcodes/admin/quick_quote.php:83
+#@ uoc
+msgid "Classic"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:97
+#@ uoc
+msgid "Image url"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:135
+#@ uoc
+msgid "Caption"
+msgstr ""
+
+#: include/shortcodes/admin/image-frame.php:139
+#@ uoc
+msgid "If you would like a caption to be shown below the image, add it here."
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:69
+#@ uoc
+msgid "Edit Info box Options"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:117
+#@ uoc
+msgid "Provide a hex background colour code here (include #)"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:136
+#@ uoc
+msgid "Class"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:162
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Info box Item(s)"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:166
+#@ uoc
+msgid "Info Box Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:194
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Short Description"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:214
+#: include/shortcodes/admin/opening_hours.php:164
+#@ uoc
+msgid "Add Item"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:67
+#: include/shortcodes/admin/opening_hours.php:68
+#@ uoc
+msgid "Edit List Style Options"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:87
+#@ uoc
+msgid "List Style"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:96
+#@ uoc
+msgid "set a list style from the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:108
+#: include/shortcodes/admin/opening_hours.php:96
+#@ uoc
+msgid "set on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:133
+#: include/shortcodes/admin/opening_hours.php:116
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "List Item"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:138
+#: include/shortcodes/admin/opening_hours.php:122
+#@ uoc
+msgid "List Item:"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:148
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Font awsome Icon:"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:168
+#@ uoc
+msgid "Add List Item"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:75
+#@ uoc
+msgid "Edit Map Options"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:99
+#@ uoc
+msgid "Map Height"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:103
+#@ uoc
+msgid "Map height set here"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:108
+#@ uoc
+msgid "Latitude"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:112
+#: include/shortcodes/admin/map.php:121
+#@ uoc
+msgid "The map will appear only if this field is filled correctly"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:117
+#@ uoc
+msgid "Longitude"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:126
+#@ uoc
+msgid "Zoom"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:135
+#@ uoc
+msgid "Map Types"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:139
+#@ uoc
+msgid "ROADMAP"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:141
+#@ uoc
+msgid "SATELLITE"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:148
+#@ uoc
+msgid "Info Text"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:152
+#@ uoc
+msgid "Enter the marker content"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:157
+#@ uoc
+msgid "Info Max Width"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:161
+#@ uoc
+msgid "set max width for the google map"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:166
+#@ uoc
+msgid "Info Max Height"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:170
+#@ uoc
+msgid "set max height for the google map"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:175
+#@ uoc
+msgid "Marker Icon Path"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:180
+#@ uoc
+msgid "Give a link for your marker icon"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:198
+#@ uoc
+msgid "Show Marker"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:205
+#@ uoc
+msgid "Set marker on/off for the map"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:210
+#@ uoc
+msgid "Disable Map Controls"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:217
+#@ uoc
+msgid "You can set map control disable/enable"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:222
+#@ uoc
+msgid "Drage able"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:233
+#@ uoc
+msgid "Scroll Wheel"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:240
+#@ uoc
+msgid "Set scroll wheel"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:252
+#@ uoc
+msgid "Set border for map"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:262
+#@ uoc
+msgid "If you will select a border than select the border color"
+msgstr ""
+
+#: include/shortcodes/admin/multi-services.php:59
+#@ uoc
+msgid "Edit Multiple services Options"
+msgstr ""
+
+#: include/shortcodes/admin/multi-services.php:103
+#@ uoc
+msgid "Multiple services"
+msgstr ""
+
+#: include/shortcodes/admin/multi-services.php:153
+#@ uoc
+msgid "Multiple service Logo"
+msgstr ""
+
+#: include/shortcodes/admin/multi-services.php:175
+#@ uoc
+msgid "Text:"
+msgstr ""
+
+#: include/shortcodes/admin/multi-services.php:197
+#@ uoc
+msgid "Add Multiple service"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:80
+#@ uoc
+msgid "Edit Price Table Options"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:91
+#: include/shortcodes/admin/services.php:93
+#@ uoc
+msgid "Choose View"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:115
+#@ uoc
+msgid "set title for the item"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:131
+#@ uoc
+msgid "Price"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:136
+#@ uoc
+msgid "item Price"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:143
+#@ uoc
+msgid "Currency Symbols"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:148
+#@ uoc
+msgid "item currency symbols"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:168
+#@ uoc
+msgid "Time Duration"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:173
+#@ uoc
+msgid "set a time duration"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:260
+#: include/shortcodes/admin/price-table.php:190
+#: include/shortcodes/admin/quick_quote.php:116
+#@ uoc
+msgid "Button Text"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:230
+#@ uoc
+msgid "Pricing Features"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:232
+#@ uoc
+msgid "Add New Feature input box"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:235
+#@ uoc
+msgid "Set feature price of the product"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:263
+#@ uoc
+msgid "Pricing Feature"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:66
+#@ uoc
+msgid "Edit Progress bars Options"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:75
+#@ uoc
+msgid "Progress Bars Style"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:79
+#@ uoc
+msgid "Plain Progress bar"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:80
+#@ uoc
+msgid "Strip Progress bar"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:81
+#@ uoc
+msgid "Pattern Progress bar"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:120
+#@ uoc
+msgid "Progress Bar"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:124
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Progress Bars Title"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:132
+#@ uoc
+msgid "Skill (in percentage)"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:137
+#@ uoc
+msgid "Set the Skill (In %)"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:142
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Progress Bars Color"
+msgstr ""
+
+#: include/shortcodes/admin/progressbar.php:161
+#@ uoc
+msgid "Add Progress bar"
+msgstr ""
+
+#: include/shortcodes/admin/quick_quote.php:63
+#@ uoc
+msgid "Edit Quote Form Options"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:63
+#@ uoc
+msgid "Edit Quote Options"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:86
+#@ uoc
+msgid "give the name of the author"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:91
+#@ uoc
+msgid "Author Url"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:95
+#@ uoc
+msgid "Give the Author External / Internal Url"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:116
+#@ uoc
+msgid "right"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:117
+#@ uoc
+msgid "center"
+msgstr ""
+
+#: include/shortcodes/admin/quote.php:124
+#@ uoc
+msgid "Quote Content"
+msgstr ""
+
+#: include/shortcodes/admin/revolution-slider.php:66
+#@ uoc
+msgid "Edit Slider Options"
+msgstr ""
+
+#: include/shortcodes/admin/revolution-slider.php:72
+#@ uoc
+msgid "Slider Section Title"
+msgstr ""
+
+#: include/shortcodes/admin/revolution-slider.php:79
+#@ uoc
+msgid "Please enter slider header title."
+msgstr ""
+
+#: include/shortcodes/admin/revolution-slider.php:85
+#@ uoc
+msgid "Choose Slider"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:87
+#@ uoc
+msgid "Edit Services Options"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:100
+#@ uoc
+msgid "Set a view from the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:115
+#: include/shortcodes/admin/services.php:107
+#@ uoc
+msgid "Choose"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:123
+#: include/shortcodes/admin/services.php:115
+#@ uoc
+msgid "Choose a icon/image type form the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:132
+#: include/shortcodes/admin/services.php:122
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Choose Icon"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:136
+#: include/shortcodes/admin/services.php:126
+#@ uoc
+msgid "Select the fontawsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:137
+#@ uoc
+msgid "Set custom colour for icon"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:209
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Top"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:212
+#: include/shortcodes/admin/services.php:224
+#@ uoc
+msgid "Give the position"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:251
+#: include/shortcodes/admin/table.php:131
+#@ uoc
+msgid "Enter the content"
+msgstr ""
+
+#: include/shortcodes/admin/sitemap.php:49
+#@ uoc
+msgid "Edit SITEMAP Options"
+msgstr ""
+
+#: include/shortcodes/admin/sitemap.php:55
+#@ uoc
+msgid "Section Titles"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:66
+#@ uoc
+msgid "Edit Offer Slider Options"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:79
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-options/theme_options.php:306
+#@ uoc
+msgid "Full width"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:80
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "One half"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:81
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Two third"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:82
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Three fourth"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:122
+#: include/shortcodes/admin/testimonial.php:127
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Testimonial"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:181
+#: include/shortcodes/admin/slider.php:155
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Contents"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:164
+#@ uoc
+msgid "Read More Link"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:199
+#: include/shortcodes/admin/slider.php:172
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Link Title"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:176
+#@ uoc
+msgid "give the link title here"
+msgstr ""
+
+#: include/shortcodes/admin/slider.php:191
+#@ uoc
+msgid "Add Offer"
+msgstr ""
+
+#: include/shortcodes/admin/spacer.php:49
+#@ uoc
+msgid "Edit Spacer Options"
+msgstr ""
+
+#: include/shortcodes/admin/table.php:94
+#@ uoc
+msgid "Edit Table Options"
+msgstr ""
+
+#: include/shortcodes/admin/table.php:112
+#@ uoc
+msgid "Table Style"
+msgstr ""
+
+#: include/shortcodes/admin/table.php:117
+#@ uoc
+msgid "Modern Style"
+msgstr ""
+
+#: include/shortcodes/admin/table.php:122
+#@ uoc
+msgid "Select a table style"
+msgstr ""
+
+#: include/shortcodes/admin/table.php:127
+#@ uoc
+msgid "Table Content"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:67
+#@ uoc
+msgid "Edit Tabs Options"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:87
+#@ uoc
+msgid "Tab Style"
+msgstr ""
+
+#: include/theme-options/theme_options.php:576
+#@ uoc
+msgid "Default"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:93
+#@ uoc
+msgid "Vertical"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:121
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Tab"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:134
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "You can set the section that is active here by select dropdown"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:141
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Tab Title"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:151
+#@ uoc
+msgid "Tab Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:162
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Tab Text"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:169
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Enter tab body content here"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:185
+#@ uoc
+msgid "Add Tab"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:84
+#@ uoc
+msgid "Designation"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:93
+#@ uoc
+msgid "short Description"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:102
+#@ uoc
+msgid "Team Profile Image"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:132
+#@ uoc
+msgid "Twitter Url"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:140
+#@ uoc
+msgid "Google plus"
+msgstr ""
+
+#: include/shortcodes/admin/team.php:148
+#@ uoc
+msgid "Skype"
+msgstr ""
+
+#: include/shortcodes/admin/testimonial.php:59
+#@ uoc
+msgid "Edit Testimonials Options"
+msgstr ""
+
+#: include/shortcodes/admin/testimonial.php:132
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Text"
+msgstr ""
+
+#: include/shortcodes/admin/testimonial.php:195
+#@ uoc
+msgid "Add testimonials"
+msgstr ""
+
+#: include/shortcodes/admin/tweets.php:53
+#@ uoc
+msgid "Edit Twitter Options"
+msgstr ""
+
+#: include/shortcodes/admin/tweets.php:61
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:39
+#@ uoc
+msgid "User Name"
+msgstr ""
+
+#: include/shortcodes/admin/tweets.php:81
+#@ uoc
+msgid "No of Tweets"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#, php-format
+#@ uoc
+msgid "%1$s"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Pages:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "About"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "View All Posts"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#, php-format
+#@ uoc
+msgid "%s"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Progress Bars"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Site Map"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "One third"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "One fourth"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Use this option if you want to use specified Class for this element"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Animation Class"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Select Entrance animation type from the dropdown"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Select Animation"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service Title"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Title of the Service"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service View:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Large Boxed"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Large Normal"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Circle"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Type of the Service"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Icon Postion"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Icon Type"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service background  Image"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service Link Url"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Service Text:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Icon Background Color"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Enter accordion title"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Select the font awsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Faq Title:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Register"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Register Title:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "User Role:"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Subscriber"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Staff"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Member"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Instructor"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Customer"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Contributor"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Editor"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Administrator"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter Title"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1723
+#@ uoc
+msgid "Type"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter Style One"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter Style Two"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter Style Three"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Counter Style Four"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Numbers"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Count Text Color"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Album Item(s)"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Track Title"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Track MP3 Url"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Multiple Service"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Multiple Service Logo"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Offer Slider Item"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Gallery is Empty. Please Select Media"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Select Media"
+msgstr ""
+
+#: include/shortcodes/config.php:63
+#@ uoc
+msgid "Call To Action"
+msgstr ""
+
+#: include/shortcodes/config.php:64
+#@ uoc
+msgid "Contactus"
+msgstr ""
+
+#: include/shortcodes/config.php:68
+#@ uoc
+msgid "Mail chimp"
+msgstr ""
+
+#: include/shortcodes/config.php:69
+#@ uoc
+msgid "Price table"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#: include/shortcodes/config.php:70
+#@ uoc
+msgid "Promo box"
+msgstr ""
+
+#: include/shortcodes/frontend/contactus.php:37
+#: include/shortcodes/frontend/quick_quote.php:36
+#@ uoc
+msgid "Email has been sent Successfully"
+msgstr ""
+
+#: include/shortcodes/frontend/contactus.php:43
+#: include/shortcodes/frontend/quick_quote.php:42
+#@ uoc
+msgid "An error Occured, please try again later"
+msgstr ""
+
+#: include/shortcodes/frontend/contactus.php:108
+#@ uoc
+msgid "Subject"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:98
+#@ uoc
+msgid "Directions"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:104
+#@ uoc
+msgid "Enter Location"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:107
+#@ uoc
+msgid "Driving"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:108
+#@ uoc
+msgid "Walking"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:109
+#@ uoc
+msgid "Bicycling"
+msgstr ""
+
+#: include/shortcodes/frontend/map.php:110
+#@ uoc
+msgid "Transit"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:114
+#@ uoc
+msgid "Enter Your Name"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:120
+#@ uoc
+msgid "Enter email"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:123
+#@ uoc
+msgid "Mobile Number"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:123
+#: include/shortcodes/frontend/quick_quote.php:133
+#: include/shortcodes/frontend/quick_quote.php:172
+#@ uoc
+msgid "Optional"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:124
+#@ uoc
+msgid "Enter Mobile Number"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:129
+#@ uoc
+msgid "Service Type"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:130
+#@ uoc
+msgid "Enter Service Type"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:133
+#@ uoc
+msgid "Number of Workers"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:147
+#@ uoc
+msgid "Date"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:154
+#@ uoc
+msgid "Time"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:156
+#@ uoc
+msgid "HH:ii"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:166
+#: include/shortcodes/frontend/quick_quote.php:167
+#@ uoc
+msgid "Enter Address"
+msgstr ""
+
+#: include/shortcodes/frontend/quick_quote.php:178
+#@ uoc
+msgid "Get Quick Quote"
+msgstr ""
+
+#: include/shortcodes/frontend/sitemap.php:23
+#@ uoc
+msgid "Pages"
+msgstr ""
+
+#: include/shortcodes/frontend/sitemap.php:62
+#@ uoc
+msgid "Posts"
+msgstr ""
+
+#: include/shortcodes/frontend/sitemap.php:132
+#@ uoc
+msgid "Portfolio Categories"
+msgstr ""
+
+#: include/shortcodes/frontend/sitemap.php:159
+#@ uoc
+msgid "Our Team"
+msgstr ""
+
+#: include/shortcodes/frontend/testimonial - Copy.php:84
+#@ uoc
+msgid "Posted By"
+msgstr ""
+
+#: include/shortcodes/frontend/tweets.php:131
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:130
+#, php-format
+#@ uoc
+msgid "%d seconds ago"
+msgstr ""
+
+#: include/shortcodes/frontend/tweets.php:134
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:131
+#, php-format
+#@ uoc
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:137
+#: include/shortcodes/frontend/tweets.php:140
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:132
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:133
+#, php-format
+#@ uoc
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:143
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:134
+#, php-format
+#@ uoc
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:146
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:135
+#, php-format
+#@ uoc
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:149
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:136
+#, php-format
+#@ uoc
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:152
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:137
+#, php-format
+#@ uoc
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/frontend/tweets.php:181
+#: include/shortcodes/frontend/tweets.php:185
+#@ uoc
+msgid "No Tweets Found"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:271
+#@ uoc
+msgid "Something went wrong."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:283
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:298
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:308
+#, php-format
+#@ uoc
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:318
+#@ uoc
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:323
+#@ uoc
+msgid "Return to the dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:326
+#, php-format
+#@ uoc
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:327
+#@ uoc
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:328
+#@ uoc
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:645
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2517
+#@ uoc
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#@ uoc
+msgid "The remote plugin package is does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ uoc
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ uoc
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:768
+#, php-format
+#@ uoc
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:893
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1907
+#@ uoc
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1536
+#@ uoc
+msgid "External Source"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1540
+#@ uoc
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1545
+#@ uoc
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1549
+#@ uoc
+msgid "Required"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1551
+#@ uoc
+msgid "Recommended"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1555
+#@ uoc
+msgid "Not Installed"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1557
+#@ uoc
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1640
+#, php-format
+#@ uoc
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1659
+#, php-format
+#@ uoc
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1705
+#, php-format
+#@ uoc
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1721
+#@ uoc
+msgid "Plugin"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1722
+#@ uoc
+msgid "Source"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1724
+#@ uoc
+msgid "Status"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1742
+#@ uoc
+msgid "Install"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1743
+#@ uoc
+msgid "Activate"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1893
+#@ uoc
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1911
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:325
+#@ uoc
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2260
+#@ uoc
+msgid "Install package not available."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2261
+#, php-format
+#@ uoc
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2262
+#@ uoc
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2263
+#@ uoc
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2264
+#@ uoc
+msgid "Plugin install failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2265
+#@ uoc
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2276
+#@ uoc
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2399
+#, php-format
+#@ uoc
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2400
+#, php-format
+#@ uoc
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2404
+#@ uoc
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#, php-format
+#@ uoc
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ uoc
+msgid "Show Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ uoc
+msgid "Hide Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2406
+#@ uoc
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2407
+#, php-format
+#@ uoc
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2411
+#@ uoc
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#, php-format
+#@ uoc
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2413
+#@ uoc
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2414
+#, php-format
+#@ uoc
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-googlefont/google_fonts.php:88
+#: include/theme-components/cs-googlefont/google_fonts.php:99
+#@ uoc
+msgid "Select Attribute"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:42
+#: include/theme-components/cs-importer/parsers.php:72
+#: include/theme-components/cs-importer/parsers.php:80
+#@ uoc
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:43
+#@ uoc
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:84
+#: include/theme-components/cs-importer/parsers.php:89
+#: include/theme-components/cs-importer/parsers.php:279
+#: include/theme-components/cs-importer/parsers.php:468
+#@ uoc
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:43
+#@ uoc
+msgid "Error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:47
+#: include/theme-components/cs-importer/wordpress-importer.php:134
+#: include/theme-components/cs-importer/wordpress-importer.php:143
+#: include/theme-components/cs-importer/wordpress-importer.php:194
+#: include/theme-components/cs-importer/wordpress-importer.php:198
+#: include/theme-components/cs-importer/wordpress-importer.php:207
+#@ uoc
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:48
+#: include/theme-components/cs-importer/wordpress-importer.php:135
+#@ uoc
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:152
+#@ uoc
+msgid "Importing demo data helps to build site like the demo site by all means. It is the quickest way to setup theme. Following things happen when dummy data is imported;"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:154
+#@ uoc
+msgid "All wordpress settings will remain same and intact"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:155
+#@ uoc
+msgid "Posts, pages and dummy images shown in demo will be imported"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:156
+#@ uoc
+msgid "Only dummy images will be imported as all demo images have copy right restriction"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:157
+#@ uoc
+msgid "No existing posts, pages, categories, custom post types or any other data will be deleted or modified"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:158
+#@ uoc
+msgid "To proceed, please click \"Import Demo Data\" and wait for a while"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:159
+#@ uoc
+msgid "Note: Before Import demo data please make sure your server has following Setting"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:162
+#@ uoc
+msgid "post_max_size = 10M or Greater"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:163
+#@ uoc
+msgid "upload_max_filesize = 10M or Greater"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:164
+#@ uoc
+msgid "memory_limit = 128M or Greater"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:167
+#@ uoc
+msgid "Your Current Setting"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:178
+#@ uoc
+msgid "All done."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:178
+#@ uoc
+msgid "Have fun!"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:179
+#@ uoc
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:199
+#, php-format
+#@ uoc
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:215
+#, php-format
+#@ uoc
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:240
+#, php-format
+#@ uoc
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:266
+#@ uoc
+msgid "Assign Authors"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:267
+#@ uoc
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:269
+#, php-format
+#@ uoc
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:279
+#@ uoc
+msgid "Import Attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:282
+#@ uoc
+msgid "Download and import file attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:299
+#@ uoc
+msgid "Import author:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:310
+#@ uoc
+msgid "or create new user with login name:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:313
+#@ uoc
+msgid "as a new user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:321
+#@ uoc
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:323
+#@ uoc
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:324
+#@ uoc
+msgid "- Select -"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:374
+#, php-format
+#@ uoc
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:425
+#, php-format
+#@ uoc
+msgid "Failed to import category %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:465
+#, php-format
+#@ uoc
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:511
+#: include/theme-components/cs-importer/wordpress-importer.php:652
+#, php-format
+#@ uoc
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:537
+#, php-format
+#@ uoc
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:559
+#, php-format
+#@ uoc
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:618
+#, php-format
+#@ uoc
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:783
+#@ uoc
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:790
+#, php-format
+#@ uoc
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:853
+#@ uoc
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:866
+#@ uoc
+msgid "Invalid file type"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:910
+#@ uoc
+msgid "Remote server did not respond"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:916
+#, php-format
+#@ uoc
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:923
+#@ uoc
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:928
+#@ uoc
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:934
+#, php-format
+#@ uoc
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1032
+#@ uoc
+msgid "Import WordPress"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1039
+#, php-format
+#@ uoc
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1054
+#@ uoc
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1055
+#@ uoc
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1129
+#@ uoc
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:23
+#@ uoc
+msgid "Type a user name to show photos in widget."
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:24
+#@ uoc
+msgid "CS : Flickr Gallery"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:43
+#@ uoc
+msgid "Flickr username"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:48
+#@ uoc
+msgid "Number of Photos"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:150
+#: include/theme-components/cs-widgets/cs_flickr.php:178
+#@ uoc
+msgid "No result found."
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:153
+#: include/theme-components/cs-widgets/cs_flickr.php:157
+#@ uoc
+msgid "Error:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_flickr.php:183
+#@ uoc
+msgid "Please Enter Flickr API key from Theme Options."
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:22
+#@ uoc
+msgid "Twitter Widget"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:23
+#@ uoc
+msgid "CS: Twitter Widget"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:36
+#: include/theme-components/cs-widgets/opening_hours.php:55
+#: include/theme-components/cs-widgets/recentposts.php:34
+#@ uoc
+msgid "Title:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/cs_twitter_widget.php:42
+#@ uoc
+msgid "Num of Tweets:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:16
+#@ uoc
+msgid "Facebook widget like box total customized with theme"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:17
+#@ uoc
+msgid "CS : Facebook"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:40
+#@ uoc
+msgid "Page Url"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:43
+#@ uoc
+msgid "Please enter your page or User profile url example:L"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:48
+#@ uoc
+msgid "Show Faces"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:53
+#@ uoc
+msgid "Show Stream"
+msgstr ""
+
+#: include/theme-components/cs-widgets/facebook.php:59
+#@ uoc
+msgid "Like Box Height"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:60
+#@ uoc
+msgid "Monday"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:66
+#@ uoc
+msgid "Monday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:74
+#@ uoc
+msgid "Tuesday"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:80
+#@ uoc
+msgid "Tuesday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:89
+#@ uoc
+msgid "Wednesday:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:95
+#@ uoc
+msgid "Wednesday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:103
+#@ uoc
+msgid "Thursday:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:109
+#@ uoc
+msgid "Thursday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:117
+#@ uoc
+msgid "Friday:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:123
+#@ uoc
+msgid "Friday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:130
+#@ uoc
+msgid "Saturday:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:136
+#@ uoc
+msgid "Saturday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:143
+#@ uoc
+msgid "Sunday:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/opening_hours.php:149
+#@ uoc
+msgid "Sunday time"
+msgstr ""
+
+#: include/theme-components/cs-widgets/recentposts.php:19
+#@ uoc
+msgid "Recent Posts from category."
+msgstr ""
+
+#: include/theme-components/cs-widgets/recentposts.php:20
+#@ uoc
+msgid "CS : Recent Posts"
+msgstr ""
+
+#: include/theme-components/cs-widgets/recentposts.php:39
+#@ uoc
+msgid "Select Category:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/recentposts.php:41
+#@ uoc
+msgid "All"
+msgstr ""
+
+#: include/theme-components/cs-widgets/recentposts.php:54
+#@ uoc
+msgid "Number of Posts To Display:"
+msgstr ""
+
+#: include/admin_functions.php:187
+#: include/shortcodes/admin_functions.php:1
+#: include/theme-components/cs-widgets/widgets_keys.php:36
+#@ uoc
+msgid "Opening Hours"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:65
+#@ uoc
+msgid "Featured Categories"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:84
+#@ uoc
+msgid "Recent Blogs"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:103
+#@ uoc
+msgid "contact us"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:138
+#@ uoc
+msgid "Blog Categories"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets_keys.php:157
+#@ uoc
+msgid "Tag Cloud"
+msgstr ""
+
+#: include/theme-options/theme_options.php:17
+#@ uoc
+msgid "Saving changes..."
+msgstr ""
+
+#: include/theme-options/theme_options.php:42
+#@ uoc
+msgid "Save All Settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:44
+#@ uoc
+msgid "Reset All Options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:171
+#: include/theme-options/theme_options.php:1411
+#@ uoc
+msgid "Blogs Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:172
+#@ uoc
+msgid "Faq Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:173
+#@ uoc
+msgid "Price and Packages"
+msgstr ""
+
+#: include/theme-options/theme_options.php:179
+#@ uoc
+msgid "Breadcrumbs Sub Header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:179
+#@ uoc
+msgid "No sub Header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:243
+#: include/theme-options/theme_options.php:294
+#@ uoc
+msgid "global"
+msgstr ""
+
+#: include/theme-options/theme_options.php:244
+#: include/theme-options/theme_options.php:260
+#: include/theme-options/theme_options.php:542
+#: include/theme-options/theme_options.php:544
+#@ uoc
+msgid "Header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:246
+#: include/theme-options/theme_options.php:261
+#@ uoc
+msgid "Footer"
+msgstr ""
+
+#: include/theme-options/theme_options.php:247
+#: include/theme-options/theme_options.php:1224
+#@ uoc
+msgid "social icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:248
+#@ uoc
+msgid "social sharing"
+msgstr ""
+
+#: include/theme-options/theme_options.php:249
+#: include/theme-options/theme_options.php:1330
+#@ uoc
+msgid "Ads Unit Settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:250
+#: include/theme-options/theme_options.php:1305
+#@ uoc
+msgid "custom code"
+msgstr ""
+
+#: include/theme-options/theme_options.php:254
+#@ uoc
+msgid "color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:259
+#@ uoc
+msgid "general"
+msgstr ""
+
+#: include/theme-options/theme_options.php:262
+#@ uoc
+msgid "headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:266
+#@ uoc
+msgid "typography / fonts"
+msgstr ""
+
+#: include/theme-options/theme_options.php:272
+#: include/theme-options/theme_options.php:1020
+#@ uoc
+msgid "Custom Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:273
+#: include/theme-options/theme_options.php:1058
+#@ uoc
+msgid "font family"
+msgstr ""
+
+#: include/theme-options/theme_options.php:278
+#: include/theme-options/theme_options.php:1340
+#@ uoc
+msgid "sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:286
+#: include/theme-options/theme_options.php:1445
+#@ uoc
+msgid "Seo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:299
+#@ uoc
+msgid "Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:301
+#@ uoc
+msgid "Layout type"
+msgstr ""
+
+#: include/theme-options/theme_options.php:305
+#@ uoc
+msgid "Boxed"
+msgstr ""
+
+#: include/theme-options/theme_options.php:321
+#@ uoc
+msgid "Background image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:323
+#@ uoc
+msgid "Choose from Predefined Background images."
+msgstr ""
+
+#: include/theme-options/theme_options.php:334
+#@ uoc
+msgid "Background pattern"
+msgstr ""
+
+#: include/theme-options/theme_options.php:336
+#@ uoc
+msgid "Choose from Predefined Pattern images."
+msgstr ""
+
+#: include/theme-options/theme_options.php:347
+#@ uoc
+msgid "Custom image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:349
+#@ uoc
+msgid "This option can be used only with Boxed Layout."
+msgstr ""
+
+#: include/theme-options/theme_options.php:356
+#@ uoc
+msgid "Background image position"
+msgstr ""
+
+#: include/theme-options/theme_options.php:358
+#@ uoc
+msgid "Choose image position for body background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:373
+#@ uoc
+msgid "Custom favicon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:375
+#@ uoc
+msgid "Custom favicon for your site"
+msgstr ""
+
+#: include/theme-options/theme_options.php:381
+#@ uoc
+msgid "RTL"
+msgstr ""
+
+#: include/theme-options/theme_options.php:383
+#@ uoc
+msgid "Turn RTL On/Off here for Right to Left languages like Arabic etc."
+msgstr ""
+
+#: include/theme-options/theme_options.php:390
+#@ uoc
+msgid "Responsive"
+msgstr ""
+
+#: include/theme-options/theme_options.php:392
+#@ uoc
+msgid "Set responsive design layout for mobile devices On/Off here"
+msgstr ""
+
+#: include/theme-options/theme_options.php:432
+#@ uoc
+msgid "header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:442
+#@ uoc
+msgid "Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:444
+#@ uoc
+msgid "Upload your custom logo in .png .jpg .gif formats only."
+msgstr ""
+
+#: include/theme-options/theme_options.php:449
+#@ uoc
+msgid "Logo Height"
+msgstr ""
+
+#: include/theme-options/theme_options.php:451
+#@ uoc
+msgid "Set exact logo height otherwise logo will not display normally."
+msgstr ""
+
+#: include/theme-options/theme_options.php:458
+#@ uoc
+msgid "logo width"
+msgstr ""
+
+#: include/theme-options/theme_options.php:460
+#@ uoc
+msgid "Set exact logo width otherwise logo will not display normally."
+msgstr ""
+
+#: include/theme-options/theme_options.php:468
+#@ uoc
+msgid "Logo margin top"
+msgstr ""
+
+#: include/theme-options/theme_options.php:470
+#@ uoc
+msgid "Logo spacing margin from top"
+msgstr ""
+
+#: include/theme-options/theme_options.php:477
+#@ uoc
+msgid "Logo margin bottom"
+msgstr ""
+
+#: include/theme-options/theme_options.php:479
+#@ uoc
+msgid "Logo spacing margin from bottom."
+msgstr ""
+
+#: include/theme-options/theme_options.php:486
+#@ uoc
+msgid "Logo margin right"
+msgstr ""
+
+#: include/theme-options/theme_options.php:488
+#@ uoc
+msgid "Logo spacing margin from right."
+msgstr ""
+
+#: include/theme-options/theme_options.php:495
+#@ uoc
+msgid "Logo margin left"
+msgstr ""
+
+#: include/theme-options/theme_options.php:497
+#@ uoc
+msgid "Logo spacing margin from left"
+msgstr ""
+
+#: include/theme-options/theme_options.php:506
+#: include/theme-options/theme_options.php:508
+#@ uoc
+msgid "Header Elements"
+msgstr ""
+
+#: include/theme-options/theme_options.php:516
+#@ uoc
+msgid "Cart Count"
+msgstr ""
+
+#: include/theme-options/theme_options.php:518
+#@ uoc
+msgid "Enable/Disable Woocommerce Cart Count"
+msgstr ""
+
+#: include/theme-options/theme_options.php:526
+#@ uoc
+msgid "Sticky Header On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:529
+#@ uoc
+msgid "If you enable this option , header will be fixed on top of your browser window."
+msgstr ""
+
+#: include/theme-options/theme_options.php:535
+#@ uoc
+msgid "Sticky Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:537
+#@ uoc
+msgid "Set sticky logo Image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:551
+#@ uoc
+msgid "Enable/Disable header top strip"
+msgstr ""
+
+#: include/theme-options/theme_options.php:566
+#@ uoc
+msgid "sub header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:578
+#@ uoc
+msgid "Sub Header settings made here will be implemented on all pages."
+msgstr ""
+
+#: include/theme-options/theme_options.php:603
+#@ uoc
+msgid "Set custom padding for sub header content top area."
+msgstr ""
+
+#: include/theme-options/theme_options.php:612
+#@ uoc
+msgid "Set custom padding for sub header content bottom area."
+msgstr ""
+
+#: include/theme-options/theme_options.php:619
+#@ uoc
+msgid "Content Text Align"
+msgstr ""
+
+#: include/theme-options/theme_options.php:621
+#@ uoc
+msgid "select the text Alignment for sub header content."
+msgstr ""
+
+#: include/theme-options/theme_options.php:627
+#@ uoc
+msgid "Page Title"
+msgstr ""
+
+#: include/theme-options/theme_options.php:629
+#@ uoc
+msgid "Set page title On/Off in sub header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:665
+#@ uoc
+msgid "Background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:673
+#@ uoc
+msgid "Parallax"
+msgstr ""
+
+#: include/theme-options/theme_options.php:683
+#@ uoc
+msgid "footer options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:687
+#@ uoc
+msgid "Footer section"
+msgstr ""
+
+#: include/theme-options/theme_options.php:689
+#@ uoc
+msgid "enable/disable footer area"
+msgstr ""
+
+#: include/theme-options/theme_options.php:694
+#: include/theme-options/theme_options.php:767
+#@ uoc
+msgid "Footer Widgets"
+msgstr ""
+
+#: include/theme-options/theme_options.php:696
+#@ uoc
+msgid "enable/disable footer widget area"
+msgstr ""
+
+#: include/theme-options/theme_options.php:703
+#@ uoc
+msgid "Social Icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:705
+#@ uoc
+msgid "enable/disable Social Icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:716
+#@ uoc
+msgid "Back to top"
+msgstr ""
+
+#: include/theme-options/theme_options.php:718
+#@ uoc
+msgid "enable/disable Back to top"
+msgstr ""
+
+#: include/theme-options/theme_options.php:733
+#: include/theme-options/theme_options.php:742
+#@ uoc
+msgid "Footer Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:735
+#@ uoc
+msgid "Like footer logo or Credits Cards Images"
+msgstr ""
+
+#: include/theme-options/theme_options.php:753
+#@ uoc
+msgid "Footer logo Link"
+msgstr ""
+
+#: include/theme-options/theme_options.php:755
+#@ uoc
+msgid "set custom footer logo link"
+msgstr ""
+
+#: include/theme-options/theme_options.php:760
+#: include/theme-options/theme_options.php:951
+#@ uoc
+msgid "Copyright Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:762
+#@ uoc
+msgid "write your own copyright text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:769
+#@ uoc
+msgid "Set footer widgets sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:777
+#@ uoc
+msgid "general colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:781
+#@ uoc
+msgid "Theme Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:783
+#: include/theme-options/theme_options.php:790
+#@ uoc
+msgid "Choose theme skin color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:788
+#@ uoc
+msgid "Second Theme Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:798
+#@ uoc
+msgid "Choose Body Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:804
+#@ uoc
+msgid "Body Text Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:806
+#@ uoc
+msgid "Choose text color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:813
+#@ uoc
+msgid "header colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:817
+#@ uoc
+msgid "top strip colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:819
+#@ uoc
+msgid "Top Strip"
+msgstr ""
+
+#: include/theme-options/theme_options.php:825
+#@ uoc
+msgid "Change Top Strip background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:833
+#@ uoc
+msgid "Change Top Strip text color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:831
+#@ uoc
+msgid "Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:848
+#: include/theme-options/theme_options.php:850
+#@ uoc
+msgid "Header Colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:856
+#@ uoc
+msgid "Change Header background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:861
+#@ uoc
+msgid "Navigation Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:863
+#@ uoc
+msgid "Change Header Navigation Background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:871
+#@ uoc
+msgid "Menu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:873
+#@ uoc
+msgid "Change Header Menu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:879
+#@ uoc
+msgid "Menu Active Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:881
+#@ uoc
+msgid "Change Header Menu Active Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:888
+#@ uoc
+msgid "Submenu Background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:890
+#@ uoc
+msgid "Change Submenu Background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:896
+#@ uoc
+msgid "Submenu Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:898
+#@ uoc
+msgid "Change Submenu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:904
+#@ uoc
+msgid "Submenu Hover Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:906
+#@ uoc
+msgid "Change Submenu Hover Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:915
+#@ uoc
+msgid "footer colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:919
+#@ uoc
+msgid "Footer Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:927
+#@ uoc
+msgid "Footer Title Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:935
+#@ uoc
+msgid "Footer Text Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:943
+#@ uoc
+msgid "Footer Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:959
+#@ uoc
+msgid "Copyright Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:967
+#@ uoc
+msgid "heading colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:971
+#@ uoc
+msgid "heading h1"
+msgstr ""
+
+#: include/theme-options/theme_options.php:979
+#@ uoc
+msgid "heading h2"
+msgstr ""
+
+#: include/theme-options/theme_options.php:987
+#@ uoc
+msgid "heading h3"
+msgstr ""
+
+#: include/theme-options/theme_options.php:995
+#@ uoc
+msgid "heading h4"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1003
+#@ uoc
+msgid "heading h5"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1011
+#@ uoc
+msgid "heading h6"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1025
+#@ uoc
+msgid "Custom Font .woff"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1027
+#@ uoc
+msgid "Custom font for your site upload .woff format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1033
+#@ uoc
+msgid "Custom Font .ttf"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1035
+#@ uoc
+msgid "Custom font for your site upload .ttf format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1041
+#@ uoc
+msgid "Custom Font .svg"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1043
+#@ uoc
+msgid "Custom font for your site upload .svg format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1049
+#@ uoc
+msgid "Custom Font .eot"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1051
+#@ uoc
+msgid "Custom font for your site upload .eot format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1062
+#@ uoc
+msgid "Content Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1064
+#@ uoc
+msgid "Set fonts for Body text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1070
+#@ uoc
+msgid "Content Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1072
+#: include/theme-options/theme_options.php:1088
+#: include/theme-options/theme_options.php:1104
+#: include/theme-options/theme_options.php:1120
+#@ uoc
+msgid "Set Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1078
+#@ uoc
+msgid "Main Menu Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1080
+#@ uoc
+msgid "Set font for main Menu. It will be applied to sub menu as well"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1086
+#@ uoc
+msgid "Main Menu Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1094
+#@ uoc
+msgid "Headings Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1096
+#@ uoc
+msgid "Select font for Headings. It will apply on all posts and pages headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1102
+#@ uoc
+msgid "Headings Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1110
+#@ uoc
+msgid "Widget Headings Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1112
+#@ uoc
+msgid "Set font for Widget Headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1118
+#@ uoc
+msgid "Widget Headings Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1127
+#@ uoc
+msgid "Font size"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1150
+#@ uoc
+msgid "Heading 1"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1159
+#@ uoc
+msgid "Heading 2"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1168
+#@ uoc
+msgid "Heading 3"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1177
+#@ uoc
+msgid "Heading 4"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1186
+#@ uoc
+msgid "Heading 5"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1195
+#@ uoc
+msgid "Heading 6"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1205
+#@ uoc
+msgid "Widget Heading"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1214
+#@ uoc
+msgid "Section Heading"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1228
+#@ uoc
+msgid "Social Network"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1238
+#@ uoc
+msgid "social Sharing"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1262
+#@ uoc
+msgid "Tumblr"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1269
+#@ uoc
+msgid "Dribbble"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1276
+#@ uoc
+msgid "Instagram"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1283
+#@ uoc
+msgid "StumbleUpon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1290
+#@ uoc
+msgid "youtube"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1297
+#@ uoc
+msgid "share more"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1309
+#@ uoc
+msgid "Custom Css"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1311
+#@ uoc
+msgid "write you custom css without style tag"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1317
+#@ uoc
+msgid "Custom JavaScript"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1319
+#@ uoc
+msgid "write you custom js without script tag"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1326
+#@ uoc
+msgid "Ads Unit"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1344
+#: include/theme-options/theme_options.php:1428
+#@ uoc
+msgid "Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1346
+#@ uoc
+msgid "Select a sidebar from the list already given. (Nine pre-made sidebars are given)"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1353
+#@ uoc
+msgid "post layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1355
+#@ uoc
+msgid "single post layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1359
+#@ uoc
+msgid "Single Post Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1361
+#: include/theme-options/theme_options.php:1390
+#@ uoc
+msgid "Use this option to set default layout. It will be applied to all posts"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1366
+#: include/theme-options/theme_options.php:1395
+#: include/theme-options/theme_options.php:1424
+#@ uoc
+msgid "full width"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1367
+#: include/theme-options/theme_options.php:1422
+#@ uoc
+msgid "sidebar left"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1368
+#: include/theme-options/theme_options.php:1396
+#: include/theme-options/theme_options.php:1423
+#@ uoc
+msgid "sidebar right"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1372
+#: include/theme-options/theme_options.php:1400
+#@ uoc
+msgid "Single Layout Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1374
+#@ uoc
+msgid "Select Single Post Layout of your choice for sidebar layout. You cannot select it for full width layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1409
+#@ uoc
+msgid "default pages"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1415
+#@ uoc
+msgid "Default Pages Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1417
+#@ uoc
+msgid "Set Sidebar for all pages like Search, Author Archive, Category Archive etc"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1430
+#@ uoc
+msgid "Select pre-made sidebars for default pages on sidebar layout. Full width layout cannot have sidebars"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1436
+#@ uoc
+msgid "Excerpt"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1438
+#@ uoc
+msgid "Set excerpt length/limit from here. It controls text limit for post's content"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1449
+#@ uoc
+msgid "Attention for External Seo Plugins!"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1455
+#@ uoc
+msgid "Built-in Seo fields"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1457
+#@ uoc
+msgid "Turn Seo options On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1462
+#@ uoc
+msgid "Meta Description"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1464
+#@ uoc
+msgid "HTML attributes that explain the contents of web pages commonly used on search engine result pages (SERPs) for pages snippets"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1470
+#@ uoc
+msgid "Meta Keywords"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1472
+#@ uoc
+msgid "Attributes of meta tags, a list of comma-separated words included in the HTML of a Web page that describe the topic of that page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1480
+#: include/theme-options/theme_options.php:1487
+#@ uoc
+msgid "Maintenance Mode"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1491
+#@ uoc
+msgid "Maintenace Page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1493
+#@ uoc
+msgid "Users will see Maintenance page & logged in Admin will see normal site."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1498
+#@ uoc
+msgid "Show Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1500
+#@ uoc
+msgid "Show/Hide logo on Maintenance. Logo can be uploaded from General > Header in CS Theme options."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1505
+#@ uoc
+msgid "Maintenance Page Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1514
+#@ uoc
+msgid "Maintenance Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1516
+#@ uoc
+msgid "Text for Maintenance page. Insert some basic HTML or use shortcodes here."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1522
+#@ uoc
+msgid "Launch Date"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1524
+#@ uoc
+msgid "Estimated date for completion of site on Maintenance page."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1532
+#@ uoc
+msgid "Api settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1540
+#@ uoc
+msgid "All api settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1545
+#@ uoc
+msgid "Attention for API Settings!"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1547
+#@ uoc
+msgid "API Settings allows admin of the site to show their activity on site semi-automatically. Set your social account API once, it will be update your social activity automatically on your site."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1558
+#@ uoc
+msgid "Mail Chimp Key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1559
+#@ uoc
+msgid "Enter a valid Mail Chimp API key here to get started. Once you've done that, you can use the Mail Chimp Widget from the Widgets menu. You will need to have at least Mail Chimp list set up before the using the widget. You can get your mail chimp activation key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1560
+#@ uoc
+msgid "Get your mailchimp key by <a href='https://login.mailchimp.com/' target='_blank'>Clicking Here </a>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1566
+#@ uoc
+msgid "Mail Chimp List"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1575
+#: include/theme-options/theme_options.php:1577
+#@ uoc
+msgid "Flickr API Setting"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1581
+#@ uoc
+msgid "Flickr key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1587
+#@ uoc
+msgid "Flickr secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1599
+#@ uoc
+msgid "Show Twitter"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1601
+#@ uoc
+msgid "Turn Twitter option On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1606
+#@ uoc
+msgid "Consumer Key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1613
+#@ uoc
+msgid "Consumer Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1615
+#@ uoc
+msgid "Insert consumer key. To get your account key, <a href='https://dev.twitter.com/' target='_blank'>Click Here </a>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1620
+#@ uoc
+msgid "Access Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1622
+#@ uoc
+msgid "Insert Twitter Access Token for permissions. When you create your Twitter App, you get this Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1627
+#@ uoc
+msgid "Access Token Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1629
+#@ uoc
+msgid "Insert Twitter Access Token Secret here. When you create your Twitter App, you get this Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1636
+#: include/theme-options/theme_options.php:1643
+#@ uoc
+msgid "import & export"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1647
+#@ uoc
+msgid "Export"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1649
+#@ uoc
+msgid "If you want to make changes in your site or want to preserve your current settings, Export them code by saving this code with you. You can restore your settings by pasting this code in Import section below"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1655
+#@ uoc
+msgid "Import"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1657
+#@ uoc
+msgid "To Import your settings, paste the code that you got in above area and saved it with you"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1236
+#@ uoc
+msgid "Please enter the desired title of sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1240
+#@ uoc
+msgid "Add Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1246
+#@ uoc
+msgid "Already Added Sidebars"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1253
+#@ uoc
+msgid "Sider Bar Name"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1254
+#@ uoc
+msgid "Actions"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1302
+#@ uoc
+msgid "Please enter text for icon"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1309
+#@ uoc
+msgid "Please enter Full Url"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1334
+#@ uoc
+msgid "FontAwesome Color"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1349
+#: include/theme-options/theme_options_fields.php:1573
+#@ uoc
+msgid "Add"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1355
+#@ uoc
+msgid "Already Added Social Icons"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1363
+#@ uoc
+msgid "Network Name"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1365
+#@ uoc
+msgid "Actions Icon"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1398
+#@ uoc
+msgid "Please enter text for icon tooltip"
+msgstr ""
+
+#: include/admin_functions.php:1431
+#: include/theme-options/theme_options_fields.php:1515
+#: include/theme-options/theme_options_fields.php:1685
+#@ uoc
+msgid "Code"
+msgstr ""
+
+#: include/admin_functions.php:1487
+#: include/theme-options/theme_options_fields.php:1563
+#: include/theme-options/theme_options_fields.php:1741
+#@ uoc
+msgid "Please enter Banner Ad sense Code"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1579
+#@ uoc
+msgid "Already Added Banners"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1589
+#@ uoc
+msgid "Clicks"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1590
+#@ uoc
+msgid "Shortcode"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1637
+#@ uoc
+msgid "Custom Code"
+msgstr ""
+
+#: include/theme-options/theme_options_fields.php:1668
+#@ uoc
+msgid "Please enter Banner Style"
+msgstr ""
+
+#: search.php:82
+#@ uoc
+msgid "Featured:"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:60
+#: searchform.php:10
+#@ uoc
+msgid "Enter your search"
+msgstr ""
+
+#: single.php:236
+#@ uoc
+msgid "Share Post"
+msgstr ""
+
+#: 404.php:22
+#@ uoc
+msgid "OOPS! Page not Found"
+msgstr ""
+
+#: 404.php:25
+#@ uoc
+msgid "The Page you are looking for could have been deleted or never have existed *"
+msgstr ""
+
+#: archive.php:291
+#: cs-templates/blog-styles/blog-large.php:70
+#: cs-templates/blog-styles/blog-medium.php:71
+#: index.php:121
+#: single.php:209
+#@ uoc
+msgid "Posted by"
+msgstr ""
+
+#: archive.php:295
+#: cs-templates/blog-styles/blog-large.php:74
+#: cs-templates/blog-styles/blog-medium.php:75
+#: index.php:125
+#: single.php:220
+#@ uoc
+msgid "Posted in"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:67
+#@ uoc
+msgid "Sub Section Title"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:100
+#@ uoc
+msgid "Blog Tabs"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:101
+#@ uoc
+msgid "Blog list"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:102
+#@ uoc
+msgid "Blog Masonry"
+msgstr ""
+
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:61
+#@ uoc
+msgid "Subscribe Weekly Newsletter"
+msgstr ""
+
+#: functions.php:3117
+#@ uoc
+msgid "Top Menu"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:294
+#@ uoc
+msgid "Seo Title"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:304
+#@ uoc
+msgid "Seo Description"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:314
+#@ uoc
+msgid "Seo Keywords"
+msgstr ""
+
+#: include/theme-options/theme_options.php:409
+#@ uoc
+msgid "Select Language File"
+msgstr ""
+
+#: include/theme-options/theme_options.php:422
+#@ uoc
+msgid "Select Language"
+msgstr ""
+
+#: include/theme-options/theme_options.php:549
+#@ uoc
+msgid "Header Top Menu"
+msgstr ""
+
+#: include/theme-options/theme_options.php:557
+#: include/theme-options/theme_options.php:559
+#@ uoc
+msgid "Header Top Search"
+msgstr ""
+
+#: include/theme-options/theme_options.php:723
+#@ uoc
+msgid "Subscriber field"
+msgstr ""
+
+#: include/theme-options/theme_options.php:725
+#@ uoc
+msgid "enable/disable subscriber field"
+msgstr ""
+
+#: include/theme-options/theme_options.php:744
+#@ uoc
+msgid "enable/disable footer logo"
+msgstr ""
+
+#: footer.php:131
+#@ uoc
+msgid "Follow us"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1451
+#@ uoc
+msgid "  If you are using any external Seo plugin, Turn Off these options."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1507
+#@ uoc
+msgid "Upload your maintenance page logo in .png .jpg .gif formats only"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1795
+#@ uoc
+msgid "No plugins are available to be installed at this time"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:107
+#@ uoc
+msgid "Please select blog view"
+msgstr ""
+
+#: include/admin_functions.php:1018
+#@ uoc
+msgid "Enter Specific Video Url Youtube or Vimeo"
+msgstr ""
+
+#: include/metaboxes/general-settings.php:180
+#@ uoc
+msgid "Parallax Background Image"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:221
+#@ uoc
+msgid "Audio Url"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:225
+#@ uoc
+msgid "Enter Specific Audio Url"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:245
+#@ uoc
+msgid "Thumbnail Video Url"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:249
+#@ uoc
+msgid "Enter Specific Video Url (Youtube, Vimeo and Dailymotion) OR you can select it from your media library"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Accordion Title"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Font awsome Icon"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Accordion Text"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Register Text"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Skill in percentage"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Set the Skill In %"
+msgstr ""
+
+#: archive.php:278
+#: cs-templates/blog-styles/blog-list.php:60
+#: cs-templates/blog-styles/blog-medium.php:53
+#: cs-templates/blog-styles/blog-mesnory.php:46
+#: functions.php:2945
+#: index.php:107
+#@ uoc
+msgid "Comments"
+msgstr ""
+
+#: include/admin_functions.php:185
+#@ uoc
+msgid "Gallery"
+msgstr ""
+
+#: include/admin_functions.php:1027
+#@ uoc
+msgid "Enter specific url"
+msgstr ""
+
+#: include/metaboxes/post_meta.php:300
+#@ uoc
+msgid "Related Blog"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:81
+#@ uoc
+msgid "Edit Call To Action Options"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:201
+#@ uoc
+msgid "Put the title for action element"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:224
+#@ uoc
+msgid "Select the background image for action element"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:264
+#@ uoc
+msgid "Text on the button"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:273
+#@ uoc
+msgid "Button link"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:216
+#@ uoc
+msgid "Padding"
+msgstr ""
+
+#: include/shortcodes/admin/counters.php:220
+#@ uoc
+msgid "Provide top padding"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:151
+#@ uoc
+msgid "Bottom Border On/Off"
+msgstr ""
+
+#: include/shortcodes/admin/heading.php:158
+#@ uoc
+msgid "set Border Bottom  on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:79
+#@ uoc
+msgid "Info Style"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:84
+#@ uoc
+msgid "Simple Style"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:85
+#@ uoc
+msgid "Border style"
+msgstr ""
+
+#: include/shortcodes/admin/infobox.php:89
+#@ uoc
+msgid "Select contact us  style"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:91
+#@ uoc
+msgid "simple"
+msgstr ""
+
+#: include/shortcodes/admin/list.php:93
+#@ uoc
+msgid "bullets"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:75
+#@ uoc
+msgid "Edit Promo Box Options"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:111
+#@ uoc
+msgid "Promo Box Background image here"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:130
+#@ uoc
+msgid "Background Repeat"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:211
+#@ uoc
+msgid "Give External/Internal Promo Box url"
+msgstr ""
+
+#: include/shortcodes/admin/services.php:210
+#@ uoc
+msgid "Top Left"
+msgstr ""
+
+#: include/shortcodes/admin/testimonial.php:86
+#@ uoc
+msgid "Select Testimonial Display Style"
+msgstr ""
+
+#: include/shortcodes/admin/testimonial.php:153
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Company"
+msgstr ""
+
+#: include/shortcodes/admin/video.php:61
+#@ uoc
+msgid "Edit Video Options"
+msgstr ""
+
+#: include/shortcodes/admin/video.php:79
+#@ uoc
+msgid "give the video Url here"
+msgstr ""
+
+#: include/shortcodes/admin/video.php:84
+#@ uoc
+msgid "Width"
+msgstr ""
+
+#: include/shortcodes/admin/video.php:88
+#@ uoc
+msgid "Add a width in pix, If you want to override the default"
+msgstr ""
+
+#: include/shortcodes/admin/video.php:97
+#@ uoc
+msgid "Provide height in cs, if you want to override the default"
+msgstr ""
+
+#: include/admin_functions.php:189
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Events"
+msgstr ""
+
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Galleries"
+msgstr ""
+
+#: include/shortcodes/frontend/contactus.php:111
+#: include/shortcodes/frontend/quick_quote.php:173
+#@ uoc
+msgid "Enter Message"
+msgstr ""
+
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:71
+#@ uoc
+msgid "Enter Valid Email Address"
+msgstr ""
+
+#: include/theme-options/theme_options.php:839
+#@ uoc
+msgid "Link hover Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:841
+#@ uoc
+msgid "Change Top Strip link hover color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1381
+#: include/theme-options/theme_options.php:1383
+#@ uoc
+msgid "Single team"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1388
+#@ uoc
+msgid "Single Team Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1402
+#@ uoc
+msgid "Select Single team Layout of your choice for sidebar layout. You cannot select it for full width layout"
+msgstr ""
+
+#: functions.php:2125
+#@ uoc
+msgid "CS Framework"
+msgstr ""
+
+#: functions.php:2135
+#@ uoc
+msgid "CS Framework Event"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:100
+#: include/shortcodes/admin/testimonial.php:79
+#@ uoc
+msgid "View Style"
+msgstr ""
+
+#: comments.php:45
+#: include/shortcodes/frontend/contactus.php:95
+#@ uoc
+msgid "Quick Inquiry"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:175
+#@ uoc
+msgid "No. of Post For Tab"
+msgstr ""
+
+#: functions.php:4130
+#@ uoc
+msgid "<i class=\"icon-mail-forward\"></i><span>Reply</span>"
+msgstr ""
+
+#: include/admin_functions.php:188
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "Course"
+msgstr ""
+
+#: include/shortcodes/admin/call-to-action.php:230
+#: include/shortcodes/admin/categories.php:81
+#@ uoc
+msgid "Description"
+msgstr ""
+
+#: include/shortcodes/admin/categories.php:63
+#@ uoc
+msgid "Edit Categories Option"
+msgstr ""
+
+#: include/shortcodes/admin/categories.php:87
+#@ uoc
+msgid "Enter description here"
+msgstr ""
+
+#: include/shortcodes/admin/categories.php:92
+#@ uoc
+msgid "Total Category To Display"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:140
+#@ uoc
+msgid "Hybrid"
+msgstr ""
+
+#: include/shortcodes/admin/map.php:142
+#@ uoc
+msgid "Terrain"
+msgstr ""
+
+#: include/shortcodes/admin/opening_hours.php:141
+#: include/shortcodes/admin_functions.php:1
+#@ uoc
+msgid "List Schedule"
+msgstr ""
+
+#: include/shortcodes/admin/price-table.php:179
+#@ uoc
+msgid "Header background Color"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:90
+#@ uoc
+msgid "Promo box Views"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:96
+#@ uoc
+msgid "View 3"
+msgstr ""
+
+#: include/shortcodes/admin/promobox.php:224
+#@ uoc
+msgid "Button Text Color"
+msgstr ""
+
+#: include/shortcodes/admin/tabs.php:92
+#@ uoc
+msgid "Horizontal"
+msgstr ""
+
